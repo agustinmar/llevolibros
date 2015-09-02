@@ -1,0 +1,28 @@
+<div class="col-md-8 col-md-offset-2">
+  <h2 class="text-center"><small>¿Qué libro deseas que te ayudemos a encontrar?</small></h2>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title text-center">Llena por favor algunos datos y nosotros buscaremos el libro que te interesa.<br> También puedes enviarnos un mensaje de texto al (81) 1586 4242</h3>
+    </div>
+    <div class="panel-body">
+      <%= form_tag({:controller => "home", :action => "solicita"}, :method=>"post", :class=>"form-inline", :role=>"form") do %>
+
+        <div class="form-group">
+          <p><label class="text-muted">Datos del libro</label></p>
+          <%= text_field_tag "titulo", nil, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Título" %>
+          <%= text_field_tag "autor", nil, :class=>"form-control", :placeholder=>"Autor (si lo recuerdas)" %>
+          <%= text_field_tag "info", nil, :class=>"form-control", :placeholder=>"Información adicional" %>
+        </div><br><br><br>
+
+        <div class="form-group">
+          <p><label class="text-muted">Cuando encontremos el libro te contactaremos a:</label></p>
+          <%= email_field_tag "correo", nil, :required=>"required", :class=>"form-control", :placeholder=>"Tu correo electrónico" %>
+          <%= text_field_tag "telefono", nil, :autofocus=>true, :class=>"form-control", :placeholder=>"Tu teléfono o móvil" %>
+          <%= text_field_tag "nombre", nil, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Tu nombre" %>
+        </div><br><br><br>
+
+        <button type="submit" class="btn btn-primary">Enviar datos</button>
+      <% end %>
+    </div>
+  </div>
+</div>
