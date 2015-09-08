@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @libro.titulo_id %>
+</p>
+
+<p>
+  <strong>Editor:</strong>
+  <%= @libro.editor_id %>
+</p>
+
+<p>
+  <strong>Paginas:</strong>
+  <%= @libro.paginas %>
+</p>
+
+<p>
+  <strong>Edicion:</strong>
+  <%= @libro.edicion %>
+</p>
+
+<p>
+  <strong>Fechapub:</strong>
+  <%= @libro.fechapub %>
+</p>
+
+<p>
+  <strong>Pais:</strong>
+  <%= @libro.pais_id %>
+</p>
+
+<p>
+  <strong>Idioma:</strong>
+  <%= @libro.idioma_id %>
+</p>
+
+<p>
+  <strong>Formato:</strong>
+  <%= @libro.formato_id %>
+</p>
+
+<p>
+  <strong>Isbn10:</strong>
+  <%= @libro.isbn10 %>
+</p>
+
+<p>
+  <strong>Isbn13:</strong>
+  <%= @libro.isbn13 %>
+</p>
+
+<p>
+  <strong>Ean:</strong>
+  <%= @libro.ean %>
+</p>
+
+<p>
+  <strong>Peso:</strong>
+  <%= @libro.peso %>
+</p>
+
+<p>
+  <strong>Medidas:</strong>
+  <%= @libro.medidas %>
+</p>
+
+<p>
+  <strong>Portada:</strong>
+  <%= @libro.portada %>
+</p>
+
+<%= link_to 'Edit', edit_libro_path(@libro) %> |
+<%= link_to 'Back', libros_path %>

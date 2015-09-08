@@ -11,6 +11,82 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150908191254) do
+
+  create_table "autores", force: true do |t|
+    t.string   "nombre"
+    t.text     "descripcion"
+    t.string   "foto"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "categorias", force: true do |t|
+    t.string   "nombre"
+    t.string   "descripcion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "condiciones", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "editores", force: true do |t|
+    t.string   "nombre"
+    t.string   "descripcion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "formatos", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "idiomas", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "libros", force: true do |t|
+    t.integer  "titulo_id"
+    t.integer  "editor_id"
+    t.integer  "paginas"
+    t.string   "edicion"
+    t.string   "fechapub"
+    t.integer  "pais_id"
+    t.integer  "idioma_id"
+    t.integer  "formato_id"
+    t.integer  "condicion_id"
+    t.string   "isbn10"
+    t.string   "isbn13"
+    t.string   "ean"
+    t.integer  "peso"
+    t.string   "medidas"
+    t.string   "portada"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "paises", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "titulos", force: true do |t|
+    t.string   "nombre"
+    t.integer  "autor_id"
+    t.string   "balazo"
+    t.integer  "categoria_id"
+    t.text     "descripcion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

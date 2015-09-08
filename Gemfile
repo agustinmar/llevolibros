@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '~> 4.1.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -38,6 +38,18 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Frameworks CSS de Bootstrap
 gem 'bootstrap-sass'
+
+# Gema que instala el archivo de inflections para pluralizar y singularizar según las reglas 
+# en Español, incluye el locale en Español y agrega templates erb/haml para que el scaffold 
+# genere las vistas en Español.
+gem 'rieles'
+
+# Rails_Admin para administrar el sitio web
+gem 'rails_admin'
+
+# If you are using Rails >= 3.1, you must also include a beta version of 
+# MetaSearch and sass-rails to use gem activeadmin
+# gem 'meta_search'
 
 group :development, :test do
 	# Use mysql as the database for Active Record

@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  #Admin de rails para administrar las tablas de la base de datos
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  resources :libros
+
   #Ruta a página principal
   root :to => "home#inicio"
 

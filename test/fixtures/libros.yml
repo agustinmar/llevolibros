@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo_id: 1
+  editor_id: 1
+  paginas: 1
+  edicion: MyString
+  fechapub: MyString
+  pais_id: 1
+  idioma_id: 1
+  formato_id: 1
+  isbn10: MyString
+  isbn13: MyString
+  ean: MyString
+  peso: 1
+  medidas: MyString
+  portada: MyString
+
+two:
+  titulo_id: 1
+  editor_id: 1
+  paginas: 1
+  edicion: MyString
+  fechapub: MyString
+  pais_id: 1
+  idioma_id: 1
+  formato_id: 1
+  isbn10: MyString
+  isbn13: MyString
+  ean: MyString
+  peso: 1
+  medidas: MyString
+  portada: MyString
