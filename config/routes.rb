@@ -9,8 +9,14 @@ Rails.application.routes.draw do
 
   #Rutas opciones menú de navegación
   get 'home/inicio'
+  get 'home/acerca'
+  get 'home/catalogo'
+  get 'home/titulo'
+  get 'home/autor'
+  get 'home/libro'
   get 'home/solicita'
   get 'home/contacto'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

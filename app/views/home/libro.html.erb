@@ -1,0 +1,22 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= @libro %></h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <td>
+          <%= image_tag "portadas/"+@libro.titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"250x360" %>          
+         </td>
+        <td>
+          <h3><%= @libro.titulo.nombre %></h3>
+          <h3 class="panel-title"><%= @libro.titulo.balazo %></h3><br>
+          <p>Autor: <%= @libro.titulo.autor.nombre %></p>
+          <p>Editorial: <%= @libro.editor.nombre %></p>
+          <p>ISBN: <%= @libro.isbn13 %></p>
+          <p class="text-justify">Descripción: <%= @libro.titulo.descripcion %></p>
+        </td>
+      </tr>
+    </table> 	
+  </div>
+</div>

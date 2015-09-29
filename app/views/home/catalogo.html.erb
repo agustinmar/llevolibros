@@ -1,0 +1,28 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= @categoria.descripcion %></h3>
+  </div>
+  <div class="panel-body">
+
+<!--<h4 class="text-danger"><%= @categoria.descripcion %></h4>-->
+<div class="row">
+  <% @titulos.sort_by{|x| x.nombre}.each do |titulo| %>
+    <% if titulo.categoria == @categoria %>
+      <div class="col-sm-6 col-md-2">
+        <div class="thumbnail">
+          <%= link_to image_tag("portadas/"+titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"100x150"), home_titulo_path(:id => titulo.id) %>
+          <div class="caption">
+            <h5 class="media-heading">
+              <%= link_to titulo.nombre, home_titulo_path(:id => titulo.id) %>
+            </h5>
+            <h6 class="media-heading">
+              <%= link_to titulo.autor.nombre, home_autor_path(:id => titulo.autor.id) %>
+            </h6>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+</div>
+</div>

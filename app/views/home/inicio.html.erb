@@ -1,10 +1,20 @@
-<div class="col-md-2">
-	<%= image_tag "article1.jpg", :alt=>"", :class=>"img-responsive", :align=>"left" %>
-</div>
-<div class="col-md-8">
-	<h1><%= @titulo %></h1>
-	<p class="text-justify">El objetivo de Llevo Libros es encontrar cualquier libro que necesites y llevarlo hasta ti, evitando que inviertas tiempo y esfuerzo en buscarlo y trasladarte a librerías o centros comerciales para adquirirlo. Queremos reducir la distancia entre tú y un libro, con el propósito de fomentar el gusto por la lectura.</p>
-	<p class="text-justify">Puedes solicitar cualquier libro que desees a través de este sitio. También puedes encontrar en nuestro catálogo varios títulos de distintas áreas que pueden interesarte.</p>
-	<p class="text-justify">En Llevo Libros creemos plenamente que la lectura fomenta el crecimiento personal y forma mejores seres humanos, siendo nuestra misión ayudar en este propósito.</p>
-	<p class="text-justify">No busques libros, deja que ellos te encuentren.</p>
+<h4 class="text-danger"><%= @title %></h4>
+<div class="row">
+  <% @titulos.sort_by{|x| x.nombre}.each do |titulo| %>
+    <% if titulo.categoria_id == 12 %>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <%= link_to image_tag("portadas/"+titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"200x300"), home_titulo_path(:id => titulo.id) %>
+          <div class="caption">
+            <h5 class="media-heading">
+              <%= link_to titulo.nombre, home_titulo_path(:id => titulo.id) %>
+            </h5>
+            <h6 class="media-heading">
+              <%= link_to titulo.autor.nombre, home_autor_path(:id => titulo.autor.id) %>
+            </h6>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>  
 </div>

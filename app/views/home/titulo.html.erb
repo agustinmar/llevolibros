@@ -1,0 +1,46 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= @titulo.categoria.nombre %></h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <td>
+          <%= image_tag "portadas/"+@titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"300x450" %>
+         </td>
+        <td>
+          <h3><%= @titulo.nombre %></h3>
+          <h3 class="panel-title"><%= @titulo.balazo %></h3>
+          <h5><span class="text-info">Autor(a):</span> <%= link_to @titulo.autor.nombre, home_autor_path(:id => @titulo.autor.id) %></h5>
+          <% @libros.each do |libro| %>
+            <% if libro.titulo == @titulo %>
+              <p><span class="text-info">Editorial:</span> <%=  link_to libro.editor, libro.editor.descripcion, target: "_blank" %></p>
+              <p><span class="text-info">Páginas:</span> <%= libro.paginas %></p>
+              <p><span class="text-info">Edición:</span> <%= libro.edicion %></p>
+              <p><span class="text-info">Año:</span> <%= libro.fechapub %></p>
+              <% if !libro.pais.nil? %>
+                <p><span class="text-info">País:</span> <%= libro.pais %></p>
+              <% end %>
+              <p><span class="text-info">Idioma:</span> <%= libro.idioma %></p>
+              <p><span class="text-info">Formato:</span> <%= libro.formato %></p>
+              <% if !libro.isbn10.empty? %>
+                <p><span class="text-info">ISBN10:</span> <%= libro.isbn10 %></p>
+              <% end %>  
+              <p><span class="text-info">ISBN:</span> <%= libro.isbn13 %></p>
+              <p><span class="text-info">EAN:</span> <%= libro.ean %></p>
+              <% if !libro.peso.nil? %>
+                <p><span class="text-info">Peso:</span> <%= libro.peso %> gramos</p>
+              <% end %>
+              <% if !libro.medidas.empty? %>
+                <p><span class="text-info">Medidas:</span> <%= libro.medidas %></p>
+              <% end %>
+              <% break %>
+              <!--<p><span class="text-info">Ejemplar:</span> <%= libro.condicion %></p>-->
+            <% end %>
+          <% end %>
+          <p class="text-justify"><span class="text-info">Descripción:</span> <%= @titulo.descripcion %></p>
+        </td>
+      </tr>
+    </table> 	
+  </div>
+</div>

@@ -40,10 +40,7 @@
   			</div>
 			<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-      				<li><%= link_to "Solicita", home_solicita_path %></li>
-      				<li><%= link_to "Contacta", home_contacto_path %></li>
-    			</ul>
+        <%= menu_nav("ACERCA DE..."=>"acerca","SOLICITA"=>"solicita") %>
 				<form class="navbar-form navbar-right" role="search">
       				<div class="form-group">
         				<input type="text" class="form-control" placeholder="Buscar título" size="60">
@@ -52,9 +49,19 @@
     			</form>
 			</div>
 		</nav>
-
-		<%= yield %>
-
+    <div class="col-md-3">
+      <% if @categorias.any? %>
+        <h4 class="text-info">Temática</h4>
+        <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
+          <ul class="nav nav-pills nav-stacked">
+            <li><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id) %></li>
+          </ul>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="col-md-9">
+      <%= yield %>
+    </div>
 	</div>
 </body>
 </html>
