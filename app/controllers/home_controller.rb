@@ -45,7 +45,7 @@ class HomeController < ApplicationController
   def libro
     @title = "Libro"
     @categorias = Categoria.all
-    #@libros = Libro.all
+    @libros = Libro.all
     #@editores = Editor.all
     @titulos = Titulo.all
     @titulo = Titulo.find(params[:id])

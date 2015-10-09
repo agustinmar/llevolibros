@@ -85,6 +85,8 @@ ActiveRecord::Schema.define(version: 20150908191254) do
     t.string   "balazo"
     t.integer  "categoria_id"
     t.text     "descripcion"
+    t.string   "imagen"
+    t.boolean  "publico"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

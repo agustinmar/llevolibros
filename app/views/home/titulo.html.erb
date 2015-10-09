@@ -6,14 +6,15 @@
     <table class="table">
       <tr>
         <td>
-          <%= image_tag "portadas/"+@titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"300x450" %>
+          <!--<%= image_tag "portadas/"+@titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"300x450" %>-->
+          <%= image_tag "portadas/"+@titulo.imagen, :size=>"300x450" %>
          </td>
         <td>
           <h3><%= @titulo.nombre %></h3>
           <h3 class="panel-title"><%= @titulo.balazo %></h3>
           <h5><span class="text-info">Autor(a):</span> <%= link_to @titulo.autor.nombre, home_autor_path(:id => @titulo.autor.id) %></h5>
           <% @libros.each do |libro| %>
-            <% if libro.titulo == @titulo %>
+            <% if (libro.titulo == @titulo) && (libro.fechapub >= "2014") %>
               <p><span class="text-info">Editorial:</span> <%=  link_to libro.editor, libro.editor.descripcion, target: "_blank" %></p>
               <p><span class="text-info">Páginas:</span> <%= libro.paginas %></p>
               <p><span class="text-info">Edición:</span> <%= libro.edicion %></p>
@@ -34,11 +35,10 @@
               <% if !libro.medidas.empty? %>
                 <p><span class="text-info">Medidas:</span> <%= libro.medidas %></p>
               <% end %>
-              <% break %>
-              <!--<p><span class="text-info">Ejemplar:</span> <%= libro.condicion %></p>-->
             <% end %>
           <% end %>
-          <p class="text-justify"><span class="text-info">Descripción:</span> <%= @titulo.descripcion %></p>
+          <p class="text-justify"><%= @titulo.descripcion %></p>
+          <!--<h5><%= link_to "DETALLES", home_libro_path(:id => @titulo.id) %></h5>-->
         </td>
       </tr>
     </table> 	
