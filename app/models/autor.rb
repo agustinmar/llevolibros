@@ -1,5 +1,5 @@
 class Autor < ActiveRecord::Base
-	has_many :titulo
+	has_and_belongs_to_many :titulo
 
 	def to_s
     	return self.nombre

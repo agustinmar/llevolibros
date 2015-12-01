@@ -6,8 +6,6 @@ class CreateTitulos < ActiveRecord::Migration
       t.string :balazo
       t.integer :categoria_id
       t.text :descripcion
-      t.string :imagen
-      t.boolean :publico
       t.timestamps
     end
   end

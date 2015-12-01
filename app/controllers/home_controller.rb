@@ -5,6 +5,9 @@ class HomeController < ApplicationController
   	@title = "Novedades"
     @categorias = Categoria.all
     @titulos = Titulo.all
+    @libros = Libro.all
+    @editores = Editor.all
+    @autores = Autor.all
   end
 
   def acerca
@@ -23,6 +26,7 @@ class HomeController < ApplicationController
     @categoria = Categoria.find(params[:id])
     @autores = Autor.all
     @titulos = Titulo.all
+    @libros = Libro.all
   end
 
   def titulo
@@ -37,16 +41,25 @@ class HomeController < ApplicationController
 
   def autor
     @title = "Autor"
+    @libros = Libro.all
     @categorias = Categoria.all
     @autores = Autor.all
     @autor = Autor.find(params[:id])
+  end
+
+  def editor
+    @title = "Editor"
+    @libros = Libro.all
+    @editores = Editor.all
+    @editor = Editor.find(params[:id])
+    @categorias = Categoria.all
   end
 
   def libro
     @title = "Libro"
     @categorias = Categoria.all
     @libros = Libro.all
-    #@editores = Editor.all
+    @editores = Editor.all
     @titulos = Titulo.all
     @titulo = Titulo.find(params[:id])
     @libro = Libro.find(params[:id])

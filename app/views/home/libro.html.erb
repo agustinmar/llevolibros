@@ -7,16 +7,20 @@
       <% @libros.each do |libro| %>
         <% if libro.titulo == @titulo %>
           <tr>
-            <td>
-              <!--<%= image_tag "portadas/"+@libro.titulo.nombre.downcase.gsub(' ', '_')+"_1.jpg", :size=>"250x360" %>-->
-              <%= image_tag "portadas/"+libro.portada, :size=>"250x360" %><br><br>
-              <p><span class="text-info">Ejemplar:</span> <%= libro.condicion %></p>       
+            <td width="40%">
+              <%= image_tag "portadas/"+libro.portada, :size=>"300x450" %>       
             </td>
-            <td>
+            <td width="60%">
               <h3><%= libro.titulo.nombre %></h3>
               <h3 class="panel-title"><%= libro.titulo.balazo %></h3><br>
-              <h5><span class="text-info">Autor(a):</span> <%= link_to @titulo.autor.nombre, home_autor_path(:id => @titulo.autor.id) %></h5>
-              <p><span class="text-info">Editorial:</span> <%=  link_to libro.editor, libro.editor.descripcion, target: "_blank" %></p>
+              <h5>
+                <span class="text-info">Autor(es):</span> 
+                <% @titulo.autor.each do |aut| %>
+                  <%= link_to aut, home_autor_path(:id => aut.id) %>
+                  <% if !(aut == @titulo.autor.last) %>/<% end %>
+                <% end %>
+              </h5>
+              <p><span class="text-info">Editorial:</span> <%=  link_to libro.editor, home_editor_path(:id => libro.editor) %></p>
               <p><span class="text-info">Páginas:</span> <%= libro.paginas %></p>
               <p><span class="text-info">Edición:</span> <%= libro.edicion %></p>
               <p><span class="text-info">Año:</span> <%= libro.fechapub %></p>
@@ -36,12 +40,17 @@
               <% if !libro.medidas.empty? %>
                 <p><span class="text-info">Medidas:</span> <%= libro.medidas %></p>
               <% end %>
-              <!--<p class="text-justify"><%= libro.titulo.descripcion %></p>-->
-              <% break %>
+              <p class="text-danger">Libro <%= libro.condicion %></p>
             </td>
           </tr>
+          <tr>
+            <td colspan="2">
+              <p class="text-justify"><%= libro.titulo.descripcion %></p>
+            </td>  
+          </tr>
+          <% break %>
         <% end %>
       <% end %>
-    </table> 	
+    </table>	
   </div>
 </div>

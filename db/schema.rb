@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150908191254) do
+ActiveRecord::Schema.define(version: 20151028191645) do
 
   create_table "autores", force: true do |t|
     t.string   "nombre"
@@ -20,6 +20,14 @@ ActiveRecord::Schema.define(version: 20150908191254) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "autores_titulos", id: false, force: true do |t|
+    t.integer "autor_id"
+    t.integer "titulo_id"
+  end
+
+  add_index "autores_titulos", ["autor_id"], name: "index_autores_titulos_on_autor_id", using: :btree
+  add_index "autores_titulos", ["titulo_id"], name: "index_autores_titulos_on_titulo_id", using: :btree
 
   create_table "categorias", force: true do |t|
     t.string   "nombre"
@@ -37,6 +45,8 @@ ActiveRecord::Schema.define(version: 20150908191254) do
   create_table "editores", force: true do |t|
     t.string   "nombre"
     t.string   "descripcion"
+    t.string   "web"
+    t.string   "logo"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -69,6 +79,7 @@ ActiveRecord::Schema.define(version: 20150908191254) do
     t.integer  "peso"
     t.string   "medidas"
     t.string   "portada"
+    t.boolean  "publico"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -85,8 +96,7 @@ ActiveRecord::Schema.define(version: 20150908191254) do
     t.string   "balazo"
     t.integer  "categoria_id"
     t.text     "descripcion"
-    t.string   "imagen"
-    t.boolean  "publico"
+    t.string   "aniopub"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

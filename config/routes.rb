@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'home/catalogo'
   get 'home/titulo'
   get 'home/autor'
+  get 'home/editor'
   get 'home/libro'
   get 'home/solicita'
   get 'home/contacto'
