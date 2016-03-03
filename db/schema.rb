@@ -92,7 +92,6 @@ ActiveRecord::Schema.define(version: 20151028191645) do
 
   create_table "titulos", force: true do |t|
     t.string   "nombre"
-    t.integer  "autor_id"
     t.string   "balazo"
     t.integer  "categoria_id"
     t.text     "descripcion"

@@ -3,6 +3,8 @@ class CreateEditores < ActiveRecord::Migration
     create_table :editores do |t|
       t.string :nombre
       t.string :descripcion
+      t.string :web
+      t.string :logo
 
       t.timestamps
     end

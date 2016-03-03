@@ -16,6 +16,7 @@ class CreateLibros < ActiveRecord::Migration
       t.integer :peso
       t.string :medidas
       t.string :portada
+      t.boolean :publico
 
       t.timestamps
     end

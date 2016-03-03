@@ -40,13 +40,13 @@
   			</div>
 			<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-        <%= menu_nav("ACERCA DE..."=>"acerca","SOLICITA"=>"solicita") %>
-				<form class="navbar-form navbar-right" role="search">
-      				<div class="form-group">
-        				<input type="text" class="form-control" placeholder="Buscar título" size="60">
-    				</div>
-      				<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
-    			</form>
+        <%= menu_nav("ACERCA DE LLEVO LIBROS"=>"acerca","SOLICITA"=>"solicita") %>
+        <%= form_tag home_buscar_path, :class => "navbar-form navbar-right", :role => "search", method: :get do %>
+          <div class="form-group">
+            <%= text_field_tag :texto, params[:texto], :class => "form-control", :placeholder => "Título o Autor", :size => "60" %>
+            <%= submit_tag "Buscar", name: nil, class: "btn btn-primary btn-md" %>
+          </div>
+        <% end %>
 			</div>
 		</nav>
     <div class="col-md-3">
@@ -54,7 +54,7 @@
         <h4 class="text-info">Temática</h4>
         <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
           <ul class="nav nav-pills nav-stacked">
-            <li><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id) %></li>
+            <li><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></li>
           </ul>
         <% end %>
       <% end %>

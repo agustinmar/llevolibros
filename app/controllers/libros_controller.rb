@@ -4,7 +4,13 @@ class LibrosController < ApplicationController
   # GET /libros
   # GET /libros.json
   def index
-    @libros = Libro.all
+    #@libros = Libro.all
+
+    @libros = Libro.order("date DESC")
+    if params[:titulo].present?
+      @libros = @libros.where("libro LIKE ?", "%#{params[:titulo]}%")
+    end
+
   end
 
   # GET /libros/1

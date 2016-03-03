@@ -4,41 +4,60 @@
   </div>
   <div class="panel-body">
     <div class="row">
-      <table class="table">
-        <tr>
-          <td>
-            <% if @autor.foto %>
-              <%= image_tag "autores/"+@autor.foto, :class=>"img-thumbnail" %>
-            <% end %>
-          </td>
-          <td>
-            <h3><%= @autor.nombre %></h3>
-            <p class="text-justify"><%= @autor.descripcion %></p>
-          </td>
-        </tr>
-      </table>
+      <div class="col-md-2">
+        <% if @autor.foto %>
+          <%= image_tag "autores/"+@autor.foto, :class=>"img-thumbnail" %>
+        <% end %>
+      </div>
+      <div class="col-md-10">
+        <h3><%= @autor.nombre %></h3>
+        <p class="text-justify"><%= @autor.descripcion %></p>
+      </div>
     </div>
+    <br>
+    <% i = 1 %>
     <div class="row">
       <h4 class="text-danger text-center">Libros del autor</h4>
       <% @libros.each do |libro| %>
         <% libro.titulo.autor.each do |aut| %>
           <% if (aut == @autor) %>
-            <div class="col-sm-6 col-md-2">
-              <div class="thumbnail">
-                <%= link_to image_tag("portadas/"+libro.portada, :size=>"100x150"), home_libro_path(:id => libro.titulo) %>
-                <div class="caption">
-                  <h5 class="media-heading">
-                    <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
-                  </h5>
-                  <h6 class="media-heading">
-                    <% libro.titulo.autor.each do |a| %>
-                      <%= link_to a, home_autor_path(:id => a) %>
-                      <% if !(a == libro.titulo.autor.last) %>,<br><% end %>
-                    <% end %>
-                  </h6>
+            <% if (i <= 6) %>
+              <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                  <%= link_to image_tag("portadas/"+libro.portada, :size=>"100x150"), home_libro_path(:id => libro.titulo) %>
+                  <div class="caption">
+                    <h5 class="media-heading">
+                      <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
+                    </h5>
+                    <h6 class="media-heading">
+                      <% libro.titulo.autor.each do |a| %>
+                        <%= link_to a, home_autor_path(:id => a) %><% if !(a == libro.titulo.autor.last) %>,<br><% end %>
+                      <% end %>
+                    </h6>
+                  </div>
                 </div>
               </div>
-            </div>
+            <% else %>         
+              </div>
+              <div class="row">
+                <% i = 1 %>
+                <div class="col-sm-6 col-md-2">
+                  <div class="thumbnail">
+                    <%= link_to image_tag("portadas/"+libro.portada, :size=>"100x150"), home_libro_path(:id => libro.titulo) %>
+                    <div class="caption">
+                      <h5 class="media-heading">
+                        <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
+                      </h5>
+                      <h6 class="media-heading">
+                        <% libro.titulo.autor.each do |aut| %>
+                          <%= link_to aut, home_autor_path(:id => aut) %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
+                        <% end %>
+                      </h6>
+                    </div>
+                  </div>         
+                </div>
+            <% end %>
+            <% i += 1 %>  
           <% end %>
         <% end %>
       <% end %>

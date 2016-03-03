@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   	@title = "Novedades"
     @categorias = Categoria.all
     @titulos = Titulo.all
-    @libros = Libro.all
+    @libros = Libro.order("updated_at DESC")
     @editores = Editor.all
     @autores = Autor.all
   end
@@ -26,7 +26,7 @@ class HomeController < ApplicationController
     @categoria = Categoria.find(params[:id])
     @autores = Autor.all
     @titulos = Titulo.all
-    @libros = Libro.all
+    @libros = Libro.order("updated_at DESC")
   end
 
   def titulo
@@ -62,9 +62,21 @@ class HomeController < ApplicationController
     @editores = Editor.all
     @titulos = Titulo.all
     @titulo = Titulo.find(params[:id])
-    @libro = Libro.find(params[:id])
+    #@libro = Libro.find(params[:id])
     #@libro = Libro.where(titulo: @titulo)
     #@libro = Libro.where(:column => ["titulo", @titulo])
+  end
+
+  def buscar
+    @title = "Buscar libros y autores"
+    @titulos = Titulo.order("date DESC")
+    @autores = Autor.order("date DESC")
+    if params[:texto].present?
+      @titulos = Titulo.where("nombre LIKE ?", "%#{params[:texto]}%")
+      @autores = Autor.where("nombre LIKE ?", "%#{params[:texto]}%")
+    end
+    @categorias = Categoria.all
+    @libros = Libro.all
   end
 
   def contacto

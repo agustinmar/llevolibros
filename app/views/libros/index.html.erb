@@ -22,25 +22,25 @@
   </thead>
 
   <tbody>
-    <% @libros.each do |libro| %>
+    <% @libros.each do |lib| %>
       <tr>
-        <td><%= libro.titulo_id %></td>
-        <td><%= libro.editor_id %></td>
-        <td><%= libro.paginas %></td>
-        <td><%= libro.edicion %></td>
-        <td><%= libro.fechapub %></td>
-        <td><%= libro.pais_id %></td>
-        <td><%= libro.idioma_id %></td>
-        <td><%= libro.formato_id %></td>
-        <td><%= libro.isbn10 %></td>
-        <td><%= libro.isbn13 %></td>
-        <td><%= libro.ean %></td>
-        <td><%= libro.peso %></td>
-        <td><%= libro.medidas %></td>
-        <td><%= libro.portada %></td>
-        <td><%= link_to 'Show', libro %></td>
-        <td><%= link_to 'Edit', edit_libro_path(libro) %></td>
-        <td><%= link_to 'Destroy', libro, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= lib.titulo_id %></td>
+        <td><%= lib.editor_id %></td>
+        <td><%= lib.paginas %></td>
+        <td><%= lib.edicion %></td>
+        <td><%= lib.fechapub %></td>
+        <td><%= lib.pais_id %></td>
+        <td><%= lib.idioma_id %></td>
+        <td><%= lib.formato_id %></td>
+        <td><%= lib.isbn10 %></td>
+        <td><%= lib.isbn13 %></td>
+        <td><%= lib.ean %></td>
+        <td><%= lib.peso %></td>
+        <td><%= lib.medidas %></td>
+        <td><%= lib.portada %></td>
+        <td><%= link_to 'Show', lib %></td>
+        <td><%= link_to 'Edit', edit_libro_path(lib) %></td>
+        <td><%= link_to 'Destroy', lib, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
