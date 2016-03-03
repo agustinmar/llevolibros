@@ -1,4 +1,4 @@
-# encoding: UTF-8
+
 class HomeController < ApplicationController
  
   def inicio
