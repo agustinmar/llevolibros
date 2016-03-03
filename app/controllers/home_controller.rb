@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   	@title = "Novedades"
     @categorias = Categoria.all
     @titulos = Titulo.all
-    @libros = Libro.order("updated_at DESC")
+    #@libros = Libro.order("updated_at DESC")
     @editores = Editor.all
     @autores = Autor.all
   end
