@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: d2o37lltru40jt
-  username: yttxzqrwxjdgwl
-  password: us5_wenaQncRjJsOykTSHsQUhc
+  database: llevolibros_production
+  username: llevolibros
+  password: <%= ENV['LLEVOLIBROS_DATABASE_PASSWORD'] %>
