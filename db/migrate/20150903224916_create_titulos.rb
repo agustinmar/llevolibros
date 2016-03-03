@@ -7,6 +7,7 @@ class CreateTitulos < ActiveRecord::Migration
       t.integer :categoria_id
       t.text :descripcion
       t.string :aniopub
+      
       t.timestamps
     end
   end
