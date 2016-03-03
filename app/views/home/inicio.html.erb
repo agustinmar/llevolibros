@@ -1,26 +1,5 @@
 <% t = Time.now %>
 <h4 class="text-danger"><%= @title %></h4>
 <div class="row">
-<% num = 0 %>
-  <% @libros.each do |libro| %>
-    <% if (libro.titulo.aniopub == t.strftime("%Y")) %>
-      <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <%= link_to image_tag("portadas/"+libro.portada, :size=>"200x300"), home_libro_path(:id => libro.titulo) %>
-          <div class="caption">
-            <h5 class="media-heading">
-              <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
-            </h5>
-            <h6 class="media-heading">
-              <% libro.titulo.autor.each do |aut| %>
-                <%= link_to aut, home_autor_path(:id => aut) %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
-              <% end %>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <% num += 1 %>
-    <% end %>
-    <% break if num > 3 %>
-  <% end %>
+
 </div>
