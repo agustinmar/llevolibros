@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :libros
 
   #Ruta a página principal
-  root :to => "home#inicio"
+  root :to => "home#acerca"
 
   #Rutas opciones menú de navegación
   get 'home/inicio'
