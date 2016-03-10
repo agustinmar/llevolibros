@@ -50,8 +50,6 @@ test:
 #
 production:
   <<: *default
-  CLEARDB_DATABASE_URL: mysql://bbd4727dece6cd:67f5773c@us-cdbr-iron-east-03.cleardb.net/heroku_f75d9c7a2ef8bcd?reconnect=
-true
   database: llevolibros_production
   username: llevolibros
   password: <%= ENV['LLEVOLIBROS_DATABASE_PASSWORD'] %>
