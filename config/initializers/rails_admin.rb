@@ -38,7 +38,7 @@ RailsAdmin.config do |config|
         username == 'admin' && password == 'Nitsuga'
       end
     end
-
+ 
     config.main_app_name { ['My App', 'Admin'] }
   end
 end

@@ -51,6 +51,8 @@ gem 'rails_admin'
 # MetaSearch and sass-rails to use gem activeadmin
 # gem 'meta_search'
 
+gem 'yaml_db'
+
 group :development, :test do
 	# Use mysql as the database for Active Record
 	gem 'mysql2'
