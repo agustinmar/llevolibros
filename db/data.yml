@@ -1,0 +1,3187 @@
+
+---
+autores:
+  columns:
+  - id
+  - nombre
+  - descripcion
+  - foto
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Gabriel García Márquez
+    - "Gabriel José de la Concordia García Márquez (Aracataca, Colombia, 6 de marzo
+      de 1927 - México, D. F., 17 de abril de 2014), más conocido como Gabriel García
+      Márquez, fue un escritor, novelista, cuentista, guionista, editor y periodista
+      colombiano. En 1982 recibió el Premio Nobel de Literatura.\r\n\r\nEstá relacionado
+      de manera inherente con el realismo mágico y su obra más conocida, la novela
+      Cien años de soledad, es considerada una de las más representativas de este
+      movimiento literario e incluso se considera que por el éxito de la novela es
+      que tal término se aplica a la literatura surgida a partir de los años sesenta
+      en Latinoamérica.\r\n\r\nFue famoso tanto por su genialidad como escritor como
+      por su postura política. Su amistad con el líder cubano Fidel Castro causó mucha
+      controversia en el mundo literario y político. (Fuente: Wikipedia)"
+    - gabriel_garcia_marquez.jpg
+    - 2015-10-12 19:22:21.000000000 Z
+    - 2015-10-12 19:22:21.000000000 Z
+  - - 2
+    - Santiago Ponce Moreno
+    - Consultor e investigador en TICs para Desarrollo y Gestión del Conocimiento,
+      analista y programador de aplicaciones Web para empresas y cuenta con una amplia
+      experiencia como Formador Docente en cursos relacionados con Ruby on Rails.
+      Además, es miembro- colaborador de FUNDETEC (Fundación para el Desarrollo Infotecnológico
+      de Empresas y Sociedad) y APTIC (Asociación de Asesores TIC de Proximidad).
+      Asesor TIC campañas “Todos.es” y “Red Telecentros”. Ministerio de Industria,
+      Turismo y Comercio de España; Miembro activo en FUNDETEC e ITA;     Formador
+      Docente con más de 5 años de experiencia; Programador en aplicaciones Web 2.0
+      y Consultor TIC, administración pública y empresas privadas.
+    - santiago_ponce_moreno.jpg
+    - 2015-10-12 19:23:05.000000000 Z
+    - 2015-10-12 19:23:05.000000000 Z
+  - - 3
+    - Ayn Rand
+    - "Ayn Rand, seudónimo de Alisa Zinóvievna Rosenbaum, nació en San Petersburgo,
+      Imperio ruso el 2 de febrero de 1905 y murió en Nueva York, Estados Unidos el
+      6 de marzo de 1982. Fue una filósofa y escritora estadounidense  ampliamente
+      conocida por haber escrito los bestsellers El manantial y La rebelión de Atlas,
+      y por haber desarrollado un sistema filosófico al que denominó «objetivismo».\r\nRand
+      defendía el egoísmo racional, el individualismo, y el capitalismo laissez faire,
+      argumentando que es el único sistema económico que le permite al ser humano
+      vivir como ser humano, es decir, haciendo uso de su facultad de razonar. En
+      consecuencia, rechazaba absolutamente el socialismo, el altruismo y la religión.
+      (Fuente: Wikipedia)"
+    - ayn_rand.jpg
+    - 2015-10-12 19:24:14.000000000 Z
+    - 2015-10-12 19:24:14.000000000 Z
+  - - 4
+    - Julio Verne
+    - "Jules Gabriel Verne (Nantes, 8 de febrero de 1828-Amiens, 24 de marzo de 1905),
+      conocido en los países de lengua española como Julio Verne, fue un escritor,
+      poeta y dramaturgo francés célebre por sus novelas de aventuras y por su profunda
+      influencia en el género literario de la ciencia ficción.\r\n\r\nNacido en el
+      seno de una familia burguesa en la ciudad portuaria de Nantes, Verne estudió
+      para continuar los pasos de su padre como abogado, pero muy joven decidió abandonar
+      ese camino para dedicarse a escribir. Su colaboración con el editor Pierre-Jules
+      Hetzel dio como fruto la creación de Viajes extraordinarios, una popular serie
+      de novelas de aventuras escrupulosamente documentadas y visionarias entre las
+      que se incluían las famosas Viaje al centro de la Tierra, Veinte mil leguas
+      de viaje submarino y La vuelta al mundo en ochenta días.\r\n\r\nJulio Verne
+      es uno de los escritores más importantes de Francia y de toda Europa gracias
+      a la evidente influencia de sus libros en la literatura vanguardista y el surrealismo,
+      y desde 1979 es el segundo autor más traducido en el mundo, después de Agatha
+      Christie. Es considerado, junto con H. G. Wells, el «padre de la ciencia ficción».
+      Fue condecorado con la Legión de Honor por sus aportes a la educación y a la
+      ciencia. (Fuente: Wikipedia)"
+    - julio_verne.jpg
+    - 2015-10-12 19:27:16.000000000 Z
+    - 2015-10-12 19:27:16.000000000 Z
+  - - 6
+    - Francisco Martín Moreno
+    - "Francisco Martín Moreno (México, D. F., 1946) es un escritor, novelista, articulista
+      y conferencista mexicano.\r\n\r\nRealizó sus estudios en el Colegio Alemán Alexander
+      von Humboldt, cursó la licenciatura en Derecho y obtuvo un doctorado en la Academia
+      Mexicana de Derecho.\r\n\r\nComo articulista ha publicado más de 2000 columnas
+      en diferentes periódicos y revistas. Ha colaborado para los periódicos Novedades,
+      Excélsior, El País y revistas como Milenio y Cambio. Se ha especializado en
+      el género de la novela histórica en temas fundamentalmente políticos, mezclando
+      en sus libros episodios de ficción. Con estilo siempre ameno, además de una
+      prosa clara y fluida, Francisco Martín Moreno ha logrado un amplio reconocimiento
+      como periodista y escritor.\r\n\r\nPueden contarse entre sus premios y distinciones
+      los siguientes: en España recibió el Laurel de Oro a la Excelencia Literaria
+      por su publicación Las cicatrices del viento, y en México ha recibido el Premio
+      Nacional de Periodismo en 1994, 1995, 1996, 1997 y 1998 el cual es otorgado
+      por el Club de Periodistas de México A.C."
+    - francisco_martin_moreno.jpg
+    - 2015-10-12 19:29:32.000000000 Z
+    - 2015-10-23 21:29:05.000000000 Z
+  - - 7
+    - Hyeonseo Lee
+    - Hyeonseo Lee (Corea del Norte, 1980) abandonó su ciudad natal, Hyesan, en 1997.
+      Vivió de forma clandestina en varias ciudades de China hasta llegar, en 2008,
+      a Seúl, donde vive actualmente. Acaba de completar sus estudios universitarios,
+      durante los que ha participado en el programa de liderazgo joven del Centro
+      de Estudios Internacionales y Estratégicos de Estados Unidos y ha trabajado
+      como periodista en el Ministerio de Unificación de Corea del Sur. Su principal
+      dedicación es la lucha por los derechos humanos en Corea del Norte y por los
+      refugiados, una causa que la ha llevado a impartir conferencias en la ONU, el
+      Oslo Freedom Forum y muchos otros lugares del mundo. Más de cuatro millones
+      de personas han visto la charla TED que pronunció en 2013 y que ha merecido
+      las alabanzas entusiastas de personalidades como Oprah Winfrey. En este libro
+      ofrece por primera vez una visión desde dentro de la vida cotidiana en Corea
+      del Norte.
+    - hyeonseo_lee.jpg
+    - 2015-10-12 19:30:34.000000000 Z
+    - 2015-10-12 19:30:34.000000000 Z
+  - - 8
+    - Paula Hawkins
+    - Nacida y criada en Zimbabwe, Paula Hawkins se mudó a Londres en 1989, lugar
+      en el que reside desde entonces. Ha trabajado como periodista más de quince
+      años, colaborando con una gran variedad de publicaciones y medios de comunicación.
+    - paula_hawkins.jpg
+    - 2015-10-13 17:28:59.000000000 Z
+    - 2015-10-13 17:28:59.000000000 Z
+  - - 9
+    - Carlos Tello Díaz
+    - "Es hijo del político y economista Carlos Tello Macías con Catalina Díaz Casasús
+      y, por tanto, tataranieto del general Porfirio Díaz. Es hermano de Javier Tello
+      Díaz, analista político y conductor en Foro Tv. Es doctor en historia por la
+      École des Hautes Études en Sciences Sociales (EHESS) y maestro y licenciado
+      en filosofía y letras por la Universidad de Oxford. Ha sido fellow en Cambridge
+      y Harvard y profesor invitado en La Sorbona. Es investigador en la Universidad
+      Nacional Autónoma de México (UNAM).\r\n\r\nHa colaborado como articulista para
+      la revista Proceso y para el periódico Reforma. Paralelamente fue brigadista
+      en la montañas de Nicaragua y dirigió una expedición al río Amazonas en donde
+      contactó a los miembros del pueblo yanomami. En su libro 2 de julio afirmó que
+      Andrés Manuel López Obrador había aceptado la derrota durante las elecciones
+      federales en México de 2006, esta afirmación fue motivo de polémicas, confrontaciones
+      y críticas con los miembros del Partido de la Revolución Democrática quienes
+      le cuestionaron la veracidad de sus fuentes. (Fuente: Wikipedia)"
+    - carlos_tello_diaz.jpg
+    - 2015-10-13 17:52:22.000000000 Z
+    - 2015-10-13 17:52:22.000000000 Z
+  - - 10
+    - Robert T. Kiyosaky
+    - "Robert Toru Kiyosaki nació el 8 de abril de 1947 en Hilo, Hawái - es un empresario,
+      inversionista, escritor, conferencista y orador motivacional estadounidense
+      de ascendencia japonesa. Es el fundador, consejero delegado y accionista mayoritario
+      de Cashflow Technologies, corporación poseedora de las licencias para la marca
+      Padre Rico Padre Pobre. Igualmente es el escritor de un total de 15 libros,
+      pertenecientes a dicha marca, varios de ellos en co-autoría con personalidades
+      como Sharon L. Lechter y Donald Trump.\r\n\r\nSus libros «Padre Rico Padre Pobre»
+      (Rich Dad Poor Dad), «El Cuadrante del Flujo del Dinero» (Rich Dad's CASHFLOW
+      Quadrant), «Guía para Invertir del Padre Rico» (Rich Dad's Guide to Investing),
+      alcanzaron el primer lugar de las listas de superventas de The Wall Street Journal,
+      USA Today y el The New York Times, simultáneamente. Igualmente, otros títulos
+      como Escuela de Negocios y Por qué Queremos que seas Rico (co-escrito con Donald
+      Trump), son parte de la numerosas publicaciones derivadas, que forman parte
+      de la marca y que en total han sumado 26 millones de copias vendidas a nivel
+      internacional, siendo traducidos a 40 idiomas y comercializados en más de 80
+      países."
+    - robert_t_kiyosaki.jpg
+    - 2015-10-13 20:27:55.000000000 Z
+    - 2015-10-13 20:44:56.000000000 Z
+  - - 11
+    - Svetlana Alexiévich
+    - Svetlana Aleksándrovna Aleksiévich1 —también transcrito Alexiévich— (en bielorruso
+      Святлана Аляксандраўна Алексіевіч Sviatlana Aliaksándrauna Alieksiévich, en
+      ruso Светла́на Алекса́ндровна Алексие́вич; Stanislav, Unión Soviética, 31 de
+      mayo de 1948) es una escritora y periodista bielorrusa en lengua rusa, galardonada
+      con el Premio Nobel de Literatura en 2015 y que ha retratado en lengua rusa
+      la realidad y el drama de gran parte de la población de la antigua URSS, así
+      como de los sufrimientos de Chernóbil, la guerra de Afganistán y los conflictos
+      del presente.
+    - svetlana_alexievich.jpg
+    - 2015-10-13 20:52:12.000000000 Z
+    - 2015-10-13 20:58:23.000000000 Z
+  - - 12
+    - José Vasconcelos
+    - "José María Albino Vasconcelos Calderón (Oaxaca, 27 de febrero de 1882-Ciudad
+      de México, 30 de junio de 1959) fue un abogado, político, escritor, educador,
+      funcionario público y filósofo mexicano. Autor de una serie de novelas autobiográficas
+      que retratan detalles singulares del largo proceso de descomposición del porfiriato,
+      del desarrollo y triunfo de la Revolución mexicana y del inicio de la etapa
+      del régimen post-revolucionario mexicano que fue llamada «de construcción de
+      instituciones».\r\nFue nombrado primer Secretario de Educación Pública del país;
+      además fue rector de la Universidad Nacional de México y condecorado como Doctor
+      Honoris Causa por la misma institución y por las de Chile, Guatemala y otras
+      latinoamericanas. Fue también miembro de El Colegio Nacional y de la Academia
+      Mexicana de la Lengua."
+    - jose_vasconcelos.jpg
+    - 2015-10-13 21:14:53.000000000 Z
+    - 2015-10-13 21:34:00.000000000 Z
+  - - 13
+    - Carl Sagan
+    - "Carl Edward Sagan (Nueva York, Estados Unidos, 9 de noviembre de 1934-Seattle,
+      Estados Unidos, 20 de diciembre de 1996) fue un astrónomo, astrofísico, cosmólogo,
+      escritor y divulgador científico estadounidense.\r\nSagan publicó numerosos
+      artículos científicos y comunicaciones y fue autor, coautor o editor de más
+      de una veintena de libros. Defensor del pensamiento escéptico científico y del
+      método científico, fue también pionero de la exobiología, promotor de la búsqueda
+      de inteligencia extraterrestre a través del Proyecto SETI e impulsó el envío
+      de mensajes a bordo de sondas espaciales, destinados a informar a posibles civilizaciones
+      extraterrestres acerca de la cultura humana. Mediante sus observaciones de la
+      atmósfera de Venus, fue de los primeros científicos en estudiar el efecto invernadero
+      a escala planetaria. (Fuente: Wikipedia)"
+    - carl_sagan.jpg
+    - 2015-10-14 03:22:07.000000000 Z
+    - 2015-10-14 03:42:55.000000000 Z
+  - - 14
+    - León Tolstoi
+    - "Lev Nikoláievich Tolstói (en ruso: Лев Никола́евич Толсто́й, romanización:
+      Lev Nikolaevič Tolstoj), también conocido en español como León Tolstói (Yásnaia
+      Poliana, 28 de agosto/ 9 de septiembre de 1828 - Astápovo, en la actualidad
+      Lev Tolstói, provincia de Lípetsk, 7 de noviembre/ 20 de noviembre de 1910),
+      fue un novelista ruso, considerado uno de los escritores más importantes de
+      la literatura mundial. Sus dos obras más famosas, Guerra y Paz y Ana Karénina,
+      están consideradas como la cúspide del realismo.\r\nSus ideas sobre la «no violencia
+      activa», expresadas en libros como El reino de Dios está en vosotros, tuvieron
+      un profundo impacto en grandes personajes como Gandhi y Martin Luther King.
+      \r\nLas Obras Completas de Tolstói fueron publicadas entre 1928 y 1958. Se trata
+      de 90 tomos, cuyos últimos 32 volúmenes recogen la correspondencia del conde.
+      Esta edición no es fiable: la censura soviética consideró \"políticamente incorrectos\"
+      muchos pasajes. Por eso es preciso consultar los manuscritos originales en el
+      Museo Tolstói de Moscú. (Fuente: Wikipedia)"
+    - leon_tolstoi.jpg
+    - 2015-10-14 03:56:05.000000000 Z
+    - 2015-10-14 04:08:25.000000000 Z
+  - - 15
+    - E. L. James
+    - "Erika Mitchell, más conocida por el seudónimo de E. L. James (Londres, Inglaterra,
+      7 de marzo de 1963), es una escritora británica famosa por la exitosa trilogía
+      literaria de Cincuenta sombras de Grey. En 2012 la revista Time la incluyó en
+      su lista anual de \"Las 100 Personas Más Influyentes del Mundo\".\r\nJames escribió
+      inicialmente un fanfiction bajo el seudónimo de Snowqueens Icedragon, su trabajo
+      más notable fue Master of the Universe que era un fanfic (ficción derivativa)
+      de Crepúsculo, que con el tiempo se convirtió en Cincuenta sombras de Grey."
+    - e_l_james.jpg
+    - 2015-10-20 22:13:17.000000000 Z
+    - 2015-10-20 22:13:17.000000000 Z
+  - - 16
+    - Robert Fisher
+    - Robert Fisher (1943, Long Beach, California; 26 de septiembre de 2008), conocido
+      en el medio del espectáculo (cine, televisión y teatro) como Bob Fisher, fue
+      un autor estadounidense de origen judío, autor de guiones de comedia en el cine,
+      de obras de teatro y musicales y de libros de motivación y autoayuda. A los
+      19 años comenzó a escribir guiones para cómicos de la talla de Groucho Marx,
+      Lucille Ball, Bob Hope, George Burns o Alan King. Fue autor y coautor de más
+      de 400 programas radiofónicos de comedia y cerca de 1200 programas televisivos.
+      Obtuvo el premio Emmy por la serie Danny Thomas, además de los premios Sylvania,
+      St. Christopher y El Martín Fierro como Mejor Comedia del Año. Sus obras de
+      teatro y musicales también han cosechado excelentes críticas y numerosos galardones.
+    - robert_fisher.jpg
+    - 2015-10-22 22:11:54.000000000 Z
+    - 2015-10-22 22:11:54.000000000 Z
+  - - 17
+    - Marcia Grad Powers
+    - "Marcia Grad Powers es una prestigiosa educadora de Terapia Racional Emotiva
+      Conductual (TREC), acreditada profesora, conocida asesora de imagen y consultora
+      de éxito, además de autora de varios best sellers, entre los que destacan La
+      princesa que creía en cuentos de hadas, El matadragones que tenía el corazón
+      pesaroso y Carisma, y editora del best seller mundial El caballero de la armadura
+      oxidada. Con Albert Ellis es coautora de El secreto para superar el abuso verbal.
+      Dirige seminarios de crecimiento personal para grupos, empresas y profesionales.\r\nLa
+      obra de Marcia Grad Powers nos ofrece una valiosa ayuda para mantener siempre
+      una buena actiitud y superar las experiencias dolorosas o imprevisibles de la
+      vida. Sus libros, tanto los de ficción como los manuales, contienen historias
+      bellísimas y maravillosamente escritas para fortalecernos emocionalmente y hacer
+      frente a la adversidad con amor, comprensión, alegría, carisma y lucidez."
+    - marcia_grad_powers.jpg
+    - 2015-10-22 22:42:41.000000000 Z
+    - 2015-10-22 22:42:41.000000000 Z
+  - - 18
+    - Eckhart Tolle
+    - Eckhart Tolle (Lünen, 1948) es un escritor contemporáneo de origen alemán y
+      nacionalidad canadiense. Es famoso por títulos como El poder del ahora y Una
+      nueva tierra. En 2008, un escritor del New York Times se refirió a Tolle como
+      "el autor espiritual más popular en Estados Unidos". En 2011, la Watkins Review
+      lo calificó como el autor de espiritualidad más conocido del país. Reside en
+      Vancouver con su mujer, Kim Eng.
+    - eckhart_tolle.jpg
+    - 2015-10-22 23:00:02.000000000 Z
+    - 2015-10-22 23:00:02.000000000 Z
+  - - 19
+    - Margaret Cheney
+    - "Escritora norteamericana, nacida en Oregon en 1921, destacó como biógrafa de
+      gran versatilidad. Margaret Cheney es conocida por su excelente biografía sobre
+      uno de los más misteriosos científicos de todos los tiempos, Nikola Tesla.\r\n\r\nGanadora
+      de la Medalla Tesla otorgada por la Academia de las Ciencias Serbia, Cheney
+      ha trabajado para varias agencias periodísticas y la Universidad de California."
+    - margaret_cheney.jpg
+    - 2015-10-23 16:42:40.000000000 Z
+    - 2015-10-23 16:54:34.000000000 Z
+  - - 20
+    - Sergio Sinay
+    - "Sergio Sinay es un periodista, escritor y psicólogo argentino, un reconocido
+      especialista, consultor e investigador de los vínculos humanos. Su pensamiento
+      indaga en la pareja, la psicología del varón, los lazos entre padres e hijos,
+      las relaciones interpersonales, así como los paradigmas, tendencias y valores
+      de nuestra cultura. Tras una destacada trayectoria como periodista en importantes
+      medios de Argentina y el exterior, tuvo una intensa formación y práctica en
+      Gestalt y autoasistencia psicológica. Da seminarios y conferencias en el país,
+      en México, Chile, Uruguay y España, en donde colabora con diversos e importantes
+      medios e instituciones.\r\nFue ganador del Premio de Ensayo del diario La Nación
+      (del que es actual columnista) con su trabajo El varón contemporáneo ante el
+      fin de siglo."
+    - sergio_sinay.jpg
+    - 2015-10-23 20:35:22.000000000 Z
+    - 2015-10-23 20:37:49.000000000 Z
+  - - 21
+    - Miguel Ruiz
+    - Miguel Ángel Ruiz Macías (nacido en 1952) es un autor mexicano de textos espiritualistas
+      de la New Age o neochamanísticos, influido por Carlos Castaneda. Su más famoso
+      e influyente obra es Los cuatro acuerdos, fue publicado en 1997 y ha vendido
+      cerca de 4 millones de ejemplares. Miguel Ruiz discute algunas de sus creencias
+      a través de una serie de entrevistas, incluyendo su creencia en la leyenda de
+      la Atlántida; su creencia de que el sol entró a su sexta era el 11 de enero
+      de 1992, que debería llevar a una nueva era para la humanidad; y su fé en el
+      poder espiritual de la pirámide del sol en Teotihuacan.
+    - miguel_ruiz.jpg
+    - 2015-10-23 21:54:55.000000000 Z
+    - 2015-10-26 21:52:48.000000000 Z
+  - - 22
+    - Zecharia Sitchin
+    - "Zecharia Sitchin (Bakú, RSS de Azerbaiyán, 11 de julio de 1920 – Nueva York,
+      Estados Unidos 9 de octubre de 20101 ) fue un escritor , autor de una serie
+      de libros, que promueven la teoría de los antiguos astronautas, el supuesto
+      origen extraterrestre de la humanidad, la cual atribuye la creación de la cultura
+      sumeria a los Anunnaki (o Nefilim) que procederìan del planeta llamado Nibiru
+      que supuestamente existiría en el sistema solar.\r\n\r\nSus investigaciones
+      han sido intentado ser desacreditadas puesto que las conclusiones derriban mitos
+      como el de el eslabón perdido y otro tipo de mitología religiosa."
+    - zecharia_sitchin.jpg
+    - 2015-10-26 22:00:37.000000000 Z
+    - 2015-10-26 22:00:37.000000000 Z
+  - - 23
+    - Salvador Borrego
+    - Salvador Borrego Escalante (Ciudad de México; 24 de abril de 1915) es un periodista
+      y escritor mexicano. Además. Fue director técnico de 37 periódicos y director
+      fundador de varios de ellos. Ha publicado 53 libros en campos como Historia
+      militar, Política, Economía, Sociología, Periodismo, Filosofía y Religión, textos
+      que han recibido fuertes críticas y le han acusado de antisemitismo debido a
+      que coloca a los capitales judíos internacionales y a la ideología sionista
+      como los causantes de la Segunda Guerra Mundial. Junto a Joaquín Bochaca, es
+      considerado uno de los primeros representantes del revisionismo histórico de
+      habla hispana.
+    - salvador_borrego.jpg
+    - 2015-10-26 22:35:04.000000000 Z
+    - 2015-10-26 22:35:04.000000000 Z
+  - - 24
+    - Gregg Braden
+    - Gregg Braden (nacido el 28 de junio 1954) es un escritor estadounidense de Nueva
+      Era literatura, que escribió sobre el fenómeno de 2012 y llegó a ser conocido
+      por su afirmación de que la polaridad magnética de la Tierra estaba a punto
+      de revertir. Braden ha argumentado que el cambio en el campo magnético de la
+      Tierra podría tener efectos sobre el ADN humano También ha argumentado que las
+      emociones humanas afectan el ADN y que la oración colectiva puede haber curación
+      efectos físicos. Él ha publicado muchos libros a través de la Hay House editorial.
+      En 2009, su libro "Tiempo Fractal" estaba en la lista de bestsellers del New
+      York Times.
+    - gregg_braden.jpg
+    - 2015-10-26 23:18:25.000000000 Z
+    - 2015-10-26 23:18:25.000000000 Z
+  - - 25
+    - Nicholas A. Christakis
+    - Doctor en Medicina y Ciencias Sociales. Profesor de Sociología Médica en el
+      Departamento de Política Sanitaria de la Facultad de Medicina de Harvard, profesor
+      de Sociología en el Departamento de Sociología de la Facultad de Artes y Ciencias
+      de Harvard y profesor de Medicina en la Facultad de Medicina de la misma universidad.
+      Desde 1999 investiga la forma en que los factores y las interacciones sociales
+      afectan a la salud y a la esperanza de vida de los individuos. Es famoso por
+      sus estudios sobre la formación y comportamiento de las redes sociales. En 2009
+      la revista Time lo incluyó en su lista de las 100 personas más influyentes del
+      mundo.
+    - nicholas_a_christakis.jpg
+    - 2015-10-26 23:49:44.000000000 Z
+    - 2015-10-26 23:52:26.000000000 Z
+  - - 26
+    - James H. Fowler
+    - Doctor en Ciencias Políticas. Encarna una nueva concepción de estadisciplina;
+      queriéndola conectar con las ciencias de la naturaleza, ha traspasado las fronteras
+      de su campo de estudio para identificar las fuerzas sociales y biológicas que
+      subyacen en la naturaleza humana. Es profesor en la Universidad de California
+      en San Diego, en el Departamento de Ciencias Políticas y en el Center for Wireless
+      and Population Health Systems. Además de sus trabajos sobre redes sociales,
+      es famoso por sus investigaciones sobre la evolución de la cooperación, la economía
+      conductista, la participación en la vida política y la genopolítica (el estudio
+      del componente genético en el comportamiento político).
+    - james_h_fowler.jpg
+    - 2015-10-26 23:51:32.000000000 Z
+    - 2015-10-26 23:51:32.000000000 Z
+  - - 27
+    - Juan Carlos González
+    - "Juan Carlos González Martín es Ingeniero de Telecomunicaciones por la Universidad
+      de Valladolid y Diplomado en Ciencias Empresariales por la Universidad Oberta
+      de Catalunya (UOC). Cuenta con más de 11 años de experiencia en tecnologías
+      y plataformas de Microsoft diversas (SQL Server, Visual Studio, .NET Framework,
+      etc.), aunque su trabajo diario gira en torno a las plataformas SharePoint &
+      Office 365.\r\nJuan Carlos ha sido reconocido y premiado por Microsoft como
+      MVP de SharePoint Server de forma consecutiva desde 2008 a 2015. Después de
+      ser nombrado por Microsoft MVP de Office 365 en abril de 2015, Juan Carlos ha
+      sido nombrado por Microsoft Office Servers & Services MVP. Es ponente habitual
+      desde 2007 en numerosos webinars, conferencias, roadshows y tours (sobre productos
+      y tecnologías de Microsoft y específicamente sobre SharePoint y Office 365)
+      organizados tanto por Microsoft como por las Comunidades Técnicas dónde es un
+      miembro activo."
+    - juan_carlos_gonzalez.jpg
+    - 2015-11-25 22:08:20.000000000 Z
+    - 2015-11-25 22:08:20.000000000 Z
+  - - 28
+    - Gustavo Velez
+    - "Gustavo Velez es Ingeniero Mecánico y Electrónico; trabaja en el diseño e implementación
+      de sistemas de IT basados en tecnologías de Microsoft, especialmente SharePoint,
+      para Avanade, una compañía multinacional de IT.\r\nPropietario del sitio especializado
+      en información sobre SharePoint en español gavd.net y autor de seis libros sobre
+      SharePoint y sus tecnologías."
+    - gustavo_velez.jpg
+    - 2015-11-25 22:24:56.000000000 Z
+    - 2015-11-25 22:35:58.000000000 Z
+  - - 29
+    - Fabián Imaz
+    - Trabaja en el mundo del desarrollo de software desde hace más de 10 años, teniendo
+      la suerte de trabajar en distintas arquitecturas y tecnologías Microsoft. Pertenece
+      a la firma Siderys, empresa de desarrollo de Software especializada en SharePoint
+      2007/2010/2013 y en desarrollo de soluciones inteligentes. Desde los comienzos
+      Fabián ha trabajado en distintitas comunidades donde organiza y promueve eventos
+      locales para la difusión de tecnología dentro de los miembros de las mismas.
+      Es director de la carrera SharePoint 2010 y SharePoint 2013 en Microsoft Virtual
+      Academy, cuenta con un sitio en CodePlex con varios desarrollos y es uno de
+      los directores de la revista digital de SharePoint Compartimoss.
+    - fabian_imaz.jpg
+    - 2015-11-25 22:34:30.000000000 Z
+    - 2015-11-25 22:34:30.000000000 Z
+  - - 30
+    - Ernest Yassine Bendriss
+    - Yassine Bendriss (Casablanca, 1964) estudió Filosofía e Historia en Francia.
+      En sus viajes a la India descubrió el yoga y se formó como profesor en la escuela
+      Shivananda. Historiador especializado en la Edad Media, alterna su labor pedagógica
+      con la escritura. Sus clases de yoga para niños (incluidos niños autistas) ha
+      sido una de sus experiencias más reveladoras.
+    - ernest_yassine_bendriss.jpg
+    - 2015-11-30 23:51:32.000000000 Z
+    - 2015-11-30 23:51:32.000000000 Z
+  - - 31
+    - Vicente Blasco Ibáñez
+    - "Vicente Blasco Ibáñez (Valencia, 1867 - Menton, Francia, 1928) es uno de los
+      grandes escritores españoles de todos los tiempos, y el primer autor de best
+      sellers de España. Perteneciente a una familia acomodada, su actividad política
+      a favor del ideal republicano (fue diputado en Cortes) le llevó a pasar gran
+      parte de su vida fuera de España en un autoexilio durante el cual emprendió
+      toda suerte de negocios hasta hacer fortuna como escritor y periodista.\r\nResidió
+      sobre todo en Francia, donde le encontró el estallido de la Primera Guerra Mundial,
+      por entonces llamada Gran Guerra, la cual inspiró no sólo su monumental Crónica,
+      sino varias de sus novelas más importantes, entre ellas Los cuatro jinetes del
+      Apocalipsis o Mare Nostrum, que fueron grandes éxitos e hicieron de él un escritor
+      famoso en todo el mundo.\r\nSu oposición a la monarquía y a la dictadura de
+      Primo de Rivera le impidieron regresar a España. Desde Francia combatió activamente
+      al dictador con sus artículos, preconizando para España un modelo de sociedad
+      democrática basado en el republicanismo francés. Debido a una enfermedad pulmonar
+      mal tratada, falleció en el exilio sin llegar a presenciar la proclamación de
+      la República Española. Su trabajo y su obra ―sus escritos políticos más comprometidos
+      y, en particular, su Crónica de la Guerra Europea― fueron silenciados durante
+      décadas por la dictadura franquista debido a su crítica al militarismo alemán."
+    - vicente_blasco_ibanez.jpg
+    - 2015-12-01 15:38:05.000000000 Z
+    - 2015-12-01 15:45:38.000000000 Z
+  - - 32
+    - José Manuel Lechado
+    - "José Manuel Lechado (Madrid, 1969) es un escritor especializado en ensayo histórico
+      y político. Entre sus obras más importantes se encuentran El camino del Cid,
+      Traidores que cambiaron la Historia y La globalización del miedo. De sus últimos
+      títulos destacan La Movida... y no sólo madrileña, así como El mal español (historia
+      crítica de la derecha española). Ha ganado, entre otros, el I Premio de Ensayo
+      Obra Social de Caja Madrid, con su libro Globalización y gobernanzas.\r\nCon
+      la Crónica de la Guerra Europea de 1914 recupera para el acervo bibliográfico
+      español una obra maestra de Vicente Blasco Ibáñez olvidada a lo largo de un
+      siglo convulso que comenzó, precisamente, con la Primera Guerra Mundial."
+    - jose_manuel_lechado.jpg
+    - 2015-12-01 15:47:23.000000000 Z
+    - 2015-12-01 15:47:23.000000000 Z
+  - - 33
+    - Philip Shenon
+    - Philip Shenon es periodista de investigación para The New York Times, donde
+      ha trabajado desde 1981. Fue el principal reportero en cubrir la investigación
+      tras los acontecimientos del 11 de septiembre de 2001. Dicho trabajo arrojó
+      su primer libro, La comisión.
+    - philip_shenon.jpg
+    - 2015-12-01 18:00:05.000000000 Z
+    - 2015-12-01 18:00:05.000000000 Z
+  - - 34
+    - Donald J. Trump
+    - Donald Trump (Queens, 14 de junio de 1946) es un ejecutivo, político, empresario
+      y millonario de Estados Unidos. Es el presidente de la Trump Organization y
+      fundador de Trump Entertainment Resorts. Fue el presentador del reality show
+      The Apprentice hasta 2015. Es hijo de un empresario de bienes raíces de Nueva
+      York, en cuya compañía, la Elizabeth Trump & Son, trabajó mientras estudiaba
+      en la Escuela de Negocios Wharton de la Universidad de Pensilvania. En 1968,
+      se unió oficialmente a esa sociedad, que controla desde 1971, cuando la renombró
+      Trump Organization. En los años 1990 la empresa entró en bancarrota comercial,
+      pero en la década siguiente se recuperó y tiene una fortuna de varios miles
+      de millones de dólares.
+    - donald_j_trump.jpg
+    - 2015-12-01 20:51:30.000000000 Z
+    - 2015-12-01 20:59:20.000000000 Z
+  - - 35
+    - Gary Jennings
+    - Gary Jennings nació en Buena Vista (Virginia), en los Estados Unidos, en 1928.
+      Después de trabajar varios años como publicista, periodista y corresponsal en
+      Corea, y finalmente como director de una revista, pasó a dedicarse a la creación
+      literaria. En 1962 apareció su primer libro, y a partir de entonces ha publicado
+      numerosas novelas y ensayos, al tiempo que colaboraba con artículos y narraciones
+      en diversas revistas. Entre sus novelas destacan Azteca, El viajero, Lentejuelas
+      y Halcón.
+    - gary_jennings.jpg
+    - 2015-12-03 21:58:11.000000000 Z
+    - 2015-12-03 22:13:04.000000000 Z
+  - - 36
+    - J. J. Benitez
+    - "Juan José Benítez (Pamplona, 7 de septiembre de 1946) es un periodista español,
+      conocido por sus trabajos en investigación y divulgación del fenómeno OVNI y
+      su saga de novelas Caballo de Troya.\r\nEstudió en la Universidad de Navarra
+      en la carrera de Periodismo y consiguió la licenciatura en 1965. Comenzó a trabajar
+      para el periódico La Verdad de Murcia en enero de 1966. Después empezó a trabajar
+      en el periódico Heraldo de Aragón. Recorrió el mundo como enviado especial y
+      fue periodista en varios diarios regionales españoles, como los ya mencionados,
+      y La Gaceta del Norte.\r\n\r\nMás tarde se traslada a Bilbao, donde continúa
+      como periodista para La Gaceta del Norte. A partir de 1972, se especializa en
+      el tema ovni y cubre todas las noticias relacionadas con esta materia para su
+      periódico, las primeras de las cuales fueron sobre la Fuerza Aérea Española.
+      En 1975, realiza investigaciones sobre el sudario de Turín, hecho que marcó
+      su vida al dar origen a la serie de novelas Caballo de Troya, sobre la visión
+      de Benítez acerca de la vida de Jesús de Nazaret. En el epílogo de la primera
+      novela, afirma que es el primer libro donde introduce ficción (refiriéndose
+      al viaje en el tiempo) en una obra que refleja sus investigaciones."
+    - jj_benitez.jpg
+    - 2015-12-10 22:15:06.000000000 Z
+    - 2015-12-10 22:15:06.000000000 Z
+  - - 37
+    - Wayne W. Dyer
+    - "Wayne Walter Dyer (Detroit, Míchigan, 10 de mayo de 1940-Condado de Maui, Hawái,
+      29 de agosto de 2015) fue un psicólogo escritor de libros de autoayuda estadounidense.\r\nSu
+      inspiración fue la psicología transpersonal, y en concreto su fundador, Abraham
+      Maslow. Ésta es la llamada \"cuarta fuerza\", que complementa las anteriores
+      escuelas de psicología: el psicoanálisis, la psicología conductista, la psicología
+      cognitiva y la psicología humanista. En sus primeros libros, esta influencia
+      se muestra en su creencia en las posibilidades de desarrollo de la persona más
+      allá de «la persona», para llegar a desarrollar todas nuestras potencialidades
+      como seres humanos (persona «sin límites»), en lugar de centrarse en tratar
+      la enfermedad o el trastorno inconsciente, la mera modificación de conducta
+      o pensamiento, o limitándonos a ser \"solamente\" humanos."
+    - wayne_w_dyer.jpg
+    - 2015-12-11 20:35:01.000000000 Z
+    - 2015-12-11 20:36:55.000000000 Z
+  - - 38
+    - José Emilio Pacheco
+    - José Emilio Pacheco Berny (Ciudad de México, 30 de junio de 1939 - 26 de enero
+      de 2014) fue un escritor mexicano cuya obra abarca la poesía, la crónica, la
+      novela y el cuento, así como el ensayo y la traducción. Se le considera un integrante
+      de la llamada Generación de los cincuenta o «Generación de medio siglo», en
+      la que también se incluye a Juan Vicente Melo, Inés Arredondo, Juan García Ponce,
+      Huberto Batis, Sergio Pitol, José de la Colina, Salvador Elizondo, Carlos Monsiváis,
+      entre otros. José Emilio Pacheco comparte la perspectiva cosmopolita que caracteriza
+      a los integrantes de la Generación de medio siglo, y los temas que aborda en
+      sus textos van desde la historia y el tiempo cíclico los universos de la infancia
+      y de lo fantástico, hasta la ciudad y la muerte. La escritura de José Emilio
+      Pacheco se distingue por un constante cuestionamiento sobre la vida en el mundo
+      moderno, sobre la literatura y su propia producción artística, así como por
+      el uso de un lenguaje sin rebuscamientos, accesible.
+    - jose_emilio_pacheco.jpg
+    - 2015-12-15 17:45:53.000000000 Z
+    - 2015-12-15 17:45:53.000000000 Z
+  - - 39
+    - Juan Miguel Zunzunegui
+    - Historiador mexicano, Juan Miguel Zunzunegui es un experto en comunicación y
+      humanidades, siendo autor de numerosos artículos de divulgación histórica, turismo
+      de aventura y mitología mexicana.
+    - juan_miguel_zunzunegui.jpg
+    - 2015-12-18 18:53:25.000000000 Z
+    - 2015-12-18 18:53:25.000000000 Z
+
+---
+autores_titulos:
+  columns:
+  - autor_id
+  - titulo_id
+  records: 
+  - - 1
+    - 1
+  - - 1
+    - 5
+  - - 2
+    - 2
+  - - 3
+    - 4
+  - - 3
+    - 3
+  - - 6
+    - 22
+  - - 6
+    - 31
+  - - 6
+    - 21
+  - - 6
+    - 23
+  - - 6
+    - 50
+  - - 7
+    - 6
+  - - 8
+    - 7
+  - - 9
+    - 8
+  - - 10
+    - 35
+  - - 10
+    - 9
+  - - 11
+    - 10
+  - - 12
+    - 11
+  - - 13
+    - 12
+  - - 13
+    - 19
+  - - 14
+    - 13
+  - - 15
+    - 14
+  - - 16
+    - 15
+  - - 17
+    - 16
+  - - 18
+    - 17
+  - - 19
+    - 18
+  - - 20
+    - 20
+  - - 21
+    - 25
+  - - 21
+    - 24
+  - - 22
+    - 26
+  - - 23
+    - 27
+  - - 24
+    - 28
+  - - 25
+    - 29
+  - - 26
+    - 29
+  - - 27
+    - 30
+  - - 28
+    - 30
+  - - 29
+    - 30
+  - - 30
+    - 32
+  - - 31
+    - 33
+  - - 32
+    - 33
+  - - 33
+    - 34
+  - - 34
+    - 35
+  - - 35
+    - 36
+  - - 36
+    - 46
+  - - 36
+    - 45
+  - - 36
+    - 44
+  - - 36
+    - 43
+  - - 36
+    - 42
+  - - 36
+    - 41
+  - - 36
+    - 40
+  - - 36
+    - 39
+  - - 36
+    - 37
+  - - 36
+    - 38
+  - - 37
+    - 47
+  - - 38
+    - 48
+  - - 39
+    - 49
+
+---
+categorias:
+  columns:
+  - id
+  - nombre
+  - descripcion
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - General
+    - Temática general y diversa, sin categoría específica
+    - 2015-10-12 18:08:48.000000000 Z
+    - 2015-12-14 23:48:38.000000000 Z
+  - - 2
+    - Filosofía
+    - Filosofía - Metafísica - Gnoseología - Lógica - Ética - Estética
+    - 2015-10-12 18:09:32.000000000 Z
+    - 2015-10-12 18:09:32.000000000 Z
+  - - 3
+    - Religión y espiritualidad
+    - Religión - Teología - Espiritualidad - Esoterismo
+    - 2015-10-12 18:10:33.000000000 Z
+    - 2015-10-26 21:49:36.000000000 Z
+  - - 4
+    - Ciencias sociales
+    - Antropología - Arqueología - Historia - Geografía - Sociología - Política
+    - 2015-10-12 18:11:10.000000000 Z
+    - 2015-10-12 18:11:10.000000000 Z
+  - - 5
+    - Desarrollo humano
+    - Desarrollo humano - Motivación - Superación personal
+    - 2015-10-12 18:11:43.000000000 Z
+    - 2015-10-12 18:11:43.000000000 Z
+  - - 6
+    - Ciencias naturales
+    - Biología - Física - Química - Geología - Astronomía
+    - 2015-10-12 18:12:32.000000000 Z
+    - 2015-10-12 18:12:32.000000000 Z
+  - - 7
+    - Tecnología
+    - Tecnología - Ciencias aplicadas - Ingeniería - Informática
+    - 2015-10-12 18:12:50.000000000 Z
+    - 2015-10-12 18:12:50.000000000 Z
+  - - 8
+    - Arte y arquitectura
+    - Arquitectura - Bellas artes - Artes escénicas - Artes aplicadas
+    - 2015-10-12 18:13:12.000000000 Z
+    - 2015-10-12 18:13:12.000000000 Z
+  - - 9
+    - Obras literarias
+    - Obras literarias - Literatura - Lingüística - Lenguaje
+    - 2015-10-12 18:13:40.000000000 Z
+    - 2015-10-12 18:13:40.000000000 Z
+  - - 10
+    - Salud
+    - Medicina - Psicología - Nutrición
+    - 2015-10-12 18:14:01.000000000 Z
+    - 2015-10-12 18:14:01.000000000 Z
+  - - 11
+    - Economía y finanzas
+    - Economía - Finanzas - Contabilidad
+    - 2015-10-12 18:14:17.000000000 Z
+    - 2015-10-12 18:14:17.000000000 Z
+  - - 12
+    - Infantil
+    - Títulos para niños
+    - 2015-10-12 18:14:37.000000000 Z
+    - 2015-12-01 18:25:22.000000000 Z
+
+---
+condiciones:
+  columns:
+  - id
+  - nombre
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Nuevo
+    - 2015-10-12 18:16:07.000000000 Z
+    - 2015-10-12 18:16:07.000000000 Z
+  - - 2
+    - Seminuevo
+    - 2015-10-12 18:16:14.000000000 Z
+    - 2015-10-12 18:16:14.000000000 Z
+  - - 3
+    - Usado
+    - 2015-10-12 18:16:22.000000000 Z
+    - 2015-10-12 18:16:22.000000000 Z
+  - - 4
+    - Antiguo
+    - 2015-10-12 18:16:31.000000000 Z
+    - 2015-10-12 18:16:31.000000000 Z
+  - - 5
+    - Deteriorado
+    - 2015-10-12 18:16:39.000000000 Z
+    - 2015-10-12 18:16:39.000000000 Z
+
+---
+editores:
+  columns:
+  - id
+  - nombre
+  - descripcion
+  - web
+  - logo
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - EDAF
+    - La editorial EDAF inició en Argentina y posteriormente en 1957, la familia Fossati
+      fundó en España la distribuidora de libros con el nombre de EDAF (siglas del
+      nombre de la empresa argentina).
+    - http://www.edaf.net
+    - edaf.jpg
+    - 2015-10-12 19:32:48.000000000 Z
+    - 2015-10-12 19:32:48.000000000 Z
+  - - 2
+    - PLANETA
+    - La Editorial Planeta fue fundada en 1949 en Barcelona, España, por José Manuel
+      Lara. Es la empresa insignia del Grupo Planeta. Ha publicado alrededor de 6.000
+      títulos pertenecientes a más de 1.500 autores, la mayoría de ellos de habla
+      hispana.
+    - http://www.planetadelibros.com
+    - planeta.jpg
+    - 2015-10-12 19:33:06.000000000 Z
+    - 2015-10-15 18:01:32.000000000 Z
+  - - 3
+    - DIANA
+    - Editorial Diana fue fundada en el año 1946 por José Luis Ramírez Cerda y se
+      incorporó al Grupo Planeta en el año 2006. Desde su creación, Diana ha dinamizado
+      el mercado editorial confiriendo prestigio a esta actividad en México.
+    - http://www.diana.com.mx
+    - diana.jpg
+    - 2015-10-12 19:35:54.000000000 Z
+    - 2015-10-15 17:55:13.000000000 Z
+  - - 4
+    - PRENTICE-HALL
+    - Prentice Hall fue fundada el 13 de octubre de 1913 por el Dr. Charles Gerstenberg
+      y su alumno Richard Ettinger, convirtiendose en una editorial líder de libros
+      de texto académicos y de referencia.
+    - http://www.prenticehall.com
+    - prenticehall.jpg
+    - 2015-10-12 19:36:15.000000000 Z
+    - 2015-10-15 17:45:38.000000000 Z
+  - - 5
+    - MC GRAW HILL
+    - McGraw-Hill es una editorial estadounidense, con sede en Nueva York, fundada
+      por James H. McGraw y John A. Hill en 1909. Publica obras científicas y técnicas,
+      de economía empresarial, gestión, enciclopedias, romances y otras disciplinas.
+    - http://www.mcgraw-hill.com
+    - mcgrawhill.jpg
+    - 2015-10-12 19:36:37.000000000 Z
+    - 2015-10-15 17:42:08.000000000 Z
+  - - 6
+    - DEBOLSILLO
+    - Los orígenes de DeBolsillo se remontan a 1957, año en que Germán Plaza empezó
+      a publicar libros de bolsillo bajo la denominación Libros Plaza.
+    - https://es-la.facebook.com/editorialdebolsillo
+    - debolsillo.jpg
+    - 2015-10-12 19:43:54.000000000 Z
+    - 2015-10-15 17:38:40.000000000 Z
+  - - 7
+    - ALFAOMEGA
+    - En la década de los sesenta un grupo de jóvenes ingenieros recién egresados
+      de la Universidad Nacional Autónoma de México (UNAM) fundaron Representaciones
+      y Servicios de Ingeniería S.A. (R.S.I) que luego se transforma en Alfaomega
+      Grupo Editor.
+    - http://www.alfaomega.com.mx
+    - alfaomega.jpg
+    - 2015-10-12 19:44:10.000000000 Z
+    - 2015-10-15 23:03:37.000000000 Z
+  - - 8
+    - ALFAGUARA
+    - La Editorial Alfaguara es una editorial española de la compañía Penguin Random
+      House, que edita fundamentalmente narrativa y libros infantiles y juveniles.
+      Fue fundada en 1964 por el escritor Camilo José Cela.
+    - http://www.alfaguara.com
+    - alfaguara.jpg
+    - 2015-10-12 19:44:26.000000000 Z
+    - 2015-10-15 17:16:30.000000000 Z
+  - - 9
+    - PORRUA
+    - La Editorial y Librería Porrúa fue fundada en México en el año de 1900 por tres
+      hermanos de apellido Porrúa, provenientes de Asturias, España.
+    - https://www.porrua.mx
+    - porrua.jpg
+    - 2015-10-12 19:46:41.000000000 Z
+    - 2015-10-15 17:10:04.000000000 Z
+  - - 10
+    - RC LIBROS
+    - RC Libros es una editorial fundada en España especializada en libros de informática,
+      computación y nuevas tecnologías.
+    - http://rclibros.es
+    - rclibros.jpg
+    - 2015-10-12 19:51:40.000000000 Z
+    - 2015-10-15 17:04:59.000000000 Z
+  - - 11
+    - AGUILAR
+    - La editorial Aguilar fue fundada en Madrid en el año de 1923 por Manuel Aguilar.
+    - https://es-la.facebook.com/librosaguilar
+    - aguilar.jpg
+    - 2015-10-12 19:55:29.000000000 Z
+    - 2015-10-15 16:54:20.000000000 Z
+  - - 12
+    - EDHASA
+    - EDHASA, empresa editorial fundada en 1946, ha mantenido en sus más de cincuenta
+      años de existencia un catálogo variado y de prestigio centrado básicamente en
+      la literatura de calidad.
+    - http://www.edhasa.com
+    - edhasa.jpg
+    - 2015-10-12 19:55:40.000000000 Z
+    - 2015-10-15 16:41:42.000000000 Z
+  - - 13
+    - ARIEL
+    - Ariel fue fundada en 1942 y pronto se convirtió en una de las editoriales de
+      referencia en el campo del ensayo, la edición académica y la divulgación.
+    - http://ariel.claudator.com
+    - ariel.jpg
+    - 2015-10-12 19:56:12.000000000 Z
+    - 2015-10-14 23:00:42.000000000 Z
+  - - 14
+    - FONDO DE CULTURA ECONOMICA
+    - El Fondo de Cultura Económica (FCE) es una editorial, asentada en México pero
+      con la mirada puesta en todo el orbe hispanoamericano, sin fines de lucro y
+      sostenida parcialmente por el Estado. Fue fundada en 1934 por Daniel Cosío Villegas.
+    - http://www.fondodeculturaeconomica.com
+    - fce.jpg
+    - 2015-10-12 19:58:10.000000000 Z
+    - 2015-10-14 22:54:21.000000000 Z
+  - - 15
+    - GREDOS
+    - Editorial Gredos es una editorial española fundada en 1944, perteneciente desde
+      2006 al Grupo RBA y con sede en Madrid, dedicándose a la publicación de libros
+      relacionados con la lexicografía, la filología hispánica y el mundo grecolatino.
+    - http://www.editorialgredos.com
+    - gredos.jpg
+    - 2015-10-12 20:05:43.000000000 Z
+    - 2015-10-14 22:49:01.000000000 Z
+  - - 16
+    - PAIDÓS
+    - Creada inicialmente en Argentina en 1945 como una propuesta pionera vinculada
+      a temas relacionados con la pedagogía y psicología infantil, se orientará posteriormente
+      hacia otras áreas como la filosofía, la sociología y la política.
+    - http://www.paidos.com
+    - paidos.jpg
+    - 2015-10-12 20:06:04.000000000 Z
+    - 2015-10-14 22:41:35.000000000 Z
+  - - 17
+    - TAURUS
+    - Taurus, editorial española del Grupo PRISA, que edita libros de ensayo (historia,
+      pensamiento, biografías). La editorial fue fundada en 1954 por Francisco Pérez
+      González, Rafael Gutiérrez Girardot y Miguel Sánchez López.
+    - http://www.editorialtaurus.com
+    - taurus.jpg
+    - 2015-10-12 20:08:52.000000000 Z
+    - 2015-10-14 22:34:52.000000000 Z
+  - - 18
+    - TUSQUETS
+    - Tusquets Editores es una editorial española fundada en 1969 por Beatriz de Moura
+      y Óscar Tusquets. Ha publicado obras de autores en lengua española y extranjeros.
+    - http://www.tusquetseditores.com
+    - tusquets.jpg
+    - 2015-10-12 20:09:32.000000000 Z
+    - 2015-10-14 22:32:22.000000000 Z
+  - - 19
+    - URANO
+    - Ediciones Urano nace en 1983 en Barcelona (España), formada por un pequeño grupo
+      de personas con larga experiencia en el mundo editorial. Desde sus primeros
+      años se orientó hacia el libro de autoayuda, salud y medicina alternativa.
+    - http://www.edicionesurano.com
+    - urano.jpg
+    - 2015-10-12 20:09:52.000000000 Z
+    - 2015-10-14 22:30:02.000000000 Z
+  - - 20
+    - GRIJALBO
+    - Grijalbo fue una editorial mexicana y con representación también en España que
+      actualmente pertenece al Penguin Random House. La editorial fue fundada por
+      Juan Grijalbo, un exiliado español en México, que logró montar sucursales por
+      toda Latinoamérica.
+    - http://grijalbo.com.mx
+    - grijalbo.jpg
+    - 2015-10-12 20:10:13.000000000 Z
+    - 2015-10-14 22:22:53.000000000 Z
+  - - 21
+    - GRITO SAGRADO
+    - Grito Sagrado es una editorial de Argentina que publica obras escritas especialmente
+      desde el enfoque del objetivismo y el libertarismo, y en general sobre el liberalismo
+      y el capitalismo.
+    - http://www.gritosagrado.com.ar
+    - gritosagrado.jpg
+    - 2015-10-12 20:10:28.000000000 Z
+    - 2015-10-14 22:20:39.000000000 Z
+  - - 22
+    - KRASIS PRESS
+    - Krasis Press es una colección de libros especializados en tecnologías Microsoft,
+      nace en septiembre de 2007 y es presentada oficialmente en las instalaciones
+      de Microsoft Ibérica en Madrid.
+    - http://www.campusmvp.es/krasis-press.htm
+    - krasispress.jpg
+    - 2015-10-12 20:10:42.000000000 Z
+    - 2015-10-14 22:04:32.000000000 Z
+  - - 23
+    - SUDAMERICANA
+    - La Editorial Sudamericana fue fundada en 1939 por un grupo de editores argentinos
+      y españoles que estaban radicados en Buenos Aires. Hoy es un sello de Penguin
+      Random House Grupo Editorial.
+    - http://www.edsudamericana.com.ar
+    - sudamericana.jpg
+    - 2015-10-12 20:10:55.000000000 Z
+    - 2015-10-14 22:00:35.000000000 Z
+  - - 24
+    - ALSINA
+    - La Librería y Editorial Alsina, dedicada al libro técnico y científico, fue
+      fundada por el español Tomás Vilar en 1945 en Argentina.
+    - http://www.lealsina.com
+    - alsina.jpg
+    - 2015-10-12 20:11:09.000000000 Z
+    - 2015-10-14 21:51:19.000000000 Z
+  - - 25
+    - UNAM
+    - Publicaciones y Fomento Editorial de la Universidad Autónoma de México.
+    - http://www.libros.unam.mx
+    - unam.jpg
+    - 2015-10-12 20:11:22.000000000 Z
+    - 2015-10-14 21:46:10.000000000 Z
+  - - 26
+    - CATEDRA
+    - Ediciones Cátedra es una editorial española fundada en 1973. Edita fundamentalmente
+      clásicos literarios y obras en las humanidades.
+    - http://www.catedra.com
+    - catedra.jpg
+    - 2015-10-12 20:55:33.000000000 Z
+    - 2015-10-14 21:38:13.000000000 Z
+  - - 27
+    - PENINSULA
+    - Ediciones Península pertenece a Grupo Planeta en Barcelona, España.
+    - https://es-la.facebook.com/ediciones.peninsula
+    - peninsula.jpg
+    - 2015-10-12 20:59:40.000000000 Z
+    - 2015-10-15 23:01:15.000000000 Z
+  - - 28
+    - DEBATE
+    - Editorial Debate publica ensayo informativo y accesible así como obras de referencia,
+      biografías y reportajes con un fuerte componente narrativo.
+    - https://es-la.facebook.com/editorialdebate
+    - debate.jpg
+    - 2015-10-13 17:54:42.000000000 Z
+    - 2015-10-15 23:02:13.000000000 Z
+  - - 29
+    - SIGLO XXI
+    - Siglo XXI Editores es una de las principales editoriales iberoamericanas. Fué
+      fundada en México en 1965. A finales de 1966 se fundó la filial Siglo XXI Editores
+      Argentina, y a principios de 1967, la casa hermana independiente Siglo XXI de
+      España Editores.
+    - http://sigloxxieditores.com.mx
+    - sigloxxi.jpg
+    - 2015-10-13 21:02:23.000000000 Z
+    - 2015-10-14 18:07:40.000000000 Z
+  - - 30
+    - TRILLAS
+    - Editorial Trillas fue fundada en 1954 en la Ciudad de México y desde un principio
+      se dedicó a la factoría de libros de texto y enseñanza.
+    - https://es-la.facebook.com/Ed.Trillas
+    - trillas.jpg
+    - 2015-10-13 21:28:45.000000000 Z
+    - 2015-10-14 18:37:34.000000000 Z
+  - - 31
+    - CRITICA
+    - Editorial Crítica es una editorial española fundada en 1976 radicada en Barcelona,
+      perteneciente al Grupo Planeta, especializada en la publicación de clásicos
+      de la literatura y libros universitarios de ciencias sociales y humanas.
+    - http://ed-critica.claudator.com
+    - critica.jpg
+    - 2015-10-14 03:39:00.000000000 Z
+    - 2015-10-14 17:52:07.000000000 Z
+  - - 32
+    - TOMO
+    - Grupo Editorial Tomo S.A de C.V. es una editorial mexicana fundada en 1983 y
+      actualmente tiene su sede en la Ciudad de México.
+    - http://www.grupotomo.com.mx
+    - tomo.jpg
+    - 2015-10-14 04:04:10.000000000 Z
+    - 2015-10-14 17:47:06.000000000 Z
+  - - 33
+    - OBELISCO
+    - Ediciones Obelisco es una editorial nacida en Barcelona en el año 1981, que
+      comenzó su andadura publicando libros de astrología, alquimia, esoterismo y
+      tradición. Sus temáticas se han ampliado a la autoayuda, psicología, religión,
+      entre otras.
+    - http://www.edicionesobelisco.com
+    - obelisco.jpg
+    - 2015-10-22 22:21:42.000000000 Z
+    - 2015-10-22 22:38:12.000000000 Z
+  - - 34
+    - TURNER
+    - Editorial fundada en 1970 por Manuel Arroyo Stephens en Madrid dedicada principalmente
+      a la edición de libros culturales.
+    - http://www.turnerlibros.com
+    - turner.jpg
+    - 2015-10-23 16:48:58.000000000 Z
+    - 2015-10-23 19:08:59.000000000 Z
+  - - 35
+    - SALVADOR BORREGO E.
+    - Don Salvador Borrego ha publicado más de 34 libros en los campos de historia,
+      periodismo, filosofía, política, economía y guerra.
+    - http://salvadorborrego.com
+    - borrego.jpg
+    - 2015-10-26 22:50:51.000000000 Z
+    - 2015-10-26 23:12:48.000000000 Z
+  - - 36
+    - SIRIO
+    - Editorial Sirio fue fundada en 1981
+    - http://www.editorialsirio.com
+    - sirio.jpg
+    - 2015-10-26 23:38:05.000000000 Z
+    - 2015-10-26 23:38:05.000000000 Z
+  - - 37
+    - NOWTILUS
+    - Nowtilus es un proyecto de edición general que quiere llegar a la persona integral,
+      aquella que sabe aplicar el pensamiento racional a su vida cotidiana, pero que
+      no olvida sus raíces ni sus orígenes históricos y míticos.
+    - http://www.nowtilus.com
+    - nowtilus.jpg
+    - 2015-11-30 23:57:34.000000000 Z
+    - 2015-12-01 15:13:22.000000000 Z
+  - - 38
+    - LA ESFERA DE LOS LIBROS
+    - La Esfera de los Libros inició su andadura en 2001. Posee oficinas en Madrid,
+      donde se ubica su sede central, y Lisboa. Actualmente publica en portugués,
+      castellano, catalán.
+    - http://www.esferalibros.com/libro
+    - esfera.jpg
+    - 2015-12-01 16:24:20.000000000 Z
+    - 2015-12-01 16:24:20.000000000 Z
+  - - 39
+    - PUNTO DE LECTURA
+    - Es el sello editorial que ha revolucionado el sector del libro de bolsillo en
+      todos los rincones de habla hispana.
+    - ''
+    - punto.jpg
+    - 2015-12-01 21:15:02.000000000 Z
+    - 2015-12-01 21:15:02.000000000 Z
+  - - 40
+    - BOOKET
+    - Booket nace en abril del año 2001 como el sello de bolsillo destinado a hacer
+      crecer los hábitos de lectura y que incluye la más amplia selección de autores
+      y contenidos procedentes de los sellos editoriales del Grupo Planeta.
+    - http://www.planetadelibros.com/editorial-booket-22.html
+    - booket.jpg
+    - 2015-12-03 22:06:48.000000000 Z
+    - 2015-12-03 22:26:02.000000000 Z
+  - - 41
+    - ERA
+    - Editorial Era o Ediciones Era es una editorial mexicana fundada en 1960 por
+      Vicente Rojo, José Azorín y los hermanos Neus, Jordi y Quico Espresate.
+    - http://www.edicionesera.com.mx
+    - era.jpg
+    - 2015-12-15 17:53:17.000000000 Z
+    - 2015-12-15 18:02:37.000000000 Z
+
+---
+formatos:
+  columns:
+  - id
+  - nombre
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Pasta blanda (rústico)
+    - 2015-10-12 18:17:10.000000000 Z
+    - 2015-10-12 18:17:10.000000000 Z
+  - - 2
+    - Pasta dura
+    - 2015-10-12 18:23:34.000000000 Z
+    - 2015-10-12 18:23:34.000000000 Z
+  - - 3
+    - De bolsillo (pocket)
+    - 2015-10-12 18:23:41.000000000 Z
+    - 2015-10-12 18:23:41.000000000 Z
+  - - 4
+    - Electrónico (ebook)
+    - 2015-10-12 18:23:48.000000000 Z
+    - 2015-10-12 18:23:48.000000000 Z
+  - - 5
+    - Audiolibro
+    - 2015-10-12 18:23:58.000000000 Z
+    - 2015-10-12 18:23:58.000000000 Z
+  - - 6
+    - Revista
+    - 2015-10-12 18:24:06.000000000 Z
+    - 2015-10-12 18:24:06.000000000 Z
+
+---
+idiomas:
+  columns:
+  - id
+  - nombre
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Español
+    - 2015-10-12 18:24:19.000000000 Z
+    - 2015-10-12 18:24:19.000000000 Z
+  - - 2
+    - Inglés
+    - 2015-10-12 18:24:25.000000000 Z
+    - 2015-10-12 18:24:25.000000000 Z
+  - - 3
+    - Francés
+    - 2015-10-12 18:24:32.000000000 Z
+    - 2015-10-12 18:24:32.000000000 Z
+  - - 4
+    - Alemán
+    - 2015-10-12 18:24:41.000000000 Z
+    - 2015-10-12 18:24:41.000000000 Z
+  - - 5
+    - Italiano
+    - 2015-10-12 18:24:47.000000000 Z
+    - 2015-10-12 18:24:47.000000000 Z
+  - - 6
+    - Portugués
+    - 2015-10-12 18:24:54.000000000 Z
+    - 2015-10-12 18:24:54.000000000 Z
+  - - 7
+    - Ruso
+    - 2015-10-12 18:25:02.000000000 Z
+    - 2015-10-12 18:25:02.000000000 Z
+
+---
+libros:
+  columns:
+  - id
+  - titulo_id
+  - editor_id
+  - paginas
+  - edicion
+  - fechapub
+  - pais_id
+  - idioma_id
+  - formato_id
+  - condicion_id
+  - isbn10
+  - isbn13
+  - ean
+  - peso
+  - medidas
+  - portada
+  - publico
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - 26
+    - 560
+    - '1'
+    - '2014'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788437604947'
+    - '9788437604947'
+    - 
+    - ''
+    - cien_anios_de_soledad.jpg
+    - true
+    - 2015-10-12 20:57:47.000000000 Z
+    - 2015-10-13 17:39:54.000000000 Z
+  - - 2
+    - 6
+    - 27
+    - 384
+    - '1'
+    - '2015'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788499424378'
+    - '9788499424378'
+    - 
+    - ''
+    - la_chica_de_los_siete_nombres.jpg
+    - true
+    - 2015-10-12 21:00:55.000000000 Z
+    - 2015-10-13 17:39:19.000000000 Z
+  - - 3
+    - 5
+    - 3
+    - 384
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070726675'
+    - '9786070726675'
+    - 
+    - ''
+    - el_amor_en_los_tiempos_del_colera.jpg
+    - true
+    - 2015-10-12 21:03:43.000000000 Z
+    - 2015-10-13 17:48:36.000000000 Z
+  - - 4
+    - 3
+    - 21
+    - 756
+    - '1'
+    - '2009'
+    - 3
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9789872095161'
+    - '9789872095161'
+    - 
+    - ''
+    - el_manantial.jpg
+    - true
+    - 2015-10-12 21:05:56.000000000 Z
+    - 2015-10-12 21:05:56.000000000 Z
+  - - 5
+    - 4
+    - 21
+    - 1252
+    - '3'
+    - '2009'
+    - 3
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9789872095154'
+    - '9789872095154'
+    - 
+    - ''
+    - la_rebelion_de_atlas.jpg
+    - true
+    - 2015-10-12 21:07:59.000000000 Z
+    - 2015-10-12 21:07:59.000000000 Z
+  - - 6
+    - 2
+    - 7
+    - 480
+    - '1'
+    - '2014'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786077079705'
+    - '9786077079705'
+    - 650
+    - 17 x 23 cm
+    - ruby_on_rails.jpg
+    - true
+    - 2015-10-12 21:10:32.000000000 Z
+    - 2015-10-13 18:22:46.000000000 Z
+  - - 7
+    - 7
+    - 2
+    - 351
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070728389'
+    - '9786070728389'
+    - 
+    - ''
+    - la_chica_del_tren.jpg
+    - true
+    - 2015-10-13 17:38:31.000000000 Z
+    - 2015-10-13 17:38:31.000000000 Z
+  - - 8
+    - 8
+    - 28
+    - 624
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073133272'
+    - '9786073133272'
+    - 
+    - ''
+    - porfirio_diaz.jpg
+    - true
+    - 2015-10-13 17:55:40.000000000 Z
+    - 2015-10-13 17:55:40.000000000 Z
+  - - 9
+    - 9
+    - 11
+    - 288
+    - '1'
+    - '2013'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786071124302'
+    - '9786071124302'
+    - 
+    - ''
+    - padre_rico_padre_pobre.jpg
+    - true
+    - 2015-10-13 20:31:21.000000000 Z
+    - 2015-10-13 20:31:28.000000000 Z
+  - - 10
+    - 10
+    - 29
+    - 300
+    - '1'
+    - '2006'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788432312588'
+    - '9788432312588'
+    - 
+    - ''
+    - voces_de_chernobil.jpg
+    - true
+    - 2015-10-13 21:06:54.000000000 Z
+    - 2015-10-13 21:06:54.000000000 Z
+  - - 11
+    - 11
+    - 30
+    - 391
+    - '1'
+    - '2008'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786071700049'
+    - '9786071700049'
+    - 
+    - ''
+    - ulises_criollo.jpg
+    - true
+    - 2015-10-13 21:30:12.000000000 Z
+    - 2015-10-13 21:30:12.000000000 Z
+  - - 12
+    - 12
+    - 31
+    - 264
+    - '1'
+    - '2015'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788498928051'
+    - '9788498928051'
+    - 
+    - ''
+    - los_dragones_del_eden.jpg
+    - true
+    - 2015-10-14 03:40:57.000000000 Z
+    - 2015-10-14 03:40:57.000000000 Z
+  - - 13
+    - 13
+    - 32
+    - 637
+    - '1'
+    - '2013'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786074155273'
+    - '9786074155273'
+    - 
+    - ''
+    - guerra_y_paz.jpg
+    - true
+    - 2015-10-14 04:06:05.000000000 Z
+    - 2015-10-14 04:06:05.000000000 Z
+  - - 14
+    - 14
+    - 20
+    - 540
+    - '1'
+    - '2012'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073110969'
+    - '9786073110969'
+    - 
+    - ''
+    - cincuenta_sombras_de_grey.jpg
+    - true
+    - 2015-10-20 22:27:40.000000000 Z
+    - 2015-10-22 22:29:52.000000000 Z
+  - - 15
+    - 15
+    - 33
+    - 112
+    - '2'
+    - '2006'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788497772303'
+    - '9788497772303'
+    - 
+    - ''
+    - el_caballero_de_la_armadura_oxidada.jpg
+    - true
+    - 2015-10-22 22:28:04.000000000 Z
+    - 2015-10-22 22:28:04.000000000 Z
+  - - 16
+    - 16
+    - 33
+    - 221
+    - '66'
+    - '1995'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788477206231'
+    - '9788477206231'
+    - 
+    - ''
+    - la_princesa_que_creia_en_los_cuentos_de_hadas.jpg
+    - true
+    - 2015-10-22 22:53:14.000000000 Z
+    - 2015-10-22 22:54:07.000000000 Z
+  - - 17
+    - 17
+    - 20
+    - 256
+    - '1'
+    - '2012'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073110297'
+    - '9786073110297'
+    - 
+    - 15 x 23 x 1.5 cm
+    - el_poder_del_ahora.jpg
+    - true
+    - 2015-10-22 23:07:30.000000000 Z
+    - 2015-10-22 23:07:30.000000000 Z
+  - - 18
+    - 18
+    - 34
+    - 392
+    - '1'
+    - '2010'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788475068787'
+    - '9788475068787'
+    - 556
+    - 14 x 22 x 2.2 cm
+    - nikola_tesla.jpg
+    - true
+    - 2015-10-23 16:53:01.000000000 Z
+    - 2015-10-23 16:53:01.000000000 Z
+  - - 19
+    - 19
+    - 2
+    - 504
+    - '5'
+    - '2005'
+    - 2
+    - 1
+    - 2
+    - 1
+    - ''
+    - '9788408058199'
+    - '9788408058199'
+    - 
+    - 15 x 23 cm
+    - el_mundo_y_sus_demonios.jpg
+    - false
+    - 2015-10-23 19:30:52.000000000 Z
+    - 2015-10-23 19:30:52.000000000 Z
+  - - 20
+    - 20
+    - 16
+    - 176
+    - '1'
+    - '2012'
+    - 3
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9789501207057'
+    - '9789501207057'
+    - 
+    - ''
+    - para_que_trabajamos.jpg
+    - true
+    - 2015-10-23 20:45:00.000000000 Z
+    - 2015-10-23 20:45:00.000000000 Z
+  - - 21
+    - 21
+    - 2
+    - 288
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070725159'
+    - '9786070725159'
+    - 
+    - 15 x 23 cm
+    - 100_mitos_de_la_historia_de_mexico_1.jpg
+    - true
+    - 2015-10-23 21:01:48.000000000 Z
+    - 2015-10-23 21:25:39.000000000 Z
+  - - 22
+    - 22
+    - 2
+    - 288
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070725166'
+    - '9786070725166'
+    - 
+    - 15 x 23 cm
+    - 100_mitos_de_la_historia_de_mexico_2.jpg
+    - true
+    - 2015-10-23 21:21:26.000000000 Z
+    - 2015-12-01 15:24:40.000000000 Z
+  - - 23
+    - 23
+    - 2
+    - 655
+    - '1'
+    - '2014'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070723582'
+    - '9786070723582'
+    - 
+    - ''
+    - mexico_negro.jpg
+    - true
+    - 2015-10-23 21:47:52.000000000 Z
+    - 2015-10-23 21:47:52.000000000 Z
+  - - 24
+    - 24
+    - 19
+    - 222
+    - '10'
+    - '2009'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786077835035'
+    - '9786077835035'
+    - 
+    - ''
+    - la_maestria_del_amor.jpg
+    - true
+    - 2015-10-23 22:34:17.000000000 Z
+    - 2015-10-23 22:34:17.000000000 Z
+  - - 25
+    - 25
+    - 19
+    - 160
+    - '1'
+    - '2009'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786079513979'
+    - '9786079513979'
+    - 
+    - ''
+    - los_cuatro_acuerdos.jpg
+    - true
+    - 2015-10-23 22:45:21.000000000 Z
+    - 2015-10-23 22:45:21.000000000 Z
+  - - 26
+    - 26
+    - 33
+    - 440
+    - '10'
+    - '2006'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788477208600'
+    - '9788477208600'
+    - 
+    - 15.5 x 23.5 cm
+    - el_12o_planeta.jpg
+    - true
+    - 2015-10-26 22:19:45.000000000 Z
+    - 2015-10-26 22:26:03.000000000 Z
+  - - 27
+    - 27
+    - 35
+    - 630
+    - '52'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9789709288513'
+    - '9789709288513'
+    - 
+    - ''
+    - derrota_mundial.jpg
+    - false
+    - 2015-10-26 22:52:22.000000000 Z
+    - 2015-12-01 15:22:44.000000000 Z
+  - - 28
+    - 28
+    - 36
+    - 240
+    - '1'
+    - '2007'
+    - 2
+    - 1
+    - 2
+    - 1
+    - ''
+    - '9788478085750'
+    - '9788478085750'
+    - 
+    - ''
+    - la_matriz_divina.jpg
+    - true
+    - 2015-10-26 23:40:00.000000000 Z
+    - 2015-10-26 23:40:00.000000000 Z
+  - - 29
+    - 29
+    - 17
+    - 368
+    - '1'
+    - '2010'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788430606887'
+    - '9788430606887'
+    - 
+    - ''
+    - conectados.jpg
+    - true
+    - 2015-10-26 23:57:02.000000000 Z
+    - 2015-10-28 23:42:13.000000000 Z
+  - - 30
+    - 30
+    - 22
+    - 820
+    - '1'
+    - '2013'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788493965983'
+    - '9788493965983'
+    - 
+    - 18.9 x 24.6 cm
+    - sharepoint_2013_de_principio_a_fin.jpg
+    - true
+    - 2015-11-25 22:45:44.000000000 Z
+    - 2015-11-25 22:45:44.000000000 Z
+  - - 31
+    - 31
+    - 2
+    - 456
+    - '1'
+    - '2009'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070702730'
+    - '9786070702730'
+    - 
+    - ''
+    - arrebatos_carnales.jpg
+    - true
+    - 2015-11-30 23:23:47.000000000 Z
+    - 2015-11-30 23:24:03.000000000 Z
+  - - 32
+    - 32
+    - 37
+    - 256
+    - '1'
+    - '2013'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788499674919'
+    - '9788499674919'
+    - 
+    - 13 x 19 cm
+    - breve_historia_del_islam.jpg
+    - true
+    - 2015-11-30 23:58:58.000000000 Z
+    - 2015-12-01 15:21:29.000000000 Z
+  - - 33
+    - 33
+    - 38
+    - 656
+    - '1'
+    - '2014'
+    - 2
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9788490600092'
+    - '9788490600092'
+    - 
+    - 16 x 24 cm
+    - cronica_de_la_guerra_europea_1914_1918.jpg
+    - true
+    - 2015-12-01 16:25:07.000000000 Z
+    - 2015-12-01 16:25:07.000000000 Z
+  - - 34
+    - 34
+    - 28
+    - 800
+    - '1'
+    - '2013'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073118750'
+    - '9786073118750'
+    - 
+    - ''
+    - jfk_caso_abierto.jpg
+    - true
+    - 2015-12-01 18:03:15.000000000 Z
+    - 2015-12-01 18:03:15.000000000 Z
+  - - 35
+    - 35
+    - 39
+    - 408
+    - '1'
+    - '2013'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786071126597'
+    - '9786071126597'
+    - 
+    - ''
+    - queremos_que_seas_rico.jpg
+    - true
+    - 2015-12-01 21:20:39.000000000 Z
+    - 2015-12-01 21:20:39.000000000 Z
+  - - 36
+    - 36
+    - 40
+    - 865
+    - '1'
+    - '2014'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070721182'
+    - '9786070721182'
+    - 
+    - ''
+    - azteca.jpg
+    - true
+    - 2015-12-03 22:09:16.000000000 Z
+    - 2015-12-03 22:09:16.000000000 Z
+  - - 37
+    - 37
+    - 2
+    - 736
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709548'
+    - '9786070709548'
+    - 
+    - ''
+    - caballo_de_troya_1.jpg
+    - true
+    - 2015-12-10 23:14:27.000000000 Z
+    - 2015-12-10 23:14:27.000000000 Z
+  - - 38
+    - 38
+    - 2
+    - 560
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709555'
+    - '9786070709555'
+    - 
+    - ''
+    - caballo_de_troya_2.jpg
+    - true
+    - 2015-12-10 23:16:43.000000000 Z
+    - 2015-12-10 23:16:43.000000000 Z
+  - - 39
+    - 39
+    - 2
+    - 516
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709562'
+    - '9786070709562'
+    - 
+    - ''
+    - caballo_de_troya_3.jpg
+    - true
+    - 2015-12-10 23:18:05.000000000 Z
+    - 2015-12-10 23:18:05.000000000 Z
+  - - 40
+    - 40
+    - 2
+    - 456
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709579'
+    - '9786070709579'
+    - 
+    - ''
+    - caballo_de_troya_4.jpg
+    - true
+    - 2015-12-10 23:19:15.000000000 Z
+    - 2015-12-10 23:19:15.000000000 Z
+  - - 41
+    - 41
+    - 2
+    - 440
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709609'
+    - '9786070709609'
+    - 
+    - ''
+    - caballo_de_troya_5.jpg
+    - true
+    - 2015-12-10 23:20:20.000000000 Z
+    - 2015-12-10 23:20:20.000000000 Z
+  - - 42
+    - 42
+    - 2
+    - 496
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709593'
+    - '9786070709593'
+    - 
+    - ''
+    - caballo_de_troya_6.jpg
+    - true
+    - 2015-12-10 23:21:43.000000000 Z
+    - 2015-12-10 23:21:43.000000000 Z
+  - - 43
+    - 43
+    - 2
+    - 496
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709616'
+    - '9786070709616'
+    - 
+    - ''
+    - caballo_de_troya_7.jpg
+    - true
+    - 2015-12-10 23:23:08.000000000 Z
+    - 2015-12-10 23:23:08.000000000 Z
+  - - 44
+    - 44
+    - 2
+    - 560
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709623'
+    - '9786070709623'
+    - 
+    - ''
+    - caballo_de_troya_8.jpg
+    - true
+    - 2015-12-10 23:24:43.000000000 Z
+    - 2015-12-10 23:24:43.000000000 Z
+  - - 45
+    - 45
+    - 2
+    - 1120
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070709432'
+    - '9786070709432'
+    - 
+    - ''
+    - caballo_de_troya_9.jpg
+    - true
+    - 2015-12-10 23:26:47.000000000 Z
+    - 2015-12-10 23:26:47.000000000 Z
+  - - 46
+    - 46
+    - 2
+    - 560
+    - '1'
+    - '2013'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070715952'
+    - '9786070715952'
+    - 
+    - ''
+    - el_dia_del_relampago.jpg
+    - true
+    - 2015-12-10 23:28:10.000000000 Z
+    - 2015-12-10 23:28:10.000000000 Z
+  - - 47
+    - 47
+    - 6
+    - 320
+    - '1'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073103381'
+    - '9786073103381'
+    - 
+    - ''
+    - tus_zonas_erroneas.jpg
+    - true
+    - 2015-12-11 20:49:16.000000000 Z
+    - 2015-12-11 20:49:16.000000000 Z
+  - - 48
+    - 48
+    - 41
+    - 68
+    - '3'
+    - '2011'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786074450552'
+    - '9786074450552'
+    - 
+    - ''
+    - las_batallas_en_el_desierto.jpg
+    - true
+    - 2015-12-15 17:54:33.000000000 Z
+    - 2015-12-15 17:54:33.000000000 Z
+  - - 49
+    - 49
+    - 20
+    - 280
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786073132497'
+    - '9786073132497'
+    - 
+    - 15.2 x 23 cm
+    - locura_y_razon.jpg
+    - true
+    - 2015-12-18 19:00:52.000000000 Z
+    - 2015-12-18 19:00:52.000000000 Z
+  - - 50
+    - 50
+    - 2
+    - 600
+    - '1'
+    - '2015'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786070731013'
+    - '9786070731013'
+    - 
+    - 15 x 23 cm
+    - mexico_enganado.jpg
+    - true
+    - 2015-12-18 19:18:04.000000000 Z
+    - 2015-12-18 19:18:04.000000000 Z
+
+---
+paises:
+  columns:
+  - id
+  - nombre
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - México
+    - 2015-10-12 18:25:24.000000000 Z
+    - 2015-10-12 18:25:24.000000000 Z
+  - - 2
+    - España
+    - 2015-10-12 18:25:32.000000000 Z
+    - 2015-10-12 18:25:32.000000000 Z
+  - - 3
+    - Argentina
+    - 2015-10-12 18:25:46.000000000 Z
+    - 2015-10-12 18:25:46.000000000 Z
+  - - 4
+    - USA
+    - 2015-10-12 18:26:02.000000000 Z
+    - 2015-10-12 18:26:02.000000000 Z
+  - - 5
+    - Italia
+    - 2015-12-01 15:20:24.000000000 Z
+    - 2015-12-01 15:20:24.000000000 Z
+
+---
+titulos:
+  columns:
+  - id
+  - nombre
+  - balazo
+  - categoria_id
+  - descripcion
+  - aniopub
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Cien años de soledad
+    - Considerada una obra maestra de la literatura hispanoamericana y universal
+    - 9
+    - Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano
+      Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer
+      el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava
+      construidas a la orilla de un río de aguas diáfanas que se precipitaban por
+      un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El
+      mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas
+      había que señalarlas con el dedo». Mito por derecho propio, saludada por sus
+      lectores como la obra en español más importante después de la Biblia, Cien años
+      de soledad cuenta la saga de la familia Buendía y su maldición, que castiga
+      el matrimonio entre parientes dándoles hijos con cola de cerdo. Como un río
+      desbordante, a lo largo de un siglo se entretejerán sus destinos por medio de
+      sucesos maravillosos en el fantástico pueblo de Macondo, en una narración que
+      es la cumbre indiscutible del realismo mágico y la literatura del boom. Alegoría
+      universal, es también una visión de Latinoamérica y una parábola sobre la historia
+      humana.
+    - '1967'
+    - 2015-10-12 20:28:39.000000000 Z
+    - 2015-10-13 18:24:21.000000000 Z
+  - - 2
+    - Ruby on Rails
+    - Desarrollo práctico de aplicaciones Web
+    - 7
+    - 'Ruby es un lenguaje de programación orientado a objetos moderno, dinámico y
+      muy potente, pues combina la elegancia del Smalltalk, la facilidad de Python
+      y la practicidad de Perl. Rails es un framework (infraestructura digital) de
+      código abierto para el desarrollo de aplicaciones web que proporciona una arquitectura
+      Modelo-Vista-Controlador (MVC) para la creación y generación del código. Ruby
+      on Rails, gracias a los principios básicos en los que se fundamenta como Don´t
+      Repeat Yourself (DRY), Convención sobre configuración (CoC) o Pruebas unitarias
+      y funcionales, permite a los desarrolladores construir, de forma sencilla y
+      rápida, complejas y sofisticadas aplicaciones web: Twitter, Scribd y LinkedIn
+      están basadas en Ruby on Rails. Con la ayuda de este libro, el lector aprenderá
+      paso a paso y con detalle cómo funciona Ruby on Rails (RoR), y gracias a los
+      4 bloques en que está dividido el contenido, podrá crear aplicaciones web modernas,
+      actuales y profesionales: Lenguaje de programación Ruby. Introducción a Ruby
+      on Rails. Aplicaciones web con bases de datos. Realización de una red social.
+      Escrito de una manera clara y muy detallada, cada explicación va acompañada
+      de numerosos ejemplos prácticos, lo que permitirá una mejor comprensión. Además,
+      como contenido adicional, el lector podrá acceder a un completo vídeo-tutorial
+      con el que perfeccionará el aprendizaje de esta potente infraestructura digital.'
+    - '2013'
+    - 2015-10-12 20:30:57.000000000 Z
+    - 2015-10-13 18:22:05.000000000 Z
+  - - 3
+    - El manantial
+    - El ego del hombre es el manantial del progreso humano
+    - 9
+    - Esta es la historia de un joven e intransigente arquitecto, de su violenta lucha
+      en contra de los estándares y convenciones del mundo y de su explosiva relación
+      con una hermosa mujer que lo amó apasionadamente. En 1943, una rusa que hablaba
+      inglés con un grueso acento eslavo revolucionó la idea que tenían los estadounidenses
+      de sí mismos. Mediante esa poderosa arma que es la creación literaria, Ayn Rand,
+      una inmigrante, les recordó que su nación había sido fundada sobre la base moral
+      del individualismo y los conminó a volver a esas raíces, so pena de negarse
+      a sí mismos. Desde entonces, al menos seis generaciones han redescubierto la
+      idea de los Estados Unidos leyendo El Manantial y recitando de memoria el deslumbrante
+      alegato final del arquitecto Howard Roark ante ese tribunal de justicia con
+      el que la autora simbolizó el espíritu colectivista de nuestro tiempo.
+    - '1943'
+    - 2015-10-12 20:36:20.000000000 Z
+    - 2015-10-14 04:16:59.000000000 Z
+  - - 4
+    - La rebelión de Atlas
+    - Una apasionante apuesta por la libertad
+    - 2
+    - 'Un hombre que prometió detener el mundo y lo hizo. Suspenso, pasión y profundos
+      principios. Soberbia, descomunal, imprescindible. Entre 1933 y 1982 Ayn Rand
+      lanzó al mundo su filosofía objetivista con una claridad de razonamiento que
+      la convierte en una figura gigante de la filosofía. Su precisión y sencillez
+      son singulares. Su sistema filosófico racional, basado estrictamente en la lógica
+      y en la realidad, carece de contradicciones y resulta coherente con la naturaleza
+      del hombre. Dijo Ayn Rand: La libertad y la razón son corolarios. Su acción
+      es recíproca. Cuando los hombres son libres triunfa la razón, cuando los hombres
+      son racionales la libertad se impone. La libertad intelectual no puede existir
+      sin libertad política y la libertad política no puede existir sin libertad económica.
+      Una mente libre y un mercado libre son también corolarios.'
+    - '1957'
+    - 2015-10-12 20:39:14.000000000 Z
+    - 2015-10-13 18:18:17.000000000 Z
+  - - 5
+    - El amor en los tiempos del cólera
+    - Un romance destinado a permanecer en la memoria
+    - 9
+    - De jóvenes, florentino Ariza y Fermina daza se enamoran apasionadamente, pero
+      Fermina eventualmente decide casarse con un médico rico y de muy buena familia.
+      Florentino está anonadado, pero es un romántico. Su carrera en los negocios
+      florece, y aunque sostiene 622 pequeños romances, su corazón todavía pertenece
+      a Fermina. Cuando al fin el esposo de ella muere, florentino acude al funeral
+      con toda intención. A los cincuenta años, nueve meses y cuatro días de haberle
+      profesado amor a Fermina, lo hará una vez más. Con sagacidad humorística y depurado
+      estilo, García Márquez traza la historia excepcional de un amor que no ha sido
+      correspondido por medio siglo. Aunque nunca parece estar propiamente contenido,
+      el amor fluye a través de la novela de mil maneras alegre, melancólico, enriquecedor,
+      siempre sorprendente.
+    - '1985'
+    - 2015-10-12 20:42:55.000000000 Z
+    - 2015-10-13 18:16:37.000000000 Z
+  - - 6
+    - La chica de los siete nombres
+    - La historia de una huida de Corea del Norte
+    - 1
+    - "A los diecisiete años, Hyeonseo Lee sabía poco del mundo que había más allá
+      de las fronteras de Corea del Norte. Aunque algo intuía. A diferencia de sus
+      conciudadanos, atrapados, como ella, bajo una dictadura feroz, su hogar, situado
+      junto a la frontera china, le permitía tener algún atisbo de lo que había más
+      allá. De modo que cuando, a mediados de los noventa, la hambruna asoló el país
+      Hyeonseo empezó a hacerse preguntas. Vivía rodeada de represión, pobreza y hambre:
+      sin duda su país no podía ser, como le habían dicho siempre, «el mejor del planeta»,
+      ¿verdad?\r\n\r\nLo que se cuenta en este libro es la historia no sólo de la
+      huida de Hyeonseo y sus largos años de vida en la clandestinidad, sino también
+      de su paso de la infancia a la edad adulta, de su reeducación, de su habilidad
+      para reconstruir con éxito su vida, no una vez, sino dos, primero en China y
+      luego en Corea del Sur.\r\n\r\nFuerte, valiente y elocuente, su voz es también
+      buena prueba del triunfo del espíritu humano frente a la arbitrariedad de uno
+      de los regímenes más brutales del mundo."
+    - '2015'
+    - 2015-10-12 20:44:35.000000000 Z
+    - 2015-10-13 18:17:42.000000000 Z
+  - - 7
+    - La chica del tren
+    - Tú no la conoces. Ella a ti, sí.
+    - 1
+    - 'El bestseller que arrasa en las listas de más vendidos en EE. UU. y Reino Unido.
+      ¿Estabas en el tren de las 8.04? ¿Viste algo sospechoso? Rachel, sí. Rachel
+      toma siempre el tren de las 8.04 h. Cada mañana lo mismo: el mismo paisaje,
+      las mismas casas? y la misma parada en la señal roja. Son solo unos segundos,
+      pero le permiten observar a una pareja desayunando tranquilamente en su terraza.
+      Siente que los conoce y se inventa unos nombres para ellos: Jess y Jason. Su
+      vida es perfecta, no como la suya. Pero un día ve algo. Sucede muy deprisa,
+      pero es suficiente. ¿Y si Jess y Jason no son tan felices como ella cree? ¿Y
+      si nada es lo que parece? Tú no la conoces. Ella a ti, sí.'
+    - '2015'
+    - 2015-10-13 17:30:24.000000000 Z
+    - 2015-10-13 18:17:01.000000000 Z
+  - - 8
+    - Porfirio Díaz
+    - Su vida y su tiempo
+    - 4
+    - Una obra que narra con todo detalle y grandes revelaciones sus orígenes en Oaxaca,
+      su instrucción militar y su papel como héroe en la guerra de Intervención y
+      Reforma, a lado de Benito Juárez. La biografía más justa y argumentada de una
+      de las guerras más importantes de la historia de México, Porfirio Díaz. El retrato
+      de una época diferente, de una nación poblada por personajes fascinantes cubiertos
+      por el polvo del olvido. Una obra que llega a contrapuntear la injusticia que
+      impone la historia social a este personaje a 100años de la muerte del general.
+      Una sola visión del héroe y villano, dos caras que hasta la fecha hallamos en
+      el México actual bajo un conmemora su vida.
+    - '2015'
+    - 2015-10-13 17:53:41.000000000 Z
+    - 2015-10-13 18:16:49.000000000 Z
+  - - 9
+    - Padre rico padre pobre
+    - Qué les enseñan los ricos a sus hijos acerca del dinero, ¡que los pobres y las
+      clases media no!
+    - 5
+    - Casi todo lo que hemos aprendido sobre el dinero se lo debemos a nuestros padres…
+      Por ese motivo, nos desempeñamos laboral y financieramente de acuerdo con esquemas
+      que perpetúan patrones de conducta casi siempre perjudiciales en términos monetarios…
+      Los padres pobres aconsejan a sus hijos que se apliquen y es tudien, pero, por
+      lo general, la escuela no prepara para lidiar con los asuntos relacionados con
+      el dinero… Para superar una mentalidad de pobre, este libro derriba mitos y
+      falsas creencias sobre el mundo financiero, y nos ayuda a descubrir el genio
+      económico que llevamos dentro y a pensar en el dinero como lo hacen los ricos…
+      Una guia indispensable para entender las finanzas y sacarles partido. Lo que
+      los ricos enseñan a sus hijos del dinero¡¡¡y la clase media no!!!
+    - '1997'
+    - 2015-10-13 20:28:57.000000000 Z
+    - 2015-10-13 20:43:01.000000000 Z
+  - - 10
+    - Voces de Chernobil
+    - Crónica del futuro
+    - 4
+    - "Publicado por primera vez en ruso en 1997, Voces de Chernóbil fue traducidoen
+      2005 al inglés para su edición estadounidense, que resultó ganadora del premio
+      del Círculo de Críticos de Estados Unidos.\r\nEl libro recoge información recopilada
+      durante diez años tras haber entrevistado a más de quinientas personas que fueron
+      testigos del desastre de Chernóbil, Ucrania, entre los que se encuentran cuerpos
+      de bomberos, liquidadores, políticos, físicos, psicólogos y civiles. En él se
+      exploran las vidas diarias de los ciudadanos afectados de manera directa e indirecta,
+      tanto físicamente como psicológicamente, a raíz de la explosión de la central
+      nuclear."
+    - '1997'
+    - 2015-10-13 21:01:31.000000000 Z
+    - 2015-10-13 21:12:11.000000000 Z
+  - - 11
+    - Ulises criollo
+    - La vida de José Vasconcelos
+    - 9
+    - 'La vida de un hombre que nació y creció durante el Porfiriato, participó en
+      la Revolución de 1910 en el campo de batalla de las ideas, contribuyó a la construcción
+      del Estado posrevolucionario, mismo que le reconoció su talento y después le
+      condenó al exilio; es la historia de un mexicano y su patria: José Vasconcelos,
+      Ulises criollo. Abogado, político, escritor, educador, funcionario público y
+      filósofo mexicano, José Vasconcelos Calderón escribió ensayos y tratados a lo
+      largo de su vida, los cuales dan cuenta de su pensamiento, que cambió y evolucionó
+      desde un espíritu idealista a uno tortuoso, pero siempre dotado de una luminosidad
+      como lo atestiguan sus obras.'
+    - '1936'
+    - 2015-10-13 21:23:21.000000000 Z
+    - 2015-10-14 04:17:10.000000000 Z
+  - - 12
+    - Los dragones del edén
+    - Especulaciones sobre la evolución de la inteligencia humana
+    - 6
+    - 'Los dragones del Edén es un libro mítico, publicado por vez primera en 1977
+      y galardonado con el premio Pulitzer. Casi treinta años después, conserva toda
+      su frescura e interés. En una impresionante ojeada panorámica que abarca desde
+      la prehistoria hasta la época actual, Carl Sagan explica la evolución intelectual
+      y mental del ser humano, habla de nuestros antepasados y sus antagonistas, describe
+      la mecánica de nuestro cerebro y de otros animales y dilucida el papel que han
+      desempeñado los ordenadores en el conocimiento de los mecanismos de nuestro
+      cerebro y en el almacenamiento de la información en nuestra memoria. Hallamos
+      también en estas páginas fascinantes incursiones en los terrenos del mito y
+      la leyenda, así como atrevidas especulaciones sobre los cauces futuros por los
+      que parece va a discurrir la evolución del hombre. Isaac Asimov dijo de este
+      libro: «Carl Sagan posee el toque del rey Midas Nunca había leído hasta ahora
+      un relato tan interesante y cautivador sobre el tema de la inteligencia humana.»'
+    - '1977'
+    - 2015-10-14 03:36:46.000000000 Z
+    - 2015-10-14 03:36:46.000000000 Z
+  - - 13
+    - Guerra y paz
+    - Una de las principales novelas en la historia de la literatura universal
+    - 9
+    - Guerra y paz, está considerada como una de las principales novelas en la historia
+      de la literatura universal. Esta magnífica obra es una visión épica de la sociedad
+      rusa del siglo XIX, durante el apogeo napoleónico. En esta extensa narración,
+      una de las obras maestras del realismo, aparecen más de 500 personajes, se llevan
+      a cabo importantes batallas militares y se trata a importantes personalidades
+      históricas, pero es, en esencia, una crónica de la vida de cinco familias aristocráticas.
+      Los personajes, claramente definidos física y psicológicamente, iluminan sus
+      mundos interiores, mostrando la visión que de sí mismos tenían.   En esa obra,
+      podemos darnos cuenta de los puntos de vista que Tolstoi tiene acerca de los
+      procesos históricos, los cuales aparecen expuestos en los capítulos más filosóficos
+      de la novela. Para él, la historia es el resultado de motivaciones anónimas
+      y de acontecimientos personales, y no de los grandes eventos públicos promovidos
+      por los líderes nacionales.   De Guerra y paz emana una filosofía sumamente
+      optimista, que atraviesa los horrores de la guerra y la conciencia de los errores
+      de la humanidad, lo cual constituye el mensaje principal de la obra, escrita
+      durante un periodo particularmente feliz en la vida de León Tolstoi.
+    - '1865'
+    - 2015-10-14 04:02:56.000000000 Z
+    - 2015-10-14 04:02:56.000000000 Z
+  - - 14
+    - Cincuenta sombras de Grey
+    - Una apasionada relación entre una estudiante universitaria y un joven multimillonario
+    - 1
+    - La romántica, sensual, erótica y totalmente adictiva historia de la apasionada
+      relación entre una estudiante universitaria y un joven multimillonario. Cuando
+      la estudiante de Literatura Anastasia Steele recibe el encargo de entrevistar
+      al exitoso y joven empresario Christian Grey, queda impresionada al encontrarse
+      ante un hombre atractivo, seductor y también muy intimidante. La inexperta e
+      inocente Ana intenta olvidarle, pero pronto comprende cuánto le desea. Cuando
+      la pareja por fin inicia una apasionada relación, Ana se sorprende por las peculiares
+      prácticas eróticas de Grey, al tiempo que descubre los límites de sus propios
+      y más oscuros deseos...
+    - '2011'
+    - 2015-10-20 22:23:16.000000000 Z
+    - 2015-10-22 22:50:30.000000000 Z
+  - - 15
+    - El caballero de la armadura oxidada
+    - Una experiencia que expande nuestra mente
+    - 5
+    - El Caballero de la armadura oxidada no es un libro... Es una experiencia que
+      expande nuestra mente, que nos llega al corazón y alimenta nuestra alma. Sus
+      profundas enseñanzas éticas son de una sencillez y humildad tal que se consiguen
+      interiorizar naturalmente y la riqueza de su prosa nos inunda de belleza. El
+      protagonista, un caballero deslumbrado por el brillo de su propia armadura,
+      a pesar de ser bueno, generoso y amoroso, no consigue comprender y valorar con
+      profundidad lo que tiene, descuidando sin querer las cosas y las personas que
+      le rodean. Su armadura se va oxidando hasta que deja de brillar y, cuando se
+      da cuenta, ya no puede quitársela. Prisionero de sí mismo, emprende entonces
+      un viaje al final del cual, gracias a la ayuda de diversos personajes, logra
+      deshacerse de la armadura que le ha imposibilitado abrirse al mundo. Este libro
+      nos enseña, con un sutil sentido del humor, que debemos liberarnos de las barreras
+      que nos impiden conocernos y amarnos a nosotros mismos para poder ser capaces
+      de dar y recibir amor en abundancia.
+    - '1989'
+    - 2015-10-22 22:16:25.000000000 Z
+    - 2015-10-22 22:16:25.000000000 Z
+  - - 16
+    - La princesa que creía en los cuentos de hadas
+    - Un viaje que nos ayuda a descubrir quienes somos
+    - 5
+    - Criada por un rey y una reina estrictos e inflexibles, la delicada victoria
+      creció soñando que algún día sería rescatada por un príncipe encantador tal
+      y como ocurre en los cuentos de hadas. Pero cuando es rescatada las cosas no
+      suceden como tenía previsto y el príncipe deja de ser encantador y la princesa,
+      siguiendo el consejo de un sabio búho, emprende un emocionante viaje por el
+      camino de la verdad, al final del cual descubrirá que los cuentos de hadas pueden
+      hacerse realidad. Este relato maravilloso simboliza el viaje que todos hacemos
+      en la vida a medida que separamos la ilusión de la realidad y descubrimos quiénes
+      somos y cómo funciona ese milagro cotidiano que es la vida.
+    - marcia_grad_powers.jpg
+    - 2015-10-22 22:49:37.000000000 Z
+    - 2015-10-22 22:53:54.000000000 Z
+  - - 17
+    - El poder del ahora
+    - Un camino hacia la realización espiritual
+    - 5
+    - El clásico que consagró a Eckhart Tolle como uno de los gurús más importantes
+      del mundo. El poder del ahora es un libro único. Tiene la capacidad de crear
+      una experiencia en los lectores y de cambiar su vida. Hoy ya es considerado
+      una obra maestra. Para lograr la iluminación aquí y ahora sólo tenemos que comprender
+      nuestro papel de creadores de nuestro dolor. Es nuestra propia mente la que
+      causa nuestros problemas con su corriente constante de pensamientos, aferrándose
+      al pasado, preocupándose por el futuro. Cometemos el error de identificarnos
+      con ella, de pensar que eso es lo que somos, cuando de hecho somos seres mucho
+      más grandes. Escrito en un formato de preguntas y respuestas que lo hace muy
+      accesible, El poder del ahora es una invitación a la reflexión, que le abrirá
+      las puertas a la plenitud espiritual y le permitirá ver la vida con nuevos ojos
+      y empezar a disfrutar del verdadero poder del ahora.
+    - '1997'
+    - 2015-10-22 23:01:46.000000000 Z
+    - 2015-10-22 23:01:46.000000000 Z
+  - - 18
+    - Nikola Tesla
+    - El genio al que le robaron la luz
+    - 4
+    - Hoy pocos recuerdan a Nikola Tesla, pero gracias a él se enciende la bombilla
+      cuando pulsamos un interruptor. Fue el inventor de la corriente alterna, y además
+      el padre de tecnologías visionarias en su época como la robótica, la informática
+      o las armas teledirigidas. Tesla trabajó para Edison, con el que acabó enfrentado
+      en la "guerra de las corrientes" (alterna contra continua), y disfrutó del mecenazgo
+      de prohombres como Westinghouse o J. P. Morgan, que crearon sus imperios gracias
+      en parte a los descubrimientos de Tesla. Nikola Tesla es el paradigma del inventor
+      genial, pero negado para la vida práctica, lleno de manías, compulsiones y fobias.
+      Y su vida es la historia de un fogonazo de luz que sigue brillando, con el homenaje
+      de quienes le reconocen como "el padre de la tecnología moderna".
+    - '2009'
+    - 2015-10-23 16:44:47.000000000 Z
+    - 2015-10-23 19:09:24.000000000 Z
+  - - 19
+    - El mundo y sus demonios
+    - La ciencia como una luz en la oscuridad
+    - 6
+    - "El mundo y sus demonios. La ciencia como una luz en la oscuridad, es un libro
+      de Carl Sagan publicado en 1995 que intenta explicar el método científico al
+      ciudadano corriente, y anima a los lectores a utilizar el pensamiento crítico
+      o escéptico. Explica métodos que ayudan a distinguir entre ideas que son consideradas
+      ciencia válida e ideas consideradas pseudociencia; según él indica, cuando una
+      nueva idea se plantea, ésta debe ser sometida a consideración para ser probada
+      mediante un medio riguroso. El pensamiento escéptico da medios para construir,
+      entender y razonar para reconocer ideas válidas o erróneas hasta donde la verificación
+      sea posible.\r\n\r\nEl libro es una reflexión contra la pseudociencia, y una
+      defensa de la ciencia. También contiene elementos de crítica contra el sistema
+      educativo estadounidense."
+    - '1995'
+    - 2015-10-23 19:14:40.000000000 Z
+    - 2015-10-23 19:14:40.000000000 Z
+  - - 20
+    - "¿Para qué trabajamos?"
+    - Ser lo que hacemos o hacer lo que somos
+    - 5
+    - 'El trabajo en todas sus formas, se ha convertido silenciosamente en una guerra
+      devastadora: deja víctimas oficiales y no oficiales en cifras cada vez mayores.
+      Causa, también, daños “colaterales” –que no lo son tanto– como crisis existenciales,
+      familiares y vinculares. Trabajamos, como promedio, una tercera parte de nuestro
+      tiempo de vida cotidiano. Hay quienes lo hacen más. ¿Para qué? ¿Para vivir?
+      ¿Para vivir cómo? ¿Para hacer qué cosa con nuestras vidas? Los seres humanos
+      no podríamos vivir sin trabajar: somos seres transformadores por naturaleza,los
+      únicos que transformamos nuestro entorno de manera constante, consciente y con
+      propósitos definidos. Pero hemos llegado a un punto en que ya no nos preguntamos
+      por esos propósitos; el trabajo se ha convertido en una actividad automática.
+      Terminamos trabajando para trabajar. De aquí surge el dilema que se plantea
+      Sergio Sinay en este libro: ser lo que hacemos o hacer lo que somos, vivir para
+      el trabajo o trabajar para vivir. La insatisfacción existencial es hoy una realidad
+      ineludible. Este libro indaga en sus orígenes y avanza sobre su vigencia en
+      la actualidad. El autor nos revela facetas del vínculo que nos une al trabajo,
+      que quizá nunca nos permitimos pensar. Sin recetas, ni guías, nos ayuda de esta
+      manera a cuestionar nuestra relación con el trabajo, nuestros deseos y, en última
+      instancia, nos lleva a preguntarnos cuál es el sentido de nuestras vidas.'
+    - '2012'
+    - 2015-10-23 20:37:38.000000000 Z
+    - 2015-10-23 20:37:38.000000000 Z
+  - - 21
+    - 100 mitos de la historia de México Volúmen 1
+    - Grandes engaños de la historia mexicana
+    - 4
+    - 'No sólo el derramamiento de sangre y las traiciones han torcido el rumbo de
+      nuestro país, también lo ha hecho la falta de memoria y una de las grandes constantes
+      a lo largo de nuestra historia: la mentira. Francisco Martín Moreno, tras una
+      acuciosa y exhaustiva investigación, nos revela sin prejuicios algunos de los
+      grandes engaños de los que está plagada la efemérides mexicana. Sólo el conocimiento
+      de nuestro pasado verdadero nos ayudará a redirigir el destino de nuestra nación.'
+    - '2010'
+    - 2015-10-23 20:58:06.000000000 Z
+    - 2015-10-23 21:24:13.000000000 Z
+  - - 22
+    - 100 mitos de la historia de México Volúmen 2
+    - Grandes engaños de la historia mexicana
+    - 4
+    - "¿Qué sucesos oculta nuestra historia oficial? ¿Conocemos realmente los hechos
+      que dieron celebridad a nuestros caudillos? Con la pluma filosa y espléndidamente
+      documentada que lo caracteriza, Francisco Martín Moreno se encarga de ofrecer
+      el verdadero rostro de héroes y gobernantes que han conformado México. Su apasionada
+      labor investigativa y polémica nos entrega sucesos históricos desconocidos que
+      nos permitirán hacer una lectura nueva de nuestra historia, nos harán descubrir
+      a otros protagonistas, otros villanos y harán que nos cuestionemos a los héroes
+      y caudillos de nuestra grandeza mexicana. Con esta obra quedarán evidenciadas
+      las mentiras contenidas en la historia oficial."
+    - '2011'
+    - 2015-10-23 21:25:14.000000000 Z
+    - 2015-10-23 21:25:14.000000000 Z
+  - - 23
+    - México negro
+    - La historia del petróleo en México
+    - 4
+    - 'La inquietud por descubrir cómo se había financiado la Revolución Mexicana
+      y quién aportó los recursos para que nos matáramos entre los mexicanos, fue
+      el detonante que dio origen a esta reveladora novela sobre la historia del petróleo
+      durante los primeros cuarenta años del siglo xx: los letárgicos y siniestros
+      años del porfiriato, la lucha maderista, el horror de la dictadura huertista,
+      el constitucionalismo, el maximato y el cardenismo, momento crucial en que es
+      expropiado el oro negro, el petróleo, cuyos veneros, como dijera el poeta, bien
+      nos los pudo haber escriturado el mismísimo diablo. México negro es una obra
+      fundamental para entender los orígenes y los mecanismos del México contemporáneo;
+      además constituye una de las obras de mayor éxito en las letras mexicanas.'
+    - '1986'
+    - 2015-10-23 21:42:30.000000000 Z
+    - 2015-10-23 21:42:30.000000000 Z
+  - - 24
+    - La maestría del amor
+    - Una guía práctica para el arte de las relaciones
+    - 3
+    - En La Maestría del Amor, don Miguel Ruiz ilumina las creencias y las suposiciones
+      basadas en el miedo que socavan el amor y que conducen al sufrimiento y la desdicha
+      en nuestras relaciones. A través de historias perspicaces que nos hacen llegar
+      su mensaje, nos enseña a sanar nuestras heridas emocionales, a recobrar la libertad
+      y la dicha que nos pertenecen por derecho propio y a restaurar el espíritu lúdico
+      que resulta tan vital en las relaciones amorosas.
+    - '2001'
+    - 2015-10-23 22:00:29.000000000 Z
+    - 2015-10-23 22:46:37.000000000 Z
+  - - 25
+    - Los cuatro acuerdos
+    - Un libro de sabiduría tolteca
+    - 3
+    - El conocimiento tolteca surge de la misma unidad esencial de la verdad de la
+      que parten todas las tradiciones esotéricas sagradas del mundo. Aunque no es
+      una religión, respeta a todos los maestros espirituales que han enseñado en
+      la tierra, y si bien abraza el espíritu, resulta más preciso describirlo como
+      una manera de vivir que se distingue por su fácil acceso a la felicidad y el
+      amor. El doctor Miguel Ruiz nos propone en este libro un sencillo procedimiento
+      para eliminar todas aquellas creencias heredadas que nos limitan y substituirlas
+      por otras que responden a nuestra realidad interior y nos conducen a la libertad.
+      Hace miles de años los toltecas eran conocidos en todo el sur de México como
+      «mujeres y hombres de conocimiento». Los antropólogos han definido a los toltecas
+      como una nación o una raza, pero de hecho, eran científicos y artistas que formaron
+      una sociedad para estudiar y conservar el conocimiento espiritual y las prácticas
+      de sus antepasados. La conquista europea, unida a un agresivo abuso del poder
+      personal por parte de algunos aprendices, hizo que los naguales se vieran forzados
+      a esconder su sabiduría ancestral y a mantener su existencia en la oscuridad.
+      Por fortuna, el conocimiento esotérico tolteca fue conservado y transmitido
+      de una generación a otra por distintos linajes de naguales. Ahora, el doctor
+      Miguel Ruiz, un nagual del linaje de los Guerreros del Águila, comparte con
+      nosotros las profundas enseñanzas de los toltecas.
+    - '1997'
+    - 2015-10-23 22:44:16.000000000 Z
+    - 2015-11-27 18:30:36.000000000 Z
+  - - 26
+    - El 12° planeta
+    - El primer libro de crónicas de la Tierra
+    - 3
+    - "Tejiendo el relato de los orígenes de la humanidad a través de la arqueología,
+      la mitología y los textos antiguos, Zecharia Sitchin nos ofrece en este libro
+      pruebas de la implicación extraterrestre en la historia de nuestro planeta.\r\n\r\nConcentrándose
+      principalmente en la antigua Sumeria, nos propone, con absoluta precisión, una
+      historia completa del sistema solar tal como la contarían los visitantes de
+      otro planeta cuya órbita se acercara a la de la Tierra cada 3.600 años. El 12º
+      Planeta es un libro de referencia crucial sobre el tema de los antiguos astronautas
+      –cómo llegaron aquí, cuándo lo hicieron y cómo influyeron en la humanidad con
+      su tecnología y su cultura durante cientos de miles de años."
+    - '1976'
+    - 2015-10-26 22:16:46.000000000 Z
+    - 2015-11-27 19:09:05.000000000 Z
+  - - 27
+    - Derrota mundial
+    - Supracapitalismo y marxismo en pareja globalizadora
+    - 4
+    - "En 1953 se publicó se publicó la primera edición de este libro. No es usual
+      que un libro se mantenga por tanto tiempo en la atención del público, ni menos
+      cuando es objeto de acérrimo boicot.\r\n\r\nTal vigencia se debe a que su tesis
+      ha resultado exacta, comprobada por los acontecimientos desde 1945 hasta la
+      fecha. El mundo occidental ha venido debilitándose en contradicciones al parecer
+      ininteligibles.\r\n\r\nLa más reciente es la sorpresiva TRANSMUTACIÓN del Marxismo
+      Soviético en sistema Supracapitalista. Este libro aporta los elementos indispensables
+      para explicar tales fenómenos. Y precisamente por eso José Vasconcelos escribió
+      en el prólogo que “Es uno de los libros más importantes que se hayan publicado
+      en América“."
+    - '1953'
+    - 2015-10-26 22:48:31.000000000 Z
+    - 2015-11-27 18:13:43.000000000 Z
+  - - 28
+    - La matriz divina
+    - Un puente entre el tiempo, el espacio, las creencias y los milagros
+    - 3
+    - 'Según la visión científica tradicional, no somos más que observadores pasivos
+      viviendo en un universo preexistente sobre el que tenemos muy poca influencia.
+      Como dice el eminente científico John Wheeler: "Teníamos esta vieja idea según
+      la cual el universo está allí fuera y aquí está el hombre, el observador, separado
+      del un iverso por una gruesa plancha de vidrio". Los últimos descubrimientos
+      de la física, sin embargo, nos ofrecen una perspectiva muy distinta. Según esta
+      nueva visión, no estamos en absoluto separados del mundo que nos rodea ni tampoco
+      somos meros observadores pasivos de la realidad. Existe un campo de energía
+      que conecta todas las cosas. Existe un lugar que es el origen de nuestro mundo.
+      Existe un espacio en el que todo es posible: La Matriz Divina. La existencia
+      de la Matriz Divina lo cambia todo. Si supiésemos cómo comunicarnos con ella,
+      podríamos transformar nuestras vidas y nuestro mundo. Y éste es justamente el
+      tema de este libro. Además de presentar todas las evidencias científicas correspondientes,
+      el autor nos proporciona los elementos necesarios para que podamos comunicarnos
+      con la Matriz Divina y podamos convertirnos en arquitectos de nuestra propia
+      vida.'
+    - '2007'
+    - 2015-10-26 23:24:38.000000000 Z
+    - 2015-11-27 18:31:02.000000000 Z
+  - - 29
+    - Conectados
+    - El sorprendente poder de las redes sociales y cómo nos afectan
+    - 4
+    - El sorprendente poder de las redes sociales y cómo afectan nuestras vidas¿Son
+      tus amigos los que te hacen engordar? ¿Por qué los ricos se hacen más ricos?
+      ¿Cómo se originan las estampidas mortales? ¿Por qué tu salud depende de la salud
+      de quienes te rodean? ¿Por qué imitamos a los demás incluso en actos extremos
+      como el ase sinato o el suicidio?Conectados presenta una novedosa explicación
+      de las redes sociales basada en los últimos descubrimientos en matemáticas,
+      psicología o sociología que nos acerca a los efectos concretos que tienen en
+      nuestra vida diaria.
+    - '2010'
+    - 2015-10-26 23:55:47.000000000 Z
+    - 2015-11-25 22:54:41.000000000 Z
+  - - 30
+    - SharePoint 2013 de principio a fin
+    - ''
+    - 7
+    - 'En cuestión de algunos años, SharePoint ha pasado de ser un producto desconocido
+      a ser el servidor de más rápido crecimiento de Microsoft. Es uno de los productos
+      más excitantes en la gama de servidores de la compañía debido a su flexibilidad
+      y a la multitud de aplicaciones que está encontrando en el mundo empresarial
+      actual. SharePoint no es sólo un sistema para el almacenamiento y gestión de
+      información, sino también una plataforma de desarrollo que permite modificarlo
+      y adaptarlo a las más variadas condiciones exigidas por las empresas modernas.
+      Microsoft distribuye SharePoint 2013 en dos versiones: Foundation, que dispone
+      de toda la infraestructura básica, tal como autorización, autenticación, arquitectura,
+      seguridad y búsqueda; y Server, que añade varias capas funcionales a la base
+      creada por Foundation. Este libro abarca todos los aspectos fundamentales de
+      SharePoint, desde su instalación, configuración y administración hasta cómo
+      programar su infraestructura; pasando por su utilización por usuarios cotidianos
+      y avanzados, y el uso de las herramientas proporcionadas por Microsoft para
+      trabajar con él y modificarlo: SharePoint Designer, Visual Studio, Office y
+      PowerShell. Este libro está dirigido a todas las audiencias que de una u otra
+      forma trabajan con SharePoint:los administradores de sistemas pueden encontrar
+      información sobre instalación y configuración, los usuarios cotidianos sobre
+      cómo utilizar el sistema y el tipo de configuraciones que les son permitidas,
+      los usuarios avanzados descubrirán cómo utilizar SharePoint Designer para realizar
+      modificaciones del diseño de la interfaz y el ensamblado de Flujos de Trabajo
+      básicos y, finalmente, los arquitectos de IT y los desarrolladores hallarán
+      suficiente información sobre la arquitectura y programación para poder comenzar
+      con nuevos proyectos de inmediato.'
+    - '2013'
+    - 2015-11-25 22:39:51.000000000 Z
+    - 2015-11-27 18:30:48.000000000 Z
+  - - 31
+    - Arrebatos carnales
+    - Las pasiones que consumieron a los protagonistas de la historia de México
+    - 4
+    - Hombres y mujeres a lo largo del tiempo, han sido arrastrados por el inevitable
+      impulso de poseer a quien parece ostentar el sentido de la vida. Y de esta atracción
+      impetuosa no se libran los grandes forjadores del destino de una nación, ¿qué
+      apetitos y obsesiones sirvieron de causa para algunos de los protagonistas de
+      la historia de México? Con su singular estilo, donde confluyen una rigurosa
+      investigación y la maestría narrativa, Francisco Martín Moreno hurga en la memoria
+      de nuestro país y se adentra en un viaje íntimo hacia el corazón y la alcoba
+      de la monja, el dictador, el revolucionario, el político reformador, el emperador
+      y el líder de la Independencia. Este es un libro provocador que revela la condición
+      humana y su irremediable rendición ante la pasión amorosa que se puede tener
+      por otra persona.
+    - '2009'
+    - 2015-11-30 23:21:43.000000000 Z
+    - 2015-11-30 23:21:43.000000000 Z
+  - - 32
+    - Breve historia del Islam
+    - El Islam contado desde su origen
+    - 3
+    - El Islam nace en el S. VII en la zona de Arabia y en la actualidad es la segunda
+      religión más practicada del mundo con más de 1.300 millones de musulmanes. La
+      historia de esta religión desde su nacimiento hasta ahora, es un convulso relato
+      que alterna épocas de esplendor y hegemonía mundial en todos los órdenes, con
+      otras de oscurantismo y fundamentalismo. Por eso, se hace necesaria una obra
+      como Breve Historia del Islam que explica no sólo la crónica de la creación
+      y difusión de este credo por la mayor parte del mundo, sino también los dogmas
+      y prácticas de esta religión que, lejos de ser el monolito integrista que se
+      quiere presentar, es una religión llena de matices, con diversas facciones e
+      incluso una versión mística llena de poesía y amor por la vida en todas sus
+      formas.
+    - '2013'
+    - 2015-11-30 23:55:50.000000000 Z
+    - 2015-11-30 23:55:50.000000000 Z
+  - - 33
+    - Crónica de la guerra europea 1914-1918
+    - Una historia en la trinchera de la Primera Guerra Mundial
+    - 4
+    - "En el verano de 1914 la tensión entre los imperialismos europeos acabó por
+      desatarse en forma de guerra abierta; una de las más salvajes y enconadas de
+      toda la historia. Lo que al principio parecía que iba a ser una refriega más
+      entre Francia, Alemania, Inglaterra y Rusia fue creciendo como una bola de nieve
+      que acabó arrollando a medio mundo y le precipitó en una violenta locura que
+      sumió a la humanidad en el caos durante más de cuatro años.\r\nEl escritor español
+      Vicente Blasco Ibáñez, exiliado en Francia en aquella época, fue testigo directo
+      del conflicto y también narrador de primera fila de esa contienda que «iba a
+      acabar con todas las guerras». Concebida en varios volúmenes, la Crónica de
+      la Guerra Europea de 1914 constituye hoy un testimonio de primer orden sobre
+      los acontecimientos de la Primera Guerra Mundial. Minuciosa, completa, detallada
+      y, sobre todo, muy personal, no es sólo un relato impactante de la violencia
+      desatada, sino también un análisis completo de sus circunstancias y motivaciones,
+      de su entorno social, político y humano.\r\nNinguneada durante el franquismo
+      debido a su carácter antialemán, esta auténtica enciclopedia de la Gran Guerra
+      había caído en el olvido. El presente volumen rescata una obra que Blasco Ibáñez
+      escribió no sólo como un trabajo periodístico, sino como el retrato de una Europa
+      dominadora del mundo pero a la vez empobrecida, dividida y llena de odios, sumida
+      en una eterna crisis económica que pronto derivaría hacia los autoritarismos
+      fascistas. Un buen aviso, cien años después, para un mundo que quizá no haya
+      cambiado tanto como parece; y también una excelente lectura, viva, enérgica,
+      que ofrece un punto de vista poco corriente sobre una de las grandes catástrofes
+      de la historia."
+    - '2014'
+    - 2015-12-01 15:50:44.000000000 Z
+    - 2015-12-01 15:50:44.000000000 Z
+  - - 34
+    - 'JFK: Caso abierto'
+    - La historia secreta del asesinato de Kennedy
+    - 4
+    - 'La explosiva crónica del asesinato de Kennedy que obligará a reescribir la
+      historia del magnicidio más famoso del siglo XX. Una tarde de la primavera de
+      2008 sonó el teléfono de Philip Shenon en las oficinas de The New York Times
+      en Washington. Quien llamaba era un prominente abogado que había comenzado su
+      carrera hacía casi medio siglo como un joven investigador en la Comisión Warren
+      que investigó el asesinato de Kennedy. -Tiene usted que contar nuestra historia-,
+      dijo. -Ya no somos jóvenes, pero muchos de los que formamos parte de la comisión
+      aquí seguimos y ésta podría ser nuestra última oportunidad de explicar lo que
+      en realidad ocurrió. Así empezó un trabajo de cinco años para reconstruir la
+      historia oculta de la investigación más importante y menos comprendida del siglo
+      XX. El libro pronto se convirtió en algo mucho mayor; Shenon descubrió que gran
+      parte de la verdad sobre el asesinato del presidente todavía no había sido contada,
+      y que muchas pruebas habían sido escondidas o destruidas en su momento por la
+      CIA, el FBI y otros en lugares de poder en Washington. En esta tensa y absorbente
+      crónica aparecen figuras legendarias que protagonizaron esa época: Robert Kennedy,
+      Jacqueline Kennedy, Lyndon Johnson o J. Edgar Hoover. A partir de cientos de
+      entrevistas y un acceso sin precedentes a la información provista por miembros
+      sobrevivientes de la comisión y otros protagonistas, el sólido y definitivo
+      libro de Philip Shenon cambiará la idea que tenemos del asesinato de Kennedy
+      y la fallida investigación que intentó esclarecer sus motivos.'
+    - '2013'
+    - 2015-12-01 18:01:32.000000000 Z
+    - 2015-12-01 18:01:32.000000000 Z
+  - - 35
+    - Queremos que seas rico
+    - Dos hombres un mensaje
+    - 5
+    - 'Uno de los retos más importantes del mundo actual es el financiero: muchas
+      personas esperan que su gobierno, sus empleados o su familia se hagan cargo
+      de ese problema. Donald J. Trump y Robert t. Kiyosaki, ambos empresarios exitosos
+      y educadores naturales, han unido fuerzas para encarar esta situación. En este
+      libro encontrará pasión por la enseñanza, pero sobre todo, la pasión necesaria
+      para dejar atrás los problemas financieros y gozar de la vida como usted desea.'
+    - '2006'
+    - 2015-12-01 20:59:02.000000000 Z
+    - 2015-12-01 20:59:02.000000000 Z
+  - - 36
+    - Azteca
+    - La vida, el amor desesperado y el martirio de un azteca de los tiempos de la
+      conquista
+    - 9
+    - Hacia 1530, el emperador Carlos pide al obispo de México que le proporcione
+      información sobre la vida y costumbres de los indios americanos; el obispo,
+      Fray Juan de Zumárraga, envía al monarca un relato autobiográfico hecho por
+      un indio de unos sesenta años, nubeoscura o mixtli, en el que narra su niñez,
+      la mentalidad y costumbres de su pueblo, su formación y sus amores, siempre
+      tormentosos y trágicos. Por fin, el emisario de Moctezuma entra en contacto
+      con los españoles de Hernán Cortés, es bautizado y recibe el nombre de Juan
+      damasceno, aunque sigue fiel a los usos de los aztecas. Ésta es su trepidante
+      y desgarrada historia, que simboliza el choque de dos civilizaciones, de dos
+      maneras irreconciliables de entender el mundo.
+    - '1980'
+    - 2015-12-03 22:01:57.000000000 Z
+    - 2015-12-03 22:01:57.000000000 Z
+  - - 37
+    - Caballo de Troya 1
+    - Jerusalén
+    - 1
+    - El autor pone al descubierto una documentación secreta–clasificada como top
+      secret por el Pentágono–con nuevos y sorprendentes datos sobre la figura y la
+      obra de Jesús de Nazaret. Las revelaciones que aporta son tan rigurosas como
+      desconcertantes.
+    - '1984'
+    - 2015-12-10 22:25:37.000000000 Z
+    - 2015-12-10 22:25:37.000000000 Z
+  - - 38
+    - Caballo de Troya 2
+    - Masada
+    - 1
+    - 'Con esta novela-testimonio, J. J. Benítez completa el famoso diario del mayor
+      norteamericano que «saltó» a los tiempos de Jesús de Nazaret. Si en Jerusalén.
+      Caballo de Troya 1 se afirmaba que los evangelistas no habían contado la verdad
+      sobre el Nazareno, en esta nueva obra vuelve a demostrarse. Y J. J. Benítez
+      lo hace en otros dos oscuros y fascinantes capítulos de la vida de Cristo: sus
+      apariciones después de muerto y su infancia. Conozca cómo se preparó este segundo
+      «traslado» a la Palestina del año 30. Sepa también «algo» que el mundo ha ignorado:
+      el diabólico plan ruso-norteamericano Rapto de Europa. En cuanto a los descubrimientos
+      de Jasón en esta segunda «exploración», he aquí algunos de los que desvela Masada.
+      Caballo de Troya 2: ¿sabía usted, por ejemplo, que en la llamada «última cena»
+      muchas de las palabras del Galileo fueron manipuladas e ignoradas por los sucesores
+      de san Pedro? ¿Sabía que las apariciones del Maestro después de su resurrección
+      fueron más numerosas que las relatadas por los Evangelios? ¿Imaginaba usted
+      que María, la madre del Hijo del Hombre, habría sido calificada hoy como «nacionalista»?...'
+    - '1986'
+    - 2015-12-10 22:27:25.000000000 Z
+    - 2015-12-10 22:27:25.000000000 Z
+  - - 39
+    - Caballo de Troya 3
+    - Saidan
+    - 1
+    - 'En esta tercera parte del diario del mayor USA que viajó a la Palestina de
+      Cristo, el lector, entre otras fascinantes sorpresas, encontrará la respuesta
+      a una de las grandes incógnitas de la vida del Hijo del Hombre: su infancia.
+      Algo que los evangelistas silenciaron, privándonos de una perspectiva más auténtica
+      sobre la más grande figura de la Historia. Nadie, hasta hoy, había tenido la
+      audacia suficiente para atreverse a narrar, paso a paso, cómo fueron esos primeros
+      años de la encarnación humana del Hijo de Dios. Una vida tan inquietante, alegre,
+      dolorosa e intensa como la de millones de seres humanos. ¿Podía imaginar, por
+      ejemplo, que Jesús vivió más de dos años en Alejandría? ¿Sospechó alguna vez
+      que Jesucristo era amante de la música y del dibujo? ¿Qué ocurrió realmente,
+      a sus doce años, en el templo de Jerusalén?Saidan. Caballo de Troya 3, además,
+      le ofrece una singular narración de las apariciones de Jesús en el lago Tiberíades,
+      así como una desconcertante descripción de su cuerpo glorioso. Como escribe
+      J. J. Benítez en esta nueva y polémica obra, si sus principios religiosos se
+      hallan definitivamente cristalizados y no se siente con fuerza para evolucionar,
+      por favor, no lea Saidan. Caballo de Troya 3.'
+    - '1987'
+    - 2015-12-10 22:28:39.000000000 Z
+    - 2015-12-10 22:28:39.000000000 Z
+  - - 40
+    - Caballo de Troya 4
+    - Nazaret
+    - 1
+    - El mayor de la USAF que investiga la encarnación de Jesucristo en la Tierra
+      reconstruye la vida del Hijo de Dios. Nueva presentación revisada por el autor.
+      Sólo la prodigiosa audacia de J. J. Benítez podía materializar un libro como
+      el que usted tiene en las manos. Hasta estos momentos, ningún otro autor en
+      el mundo se ha atrevido con el faraónico proyecto de descubrir -paso a paso
+      y con un rigor histórico-científico más propio de una tesis doctoral que de
+      una novela- la vida de Jesús. Nazaret. Caballo de Troya 4 abarca los llamados
+      años ocultos del Maestro. No existe, hasta hoy, obra alguna que dibuje la aldea
+      de Nazaret y sus gentes como el presente documento. En una sucesión de peripecias
+      -más cercanas al cine que a la literatura-, el mayor de la USAF que investiga
+      la encarnación de Jesucristo en la Tierra reconstruye una de las más oscuras
+      y fascinantes etapas del que fue carpintero, jefe de un almacén de aprovisionamiento
+      de caravanas, maestro, forjador e impenitente viajero. Todo un período -de los
+      catorce a los veintiséis años- decisivo para comprender en su justa medida la
+      experiencia humana del Hijo de Dios. Un trascendental capítulo, ignorado por
+      los evangelistas, que no le dejará indiferente. Y una recomendación. Por su
+      propio bien, haga un esfuerzo y sea fiel al hilo de la narración. Por nada del
+      mundo se adelante a leer el final.
+    - '1989'
+    - 2015-12-10 22:29:49.000000000 Z
+    - 2015-12-10 22:29:49.000000000 Z
+  - - 41
+    - Caballo de Troya 5
+    - Cesarea
+    - 1
+    - 'Cesarea. Caballo de Troya 5: no apto para cardíacos. Así lo define el autor.
+      Tras seis años de justificado silencio (no se pierda el prólogo), J. J. Benítez
+      reanuda la obra por la que, probablemente, será recordado. De la mano del mayor
+      norteamericano, el lector soñará, cabalgará por la Palestina del año 30, sufrirá,
+      se emocionará... Descubrirá, por ejemplo, entre más de dos mil datos, la verdadera
+      personalidad de algunos de los personajes que rodearon a Jesús de Nazaret. ¿Imaginó
+      que Poncio Pilato fue en realidad un demente? Cesarea. Caballo de Troya 5, un
+      relato vibrante, meticuloso y concienzudo, le abrirá las puertas de un mundo
+      silenciado por los evangelistas. Sea creyente o no, de algo puede estar seguro:
+      este libro le marcará para siempre. Y un consejo: no se alarme cuando alcance
+      el final. J. J. Benítez es así...'
+    - '1996'
+    - 2015-12-10 22:31:12.000000000 Z
+    - 2015-12-10 22:31:12.000000000 Z
+  - - 42
+    - Caballo de Troya 6
+    - Hermón
+    - 1
+    - 'Caballo de Troya 6, uno de los libros más esperados, tampoco le dejará indiferente.
+      Más aún: en palabras del autor, «si usted no dispone de una mente abierta...,
+      no lo lea. Sus creencias se desequilibrarán».En esta nueva entrega -siguiendo
+      el diario del mayor norteamericano-, J. J. Benítez, entre miles de datos técnicos
+      e históricos rigurosamente comprobados, le adentrará en capítulos que fueron
+      sospechosamente silenciados por los evangelistas.Apariciones de Jesús de Nazaret
+      tras su resurrección: ¿sabía usted que fueron muchas más de lo que cuentan los
+      Evangelios?Primer cisma entre los discípulos: ¿por qué nadie habló de ello?
+      Análisis del ADN: otra demoledora «sorpresa»...Por último, el ansiado tercer
+      «salto» en el tiempo y la apasionante aventura del reencuentro con el Maestro.Un
+      libro duro, valiente y tierno en el que el Hijo del Hombre aparece de nuevo,
+      fascinando con sus palabras y su irresistible humanidad.'
+    - '1999'
+    - 2015-12-10 22:32:00.000000000 Z
+    - 2015-12-10 22:32:00.000000000 Z
+  - - 43
+    - Caballo de Troya 7
+    - Nahum
+    - 1
+    - Nahum -la ciudad de Jesús- abre una nueva etapa en la serie «Caballo de Troya».
+      En esta séptima entrega del mayor norteamericano que viajó a la Palestina del
+      siglo I todo cambia. Descubrir la trama no es aconsejable. Usted, probablemente,
+      no dará crédito a lo que lea en sus páginas. Quizá tenga razón, pero no olvide
+      que la verdad supera siempre a la ficción. Sí, podemos asegurarle que si se
+      decide a leer Nahum, sus certezas religiosas saltarán por los aires, afortunadamente.
+      Nada de lo que se considera oficial y ortodoxo guarda relación con lo escrito
+      en «Caballo de Troya». Nahum es el libro número cincuenta de los escritos por
+      J. J. Benítez. En septiembre de 2005 se cumplieron treinta años de la aparición
+      de su primera obra, Existió otra humanidad. Hasta el presente ha vendido más
+      de seis millones de ejemplares. El éxito, sin embargo, le parece un malentendido.
+      Por eso escribió Cartas a un idiota, su mejor trabajo, según el escritor navarro.
+      Vive en Barbate, junto a la mar, dedicado a la «revolución», es decir, a pensar.
+    - '2005'
+    - 2015-12-10 22:32:59.000000000 Z
+    - 2015-12-10 22:32:59.000000000 Z
+  - - 44
+    - Caballo de Troya 8
+    - Jordán
+    - 1
+    - Una nueva entrega de la mítica serie Caballo de Troya Si no es fácil describir
+      los siete anteriores volúmenes de la serie «Caballo de Troya», la octava entrega
+      Jordán supera todo lo imaginable. No se esfuerce. Su imaginación se quedará
+      corta. En Jordán, usted quedará atrapado, y arrastrado por las sorpresas. Nadie,
+      hasta hoy, ha narrado con tanto detenimiento el supuesto «bautismo» de Jesús
+      de Nazaret. Nadie se había atrevido a relatar, con semejante crudeza, lo que
+      pudo ocurrir en aquella histórica jornada, en uno de los afluentes del río Jordán.
+      ¿Sabía que el Maestro nunca se retiró al desierto, y que no fue tentado por
+      el diablo?. Nunca, tanto, le parecerá tan poco.
+    - '2006'
+    - 2015-12-10 22:34:18.000000000 Z
+    - 2015-12-10 22:34:18.000000000 Z
+  - - 45
+    - Caballo de Troya 9
+    - Caná
+    - 1
+    - 'Al leer caballo de Troya 9. Caná, el lector llega a una conclusión: conviene
+      poner en duda todo lo contado sobre Jesús de Nazaret. La verdad, probablemente,
+      fue más intensa e inquietante. Si acierta a leer la primera línea de Caná no
+      será por casualidad. Atención: sus principios se tambalearán. Este es el esperado
+      desenlace de la saga caballo de Troya.'
+    - '2011'
+    - 2015-12-10 22:35:23.000000000 Z
+    - 2015-12-10 22:35:23.000000000 Z
+  - - 46
+    - El día del relámpago
+    - Un thriller en el que usted vivirá 101 días trepidantes
+    - 1
+    - Caballo de Troya termino, pero ¿qué le sucedió al mayor tras su regreso a 1973?
+      ¿Imagina usted rayo negro?, ¿fue el general Curtis un traidor? El día del relámpago
+      es un thriller en el que usted vivirá 101 días trepidantes. ¿Murió Eliseo?,
+      ¿se hundió la cuna en el mar muerto?. Aunque lo intente no podrá imaginar lo
+      que sucederá el 29 de agosto de 2027. Tendrá que leerlo (y tampoco). Con este
+      libro, usted vivirá lo no vivido.
+    - '2013'
+    - 2015-12-10 22:38:16.000000000 Z
+    - 2015-12-10 22:38:16.000000000 Z
+  - - 47
+    - Tus zonas erróneas
+    - Guía para combatir las causas de la infelicidad
+    - 5
+    - "¿Tienes la sensación de estar desbordado por la existencia? ¿Paralizado por
+      compromisos que ya no te satisfacen? ¿Dominado por complejos de culpa o inseguridad?
+      No proyectes tu insatisfacción en otros: la causa está en ti. En las zonas erróneas
+      de tu personalidad que te bloquean y te impiden realizarte."
+    - '1976'
+    - 2015-12-11 20:38:20.000000000 Z
+    - 2015-12-11 20:38:20.000000000 Z
+  - - 48
+    - Las batallas en el desierto
+    - La historia de un niño de clase media llamado Carlos
+    - 1
+    - Historia de un amor imposible, las batallas en el desierto es una magistral
+      novela breve que involucra otros aspectos como la corrupción social y política,
+      el inicio del México moderno y la desaparición del país tradicional, y el rescate
+      de las memorias individuales y colectivas de una ciudad a la que José Emilio
+      Pacheco ama profundamente, pero recrea sin nostalgia y denuncia de manera implacable.
+      Desde su aparición, esta novela corta, traducida a varios idiomas y publicada
+      en otras partes del mundo hispano, asombro por su aparente sencillez y la estructura
+      compleja que tiende lazos para una variedad de lecturas múltiples y diferentes,
+      y para una complicidad que hermana para siempre al lector con el autor.
+    - '1981'
+    - 2015-12-15 17:51:37.000000000 Z
+    - 2015-12-15 17:51:37.000000000 Z
+  - - 49
+    - Locura y razón
+    - La implacable búsqueda de la locura amorosa que nos salvará.
+    - 1
+    - "“El amor sucumbió ante el pensamiento, la poesía cayó fulminada por la razón,
+      y la verdad por la propaganda. El arte pereció ante el pragmatismo y la belleza
+      ante el comercio. Este es el mundo que hemos construido”.   1913: una artista
+      con amnesia perdida en un México marcado por la decena trágica, un misterioso
+      periodista español que cubre la inminente guerra europea, una prostituta traficante
+      de información y un enigmático espía alemán que trata de escapar de su doble
+      vida, son los protagonistas de una historia de locura y razón que arrasa con
+      las pasiones y explica la causa de todas las guerras.   Las intrigas entre las
+      potencias europeas que luchan por el dominio de México se entrelazan con la
+      carrera imperial de Estados Unidos; los ingleses planean una guerra mundial
+      y los espías alemanes despliegan un ajedrez político para sacar ventaja en el
+      conflicto. En medio de este mundo convulsionado por la guerra, tres individuos
+      logran encontrar la paz en el único lugar donde es posible hallarla: en el interior
+      de ellos mismos.   De México a París, de La Habana a Nueva York, del asesinato
+      del archiduque de Austria al estallido de las bombas atómicas en Japón, entre
+      artistas bohemios y agentes secretos, Locura y razón despliega una narrativa
+      épica, romántica, erótica y vertiginosa; con ella, Juan Miguel Zunzunegui se
+      arriesga en una novela histórica llena de aventuras insospechadas y significados
+      profundos y universales."
+    - '2015'
+    - 2015-12-18 18:58:37.000000000 Z
+    - 2015-12-18 18:58:37.000000000 Z
+  - - 50
+    - México engañado
+    - Sólo a través del conocimiento y la educación se puede cambiar el destino de
+      un país
+    - 4
+    - "En las escuelas mexicanas se incuba la mediocridad. Los actuales libros de
+      texto gratuitos de historia deliberadamente engañan, manipulan y ocultan la
+      realidad de lo acontecido en nuestro país, condenando a México al estancamiento.
+      ¿Cómo avanzar si insistimos en inculcarle a las nuevas generaciones de mexicanos
+      escandalosas mentiras redactadas en beneficio del gobierno en turno? ¿Por qué
+      se atenta cínicamente contra los preceptos constitucionales de calidad y laicidad
+      en la educación? ¿Por qué difundir una versión de la historia que favorece a
+      la reacción, al clero y a los intereses de nuestros vecinos del norte? ¿Por
+      qué ocultar el rostro y las actividades perniciosas de algunos de los grandes
+      enemigos de México?\r\n\r\nAlejado de la ficción y apegado al rigor histórico,
+      Francisco Martín Moreno revela en este ensayo algunas de las falsedades, embustes
+      y omisiones difundidas en estos libros de texto por la dolosa historia oficial,
+      convencido de que sólo a través del conocimiento y de la educación, se puede
+      cambiar el destino del país y escapar a tiempo de la ruta hacia la colisión."
+    - '2015'
+    - 2015-12-18 19:12:26.000000000 Z
+    - 2015-12-18 19:12:26.000000000 Z
