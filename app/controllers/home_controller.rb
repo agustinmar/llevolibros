@@ -72,8 +72,8 @@ class HomeController < ApplicationController
     @titulos = Titulo.order("date DESC")
     @autores = Autor.order("date DESC")
     if params[:texto].present?
-      @titulos = Titulo.where("nombre ILIKE ?", "%#{params[:texto]}%")
-      @autores = Autor.where("nombre ILIKE ?", "%#{params[:texto]}%")
+      @titulos = Titulo.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
+      @autores = Autor.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
     end
     @categorias = Categoria.all
     @libros = Libro.all
