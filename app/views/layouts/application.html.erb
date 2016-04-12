@@ -49,7 +49,7 @@
         <% end %>
 			</div>
 		</nav>
-    <div class="col-md-3">
+    <div class="col-md-2">
       <% if @categorias.any? %>
         <h4 class="text-info">Categorías</h4>
         <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
@@ -59,7 +59,7 @@
         <% end %>
       <% end %>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-10">
       <%= yield %>
     </div>
 	</div>
