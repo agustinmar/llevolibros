@@ -8,7 +8,7 @@
         <% if libro.titulo == @titulo %>
           <tr>
             <td width="40%">
-              <%= image_tag "portadas/"+libro.portada %>       
+              <%= image_tag "portadas/"+libro.portada, :class=>"img-responsive" %>       
             </td>
             <td width="60%">
               <h3><%= libro.titulo.nombre %></h3>
