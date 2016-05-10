@@ -40,13 +40,29 @@
               <% if !libro.medidas.empty? %>
                 <span class="text-info">Medidas:</span> <%= libro.medidas %>
               <% end %>
-              <br><br>
-              <p class="text-danger">Libro <%= libro.condicion %></p>
+              <br>
+              <h5><span class="text-info">Descripción</span><br></h5>
+              <p class="text-justify">
+                <% if libro.titulo.descripcion.length > 250 %>
+                  <%= truncate(libro.titulo.descripcion, length: 250) %>
+                  <%= link_to 'Leer más', '', class: "read-more-#{libro.id}" %>
+                  <script>
+                    $('.read-more-<%= libro.id %>').on('click', function(e) {
+                      e.preventDefault()
+                      $(this).parent().html('<%= escape_javascript libro.titulo.descripcion %> <%= link_to "Ocultar", url_for(params) %>')
+                    })
+                  </script>
+                <% else %>
+                  <%= libro.titulo.descripcion %>
+                <% end %>
+              </p>
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <p class="text-justify"><%= libro.titulo.descripcion %></p>
+              <p class="text-justify">
+                <p class="text-danger">Libro <%= libro.condicion %></p>
+              </p>
             </td>  
           </tr>
           <% break %>
