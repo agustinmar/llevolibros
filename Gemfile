@@ -53,7 +53,7 @@ gem 'rails_admin'
 
 gem 'yaml_db'
 
-gem 'readmorejs-rails', '~> 0.0.12'
+#gem 'readmorejs-rails', '~> 0.0.12'
 
 group :development, :test do
 	# Use mysql as the database for Active Record
