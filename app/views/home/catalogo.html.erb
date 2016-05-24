@@ -5,7 +5,7 @@
   <div class="panel-body">
     <% i = 1 %>
     <div class="row">
-      <% @libros.each_with_index do |libro,index| %>
+      <% @libros.sort_by{|x| x.fechapub}.reverse.each_with_index do |libro,index| %>
         <% if (libro.titulo.categoria == @categoria) && (libro.publico) %>
           <% if (i <= 6) %>
             <div class="col-sm-6 col-md-2">

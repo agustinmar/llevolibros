@@ -116,8 +116,6 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
-    readmorejs-rails (0.0.12)
-      railties (>= 3.2, < 5.0)
     remotipart (1.2.1)
     rieles (0.0.6)
     safe_yaml (1.0.4)
@@ -168,7 +166,6 @@ DEPENDENCIES
   rails (~> 4.1.8)
   rails_12factor
   rails_admin
-  readmorejs-rails (~> 0.0.12)
   rieles
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

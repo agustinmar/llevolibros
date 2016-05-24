@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20151028191645) do
 
   create_table "editores", force: true do |t|
     t.string   "nombre"
-    t.string   "descripcion"
+    t.text     "descripcion"
     t.string   "web"
     t.string   "logo"
     t.datetime "created_at"
