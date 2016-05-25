@@ -44,13 +44,16 @@ gem 'bootstrap-sass'
 # genere las vistas en Español.
 gem 'rieles'
 
-# Rails_Admin para administrar el sitio web
+# Rails_Admin para administrar(altas, bajas, cambios) la base de datos del sitio
 gem 'rails_admin'
 
 # If you are using Rails >= 3.1, you must also include a beta version of 
 # MetaSearch and sass-rails to use gem activeadmin
 # gem 'meta_search'
 
+#Gema para convertir la base de datos a un archivo data.yml y subirlo al servidor
+#rake db:data:dump   ->   Volcar la base de datos a db/data.yml
+#rake db:data:load   ->   Cargar los contenidos de db/data.yml en la base de datos
 gem 'yaml_db'
 
 #gem 'readmorejs-rails', '~> 0.0.12'
