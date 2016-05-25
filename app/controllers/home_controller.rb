@@ -73,11 +73,11 @@ class HomeController < ApplicationController
     @autores = Autor.order("date DESC")
     if params[:texto].present?
       #Desarrollo
-      @titulos = Titulo.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
-      @autores = Autor.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
+      #@titulos = Titulo.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
+      #@autores = Autor.where("lower(nombre) LIKE ?", "%#{params[:texto].downcase}%")
       #Producción
-      #@titulos = Titulo.where("translate(lower(nombre),'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ','aaaaaaaaaaaaaaaeeeeeeeeeeeeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu') LIKE ?", "%#{ActiveSupport::Inflector.transliterate(params[:texto]).downcase}%")
-      #@autores = Autor.where("translate(lower(nombre),'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ','aaaaaaaaaaaaaaaeeeeeeeeeeeeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu') LIKE ?", "%#{ActiveSupport::Inflector.transliterate(params[:texto]).downcase}%")
+      @titulos = Titulo.where("translate(lower(nombre),'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ','aaaaaaaaaaaaaaaeeeeeeeeeeeeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu') LIKE ?", "%#{ActiveSupport::Inflector.transliterate(params[:texto]).downcase}%")
+      @autores = Autor.where("translate(lower(nombre),'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ','aaaaaaaaaaaaaaaeeeeeeeeeeeeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu') LIKE ?", "%#{ActiveSupport::Inflector.transliterate(params[:texto]).downcase}%")
     end
     @categorias = Categoria.all
     @libros = Libro.all
