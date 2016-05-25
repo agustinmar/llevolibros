@@ -38,22 +38,9 @@
               <% if !libro.medidas.empty? %>
                 <span class="text-info">Medidas:</span> <%= libro.medidas %>
               <% end %>
-              <br>
-              <h5><span class="text-info">Descripción</span><br></h5>
-              <p class="text-justify">
-                <% if libro.titulo.descripcion.length > 250 %>
-                  <%= truncate(libro.titulo.descripcion, length: 250) %>
-                  <%= link_to 'Leer más', '', class: "read-more-#{libro.id}" %>
-                  <script>
-                    $('.read-more-<%= libro.id %>').on('click', function(e) {
-                      e.preventDefault()
-                      $(this).parent().html('<%= escape_javascript libro.titulo.descripcion %> <%= link_to "Ocultar", url_for(params) %>')
-                    })
-                  </script>
-                <% else %>
-                  <%= libro.titulo.descripcion %>
-                <% end %>
-              </p>
+              <br><br>
+              <h5><span class="text-info">Reseña del libro</span></h5>
+              <p class="more text-justify"><%= libro.titulo.descripcion %></p>
             </td>
           </tr>
           <tr>
