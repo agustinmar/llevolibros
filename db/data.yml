@@ -835,13 +835,13 @@ autores_titulos:
   - - 3
     - 3
   - - 6
-    - 21
-  - - 6
-    - 50
+    - 31
   - - 6
     - 22
   - - 6
-    - 31
+    - 50
+  - - 6
+    - 21
   - - 6
     - 23
   - - 7
@@ -851,9 +851,9 @@ autores_titulos:
   - - 9
     - 8
   - - 10
-    - 35
-  - - 10
     - 9
+  - - 10
+    - 35
   - - 11
     - 10
   - - 12
@@ -877,9 +877,9 @@ autores_titulos:
   - - 20
     - 20
   - - 21
-    - 24
-  - - 21
     - 25
+  - - 21
+    - 24
   - - 22
     - 26
   - - 23
@@ -909,25 +909,25 @@ autores_titulos:
   - - 35
     - 36
   - - 36
-    - 46
-  - - 36
     - 45
   - - 36
-    - 44
-  - - 36
-    - 43
-  - - 36
-    - 42
-  - - 36
-    - 41
-  - - 36
-    - 39
-  - - 36
-    - 38
+    - 40
   - - 36
     - 37
   - - 36
-    - 40
+    - 38
+  - - 36
+    - 39
+  - - 36
+    - 41
+  - - 36
+    - 42
+  - - 36
+    - 43
+  - - 36
+    - 44
+  - - 36
+    - 46
   - - 37
     - 47
   - - 38
@@ -2935,7 +2935,7 @@ titulos:
   - - 6
     - La chica de los siete nombres
     - La historia de una huida de Corea del Norte
-    - 9
+    - 4
     - "A los diecisiete años, Hyeonseo Lee sabía poco del mundo que había más allá
       de las fronteras de Corea del Norte. Aunque algo intuía. A diferencia de sus
       conciudadanos, atrapados, como ella, bajo una dictadura feroz, su hogar, situado
@@ -2952,7 +2952,7 @@ titulos:
       de los regímenes más brutales del mundo."
     - '2015'
     - 2015-10-12 20:44:35.000000000 Z
-    - 2016-05-24 02:00:16.000000000 Z
+    - 2016-05-24 18:22:45.000000000 Z
   - - 7
     - La chica del tren
     - Tú no la conoces. Ella a ti, sí.

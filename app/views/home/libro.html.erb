@@ -13,13 +13,11 @@
             <td width="60%">
               <h3><%= libro.titulo.nombre %></h3>
               <h3 class="panel-title"><%= libro.titulo.balazo %></h3><br>
-              <h5>
-                <span class="text-info">Autor(es):</span> 
-                <% @titulo.autor.each do |aut| %>
-                  <%= link_to aut, home_autor_path(:id => aut.id) %>
-                  <% if !(aut == @titulo.autor.last) %>/<% end %>
-                <% end %>
-              </h5>
+              <span class="text-info">Autor(es):</span> 
+              <% @titulo.autor.each do |aut| %>
+                <%= link_to aut, home_autor_path(:id => aut.id), :class=>"titulo1" %>
+                <% if !(aut == @titulo.autor.last) %>/<% end %>
+              <% end %><br>
               <span class="text-info">Editorial:</span> <%=  link_to libro.editor, home_editor_path(:id => libro.editor) %><br>
               <span class="text-info">Páginas:</span> <%= libro.paginas %><br>
               <span class="text-info">Edición:</span> <%= libro.edicion %><br>

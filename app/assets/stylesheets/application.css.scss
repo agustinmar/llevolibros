@@ -18,5 +18,36 @@
  body {
  	/*padding-top: 20px;*/
  	position: relative;
- 	background: url("bg.png"); 
+ 	background: url("bg.png");
+
+	a:link {
+		text-decoration: none;
+		color: #666666;
+	}
+	a:visited {
+		text-decoration: none;
+		color: #666666;
+	}
+	a:hover {
+		color: #428BCA;
+		background: none;
+	}
+	a:active {
+		text-decoration: none;
+		color: #666666;
+	}
+	a {
+		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		font-size: 12px;
+	}
+
+	.titulo1 {
+		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		font-size: 15px;
+	}
+	.titulo2 {
+		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		font-size: 11px;
+		color: #26170F;
+	}
  }
