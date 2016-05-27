@@ -4,13 +4,13 @@
   </div>
   <div class="panel-body">
     <div class="row">
-      <div class="col-md-5 text-center">
+      <div class="col-md-4 text-center">
         <% if @editor.logo %>
           <%= link_to image_tag("editores/"+@editor.logo), @editor.web, target: "_blank" %>
         <% end %>
       </div>
-      <div class="col-md-7">
-        <p class="text-justify"><%= @editor.descripcion %></p>
+      <div class="col-md-8">
+        <p class="more text-justify"><%= @editor.descripcion %></p>
       </div>
     </div>
     <br>

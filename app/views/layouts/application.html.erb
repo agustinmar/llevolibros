@@ -15,7 +15,7 @@
         var showChar = 200;  // How many characters are shown by default
         var ellipsestext = "...";
         var moretext = "Leer más >";
-        var lesstext = "Mostrar menos";
+        var lesstext = "< Mostrar menos";
         $('.more').each(function() {
             var content = $(this).html();
             if(content.length > showChar) {
@@ -46,8 +46,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<br><%= image_tag "logo.png", :alt=>"Llevo Libros", :class=>"img-responsive" %>
-        <p><span class="titulo2">Deja que los libros te encuentren</span></p>     
+				<%= image_tag "logo_llevolibros.png", :alt=>"Llevo Libros", :class=>"img-responsive" %>     
 			</div>
 			<div class="col-md-8">
 				<div class="nav navbar-nav navbar-right">
