@@ -4,9 +4,10 @@
   </div>
   <div class="panel-body">
     <% i = 1 %>
+    <% j = 0 %>
     <div class="row">
       <% @libros.sort_by{|x| x.fechapub}.reverse.each_with_index do |libro,index| %>
-        <% if (libro.titulo.categoria == @categoria) && (libro.publico) %>
+        <% if (libro.titulo.categoria == @categoria) && (libro.publico) && (j < 18) %>
           <% if (i <= 6) %>
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
@@ -21,9 +22,10 @@
                     <% end %>
                   </h6>
                 </div>
+                <% j += 1 %>
               </div>
             </div>
-          <% elsif (index < @libros.size) %>         
+          <% elsif (index < @libros.size) %>
             </div>
             <div class="row">
             <% i = 1 %>
@@ -41,6 +43,7 @@
                     <% end %>
                   </h6>
                 </div>
+                <% j += 1 %>
               </div>         
             </div>         
           <% end %>

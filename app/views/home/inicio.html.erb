@@ -1,26 +1,34 @@
 <% t = Time.now %>
-<h4 class="text-danger"><%= @title %></h4>
-<div class="row">
-<% num = 0 %>
-  <% @libros.each do |libro| %>
-    <% if (libro.titulo.aniopub == t.strftime("%Y")) %>
-      <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <%= link_to image_tag("portadas/"+libro.portada, :size=>"200x300"), home_libro_path(:id => libro.titulo) %>
-          <div class="caption">
-            <h5 class="media-heading">
-              <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
-            </h5>
-            <h6 class="media-heading">
-              <% libro.titulo.autor.each do |aut| %>
-                <%= link_to aut, home_autor_path(:id => aut) %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
-              <% end %>
-            </h6>
+<p class="text-justify text-danger"><small>Nuestra función principal no es la venta de libros, sino más bien es la de darnos a la tarea de buscar en librerías, editoriales o tiendas de segunda mano cualquier libro que estes buscando y hacerlo llegar hasta donde te encuentres, evitando que inviertas tiempo y esfuerzo en trasladarte a librerías o centros comerciales para adquirirlo.</small></p>
+<p class="text-justify text-danger"><small>Nuestra búsqueda de libros es tanto local, nacional como en el extranjero y los entregamos a nuestros clientes dentro de la Zona Metropolitana de Monterrey, o bien, realizamos envíos a otras partes del país. Solicita un libro <%= link_to "aquí", home_solicita_path %> o revisa nuestro catálogo y las novedades literarias del mes.</small></p>
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= @title %></h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <% num = 0 %>
+      <% @libros.each do |libro| %>
+        <% if (libro.titulo.aniopub == t.strftime("%Y")) && (libro.publico) %>
+          <div class="col-sm-6 col-md-2">
+            <div class="thumbnail">
+              <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
+              <div class="caption">
+                <h5 class="media-heading">
+                  <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
+                </h5>
+                <h6 class="media-heading">
+                  <% libro.titulo.autor.each do |aut| %>
+                    <%= link_to aut, home_autor_path(:id => aut) %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
+                  <% end %>
+                </h6>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <% num += 1 %>
-    <% end %>
-    <% break if num > 3 %>
-  <% end %>
+          <% num += 1 %>
+        <% end %>
+        <% break if num > 5 %>
+      <% end %>
+    </div>
+  </div>
 </div>

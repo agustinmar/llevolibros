@@ -70,7 +70,7 @@
   			</div>
 			<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-        <%= menu_nav("ACERCA DE LLEVO LIBROS"=>"acerca","SOLICITA"=>"solicita") %>
+        <%= menu_nav("ACERCA DE LLEVO LIBROS"=>"acerca","SOLICITA UN LIBRO"=>"solicita","CONTACTO"=>"contacto") %>
         <%= form_tag home_buscar_path, :class => "navbar-form navbar-right", :role => "search", method: :get do %>
           <div class="form-group">
             <%= text_field_tag :texto, params[:texto], :class => "form-control", :placeholder => "Título o Autor", :size => "60" %>
@@ -93,5 +93,12 @@
       <%= yield %>
     </div>
 	</div>
+  <div class="container">
+    <div class="footer">
+      <span class="credit text-left">&nbsp;&nbsp;&nbsp;© Llevo Libros 2016</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <%= link_to "Acerca de Llevo Libros", home_acerca_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <%= link_to "Contacto", home_contacto_path, :class=>"footer" %>
+    </div>
+  </div>  
 </body>
 </html>

@@ -2,7 +2,7 @@
 class HomeController < ApplicationController
  
   def inicio
-  	@title = "Novedades"
+  	@title = "Novedades del mes"
     @categorias = Categoria.all
     @titulos = Titulo.all
     @libros = Libro.order("updated_at DESC")
@@ -12,11 +12,6 @@ class HomeController < ApplicationController
 
   def acerca
     @title = "Acerca de Llevo Libros"
-    @categorias = Categoria.all
-  end
-
-  def solicita
-    @title = "Solicita un libro"
     @categorias = Categoria.all
   end
 
@@ -84,7 +79,33 @@ class HomeController < ApplicationController
   end
 
   def contacto
-  	@title = "Contacta"
+  	@title = "Contacto"
+    @categorias = Categoria.all
   end
 
+  def solicita
+    @title = "Solicita un libro"
+    @categorias = Categoria.all
+    @solicitud = Solicitud.new
+  end
+
+  def crear
+    @categorias = Categoria.all
+    @solicitud = Solicitud.new(solicitud_params) 
+
+    respond_to do |format|
+      if @solicitud.save
+        format.html { redirect_to home_solicita_path, notice: 'Gracias, la información fue enviada y pronto recibirás respuesta. Deja que los libros te encuentren.' }
+        format.json { render action: 'solicita', status: :created, location: @solicitud }
+      else
+        format.html { render action: 'solicita' }
+        format.json { render json: @solicitud.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+private
+  def solicitud_params
+    params.require(:solicitud).permit(:titulo, :autor, :informacion, :nombre, :correo, :telefono)
+  end
 end

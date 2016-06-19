@@ -18,6 +18,7 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
 	inflect.irregular 'formato', 'formatos'
 	inflect.irregular 'condicion', 'condiciones'
 	inflect.irregular 'usuario', 'usuarios'
+	inflect.irregular 'solicitud', 'solicitudes'
 end
 
 # These inflection rules are supported but not enabled by default:
