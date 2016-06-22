@@ -5,35 +5,7 @@
       <p class="panel-title">¿Qué libro estás buscando?</p>
     </div>
     <div class="panel-body">
-      <%= form_for @solicitud, :url => {:action => :crear} do |f| %>
-        <% if @solicitud.errors.any? %>
-          <div id="error_explanation">
-            <h2><%= pluralize(@solicitud.errors.count, "error") %> prohibited this libro from being saved:</h2>
-
-            <ul>
-            <% @solicitud.errors.full_messages.each do |message| %>
-              <li><%= message %></li>
-            <% end %>
-            </ul>
-          </div>
-        <% end %>
-
-        <div class="form-group">
-          <label class="text-muted">Datos del libro</label>
-          <%= f.text_field :titulo, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Título" %><br>
-          <%= f.text_field :autor, :class=>"form-control", :placeholder=>"Autor (opcional)" %><br>
-          <%= f.text_area :informacion, :class=>"form-control", :placeholder=>"Información adicional (opcional)" %>
-        </div>
-        <div class="form-group">
-          <label class="text-muted">Cuando encontremos el libro te contactaremos a:</label>
-          <%= f.email_field :correo, :autofocus=>true, :class=>"form-control", :placeholder=>"Tu correo electrónico" %><br>
-          <%= f.telephone_field :telefono, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Tu teléfono o móvil (10 dígitos)" %><br>
-          <%= f.text_field :nombre, :autofocus=>true, :required=>"required", :numericality => { :message => "debe contener solo numeros" }, :length => { :is => 10, :message => "debe contener 10 digitos" }, :class=>"form-control", :placeholder=>"Tu nombre" %>
-        </div>
-        <div class="actions">
-          <%= f.submit "Enviar", :class=>"btn btn-primary" %>
-        </div>
-      <% end %>
+      <%= render 'form' %>
     </div>
   </div>
 </div>
