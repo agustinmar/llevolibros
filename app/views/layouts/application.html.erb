@@ -84,7 +84,7 @@
         <h4 class="text-info">Categorías</h4>
         <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
           <ul class="nav nav-pills nav-stacked">
-            <li><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></li>
+            <li><h7><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></h7></li>
           </ul>
         <% end %>
       <% end %>
