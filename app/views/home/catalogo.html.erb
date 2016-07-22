@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= @categoria.descripcion %></h3>
+    <h3 class="titmedia panel-title"><%= @categoria.descripcion %></h3>
   </div>
   <div class="panel-body">
     <% i = 1 %>
@@ -14,11 +14,12 @@
                 <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
                 <div class="caption">
                   <h5 class="media-heading">
-                    <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
+                    <%= link_to libro.titulo, home_libro_path(:id => libro.titulo), :class=>"titlibro" %>
                   </h5>
                   <h6 class="media-heading">
                     <% libro.titulo.autor.each do |aut| %>
-                      <%= link_to aut, home_autor_path(:id => aut) %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
+                      <%= link_to aut, home_autor_path(:id => aut), :class=>"titautor" %>
+                      <% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
                     <% end %>
                   </h6>
                 </div>
@@ -34,11 +35,11 @@
                 <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
                 <div class="caption">
                   <h5 class="media-heading">
-                    <%= link_to libro.titulo, home_libro_path(:id => libro.titulo) %>
+                    <%= link_to libro.titulo, home_libro_path(:id => libro.titulo), :class=>"titlibro" %>
                   </h5>
                   <h6 class="media-heading">
                     <% libro.titulo.autor.each do |aut| %>
-                      <%= link_to aut, home_autor_path(:id => aut) %>
+                      <%= link_to aut, home_autor_path(:id => aut), :class=>"titautor" %>
                       <% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
                     <% end %>
                   </h6>

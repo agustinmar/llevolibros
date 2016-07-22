@@ -81,7 +81,7 @@
 		</nav>
     <div class="col-md-2">
       <% if @categorias.any? %>
-        <h4 class="text-info">Categorías</h4>
+        <h4 class="titgde text-info">Categorías</h4>
         <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
           <ul class="nav nav-pills nav-stacked">
             <li><h7><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></h7></li>

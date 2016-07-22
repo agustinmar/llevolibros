@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= @titulo.categoria.nombre %></h3>
+    <h3 class="titgde panel-title"><%= @titulo.categoria.nombre %></h3>
   </div>
   <div class="panel-body">
     <table class="table">
@@ -10,15 +10,15 @@
             <td width="40%">
               <%= image_tag "portadas/"+libro.portada, :class=>"img-responsive" %>       
             </td>
-            <td width="60%">
+            <td width="60%" class="titext">
               <h3><%= libro.titulo.nombre %></h3>
               <h3 class="panel-title"><%= libro.titulo.balazo %></h3><br>
-              <span class="text-info">Autor(es):</span> 
+              <span class="titext text-info">Autor(es):</span> 
               <% @titulo.autor.each do |aut| %>
-                <%= link_to aut, home_autor_path(:id => aut.id), :class=>"titulo1" %>
+                <%= link_to aut, home_autor_path(:id => aut.id) %>
                 <% if !(aut == @titulo.autor.last) %>/<% end %>
               <% end %><br>
-              <span class="text-info">Editorial:</span> <%=  link_to libro.editor, home_editor_path(:id => libro.editor) %><br>
+              <span class="titext text-info">Editorial:</span> <%= link_to libro.editor, home_editor_path(:id => libro.editor) %><br>
               <span class="text-info">Páginas:</span> <%= libro.paginas %><br>
               <span class="text-info">Edición:</span> <%= libro.edicion %><br>
               <span class="text-info">Año:</span> <%= libro.fechapub %><br>
@@ -31,16 +31,16 @@
                 <span class="text-info">ISBN10:</span> <%= libro.isbn10 %><br>
               <% end %>  
               <span class="text-info">ISBN:</span> <%= libro.isbn13 %><br>
-              <span class="text-info">EAN:</span> <%= libro.ean %><br>
+              <span class="titext text-info">EAN:</span> <%= libro.ean %><br>
               <% if !libro.peso.nil? %>
                 <span class="text-info">Peso:</span> <%= libro.peso %> gramos<br>
               <% end %>
               <% if !libro.medidas.empty? %>
                 <span class="text-info">Medidas:</span> <%= libro.medidas %>
               <% end %>
-              <br>
-              <h5><span class="text-info">Reseña del libro</span></h5>
-              <p class="more text-justify"><%= libro.titulo.descripcion %></p>
+              <p></p>
+              <span class="titmedia text-info">Reseña del libro</span>
+              <p class="more titext text-justify"><%= libro.titulo.descripcion %></p>
             </td>
           </tr>
           <tr>

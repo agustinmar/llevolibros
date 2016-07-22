@@ -11,14 +11,14 @@
           </div>
         <% end %>
 
-        <div class="form-group">
-          <label class="text-muted">Datos del libro</label>
+        <div class="titext form-group">
+          <label class="titmedia text-muted">Datos del libro</label>
           <%= f.text_field :titulo, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Título" %><br>
           <%= f.text_field :autor, :class=>"form-control", :placeholder=>"Autor (opcional)" %><br>
           <%= f.text_area :informacion, :class=>"form-control", :placeholder=>"Información adicional (opcional)" %>
         </div>
-        <div class="form-group">
-          <label class="text-muted">Cuando encontremos el libro te contactaremos a:</label>
+        <div class="titext form-group">
+          <label class="titmedia text-muted">Cuando encontremos el libro te contactaremos a:</label>
           <%= f.email_field :correo, :autofocus=>true, :class=>"form-control", :placeholder=>"Tu correo electrónico" %><br>
           <%= f.telephone_field :telefono, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Tu teléfono o móvil (10 dígitos)" %><br>
           <%= f.text_field :nombre, :autofocus=>true, :required=>"required", :numericality => { :message => "debe contener solo numeros" }, :length => { :is => 10, :message => "debe contener 10 digitos" }, :class=>"form-control", :placeholder=>"Tu nombre" %>

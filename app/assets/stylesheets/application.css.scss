@@ -38,13 +38,43 @@
 		color: #428BCA;
 	}
 	a {
-		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 13px;
 	}
 
-	.titulo1 {
-		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	.titmedia {
+		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 15px;
+	}
+
+	.titgde {
+		font-family: "Tahoma", "Geneva", sans-serif;
+		font-size: 16px;
+	}
+
+	.titlibro {
+		font-family: "Tahoma", "Geneva", sans-serif;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+
+	.titautor {
+		font-family: "Tahoma", "Geneva", sans-serif;
+		font-size: 12px;
+		font-style: oblique;
+		line-height: 1;
+	}
+
+	.titlibro {
+		font-family: "Tahoma", "Geneva", sans-serif;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+
+	.titext {
+		/*font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;*/
+		font-family: "Tahoma", "Geneva", sans-serif;
+		font-size: 13px;
 	}
 
 	.morecontent span {
