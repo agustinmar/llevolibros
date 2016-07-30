@@ -24,12 +24,12 @@
             <% if (i <= 6) %>
               <div class="col-sm-6 col-md-2">
                 <div class="thumbnail">
-                  <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
+                  <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro) %>
                   <div class="caption">
-                    <h5 class="media-heading">
-                      <%= link_to libro.titulo, home_libro_path(:id => libro.titulo), :class=>"titlibro" %>
-                    </h5>
-                    <h6 class="media-heading">
+                    <h6 class="media-heading text-center">
+                      <%= link_to libro.titulo, home_libro_path(:id => libro), :class=>"titlibro" %>
+                    </h6>
+                    <h6 class="media-heading text-center">
                       <% libro.titulo.autor.each do |a| %>
                         <%= link_to a, home_autor_path(:id => a), :class=>"titautor" %><% if !(a == libro.titulo.autor.last) %>,<br><% end %>
                       <% end %>
@@ -43,12 +43,12 @@
                 <% i = 1 %>
                 <div class="col-sm-6 col-md-2">
                   <div class="thumbnail">
-                    <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
+                    <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro) %>
                     <div class="caption">
-                      <h5 class="media-heading">
-                        <%= link_to libro.titulo, home_libro_path(:id => libro.titulo), :class=>"titlibro" %>
-                      </h5>
-                      <h6 class="media-heading">
+                      <h6 class="media-heading text-center">
+                        <%= link_to libro.titulo, home_libro_path(:id => libro), :class=>"titlibro" %>
+                      </h6>
+                      <h6 class="media-heading text-center">
                         <% libro.titulo.autor.each do |aut| %>
                           <%= link_to aut, home_autor_path(:id => aut), :class=>"titautor" %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
                         <% end %>

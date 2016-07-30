@@ -52,6 +52,12 @@
 		font-size: 16px;
 	}
 
+	.titprecio {
+		font-family: "Tahoma", "Geneva", sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
 	.titlibro {
 		font-family: "Tahoma", "Geneva", sans-serif;
 		text-transform: uppercase;
@@ -75,6 +81,12 @@
 		/*font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;*/
 		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 13px;
+	}
+
+	.titnotas {
+		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		font-size: 11px;
+		font-style: oblique;
 	}
 
 	.morecontent span {
@@ -116,4 +128,11 @@
 		height: 25px;            
 		background-color: #DADADA;
 	}
+
+	.center-img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
  }

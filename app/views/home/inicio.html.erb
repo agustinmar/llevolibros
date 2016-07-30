@@ -1,5 +1,7 @@
 <% t = Time.now %>
-<div class="panel panel-danger">
+<p class="titext text-justify">La función principal de Llevo Libros es buscar en librerías, editoriales o tiendas de segunda mano y coleccionismo el libro que te interesa (nuevo o usado) para llevarlo hasta donde te encuentres; evitando así que inviertas tiempo y esfuerzo en buscarlo o en trasladarte a las librerías y centros comerciales para adquirirlo.</p>
+<p class="titext text-justify">Nuestra búsqueda de libros es tanto local, nacional como en el extranjero y los entregamos a nuestros clientes dentro de la Zona Metropolitana de Monterrey, o bien, realizamos envíos a otras partes del país. Solicita un libro <%= link_to "aquí", home_solicita_path %> o revisa nuestro catálogo, así como las novedades literarias del mes.</p>
+<div class="panel panel-primary">
   <div class="panel-heading">
     <h3 class="titgde panel-title"><%= @title %></h3>
   </div>
@@ -10,12 +12,12 @@
         <% if (libro.titulo.aniopub == t.strftime("%Y")) && (libro.publico) %>
           <div class="col-sm-6 col-md-2">
             <div class="thumbnail">
-              <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro.titulo) %>
+              <%= link_to image_tag("portadas/"+libro.portada, :class=>"img-responsive"), home_libro_path(:id => libro) %>
               <div class="caption">
-                <h5 class="media-heading">
-                  <%= link_to libro.titulo, home_libro_path(:id => libro.titulo), :class=>"titlibro" %>
-                </h5>
-                <h6 class="media-heading">
+                <h6 class="media-heading text-center">
+                  <%= link_to libro.titulo, home_libro_path(:id => libro), :class=>"titlibro" %>
+                </h6>
+                <h6 class="media-heading text-center">
                   <% libro.titulo.autor.each do |aut| %>
                     <%= link_to aut, home_autor_path(:id => aut), :class=>"titautor" %><% if !(aut == libro.titulo.autor.last) %>,<br><% end %>
                   <% end %>
@@ -30,5 +32,3 @@
     </div>
   </div>
 </div>
-<p class="titext text-justify">La función principal de Llevo Libros no es solo la venta de libros, si no la de encontrar en librerías, editoriales o tiendas de segunda mano y coleccionismo, el libro que estas buscando para llevarlo hasta donde te encuentres; evitando así que inviertas tiempo y esfuerzo en trasladarte a librerías o centros comerciales para adquirirlo.</p>
-<p class="titext text-justify">Nuestra búsqueda de libros es tanto local, nacional como en el extranjero y los entregamos a nuestros clientes dentro de la Zona Metropolitana de Monterrey, o bien, realizamos envíos a otras partes del país. Solicita un libro <%= link_to "aquí", home_solicita_path %> o revisa nuestro catálogo y las novedades literarias del mes.</p>

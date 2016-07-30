@@ -56,8 +56,8 @@ class HomeController < ApplicationController
     @libros = Libro.all
     @editores = Editor.all
     @titulos = Titulo.all
-    @titulo = Titulo.find(params[:id])
-    #@libro = Libro.find(params[:id])
+    #@titulo = Titulo.find(params[:id])
+    @libro = Libro.find(params[:id])
     #@libro = Libro.where(titulo: @titulo)
     #@libro = Libro.where(:column => ["titulo", @titulo])
   end

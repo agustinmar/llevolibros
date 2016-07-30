@@ -1,58 +1,65 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="titgde panel-title"><%= @titulo.categoria.nombre %></h3>
+    <h3 class="titgde panel-title"><%= @libro.titulo.categoria.nombre %></h3>
   </div>
   <div class="panel-body">
     <table class="table">
-      <% @libros.each do |libro| %>
-        <% if libro.titulo == @titulo %>
-          <tr>
-            <td width="40%">
-              <%= image_tag "portadas/"+libro.portada, :class=>"img-responsive" %>       
-            </td>
-            <td width="60%" class="titext">
-              <h3><%= libro.titulo.nombre %></h3>
-              <h3 class="panel-title"><%= libro.titulo.balazo %></h3><br>
-              <span class="titext text-info">Autor(es):</span> 
-              <% @titulo.autor.each do |aut| %>
-                <%= link_to aut, home_autor_path(:id => aut.id) %>
-                <% if !(aut == @titulo.autor.last) %>/<% end %>
-              <% end %><br>
-              <span class="titext text-info">Editorial:</span> <%= link_to libro.editor, home_editor_path(:id => libro.editor) %><br>
-              <span class="text-info">Páginas:</span> <%= libro.paginas %><br>
-              <span class="text-info">Edición:</span> <%= libro.edicion %><br>
-              <span class="text-info">Año:</span> <%= libro.fechapub %><br>
-              <% if !libro.pais.nil? %>
-                <span class="text-info">País:</span> <%= libro.pais %><br>
-              <% end %>
-              <span class="text-info">Idioma:</span> <%= libro.idioma %><br>
-              <span class="text-info">Formato:</span> <%= libro.formato %><br>
-              <% if !libro.isbn10.empty? %>
-                <span class="text-info">ISBN10:</span> <%= libro.isbn10 %><br>
-              <% end %>  
-              <span class="text-info">ISBN:</span> <%= libro.isbn13 %><br>
-              <span class="titext text-info">EAN:</span> <%= libro.ean %><br>
-              <% if !libro.peso.nil? %>
-                <span class="text-info">Peso:</span> <%= libro.peso %> gramos<br>
-              <% end %>
-              <% if !libro.medidas.empty? %>
-                <span class="text-info">Medidas:</span> <%= libro.medidas %>
-              <% end %>
-              <p></p>
-              <span class="titmedia text-info">Reseña del libro</span>
-              <p class="more titext text-justify"><%= libro.titulo.descripcion %></p>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <!--<p class="text-justify">-->
-                <!--<p class="text-danger">Libro <%= libro.condicion %></p>-->
-              <!--</p>-->
-            </td>  
-          </tr>
-          <% break %>
-        <% end %>
-      <% end %>
+      <tr>
+        <td width="40%">
+          <p><%= image_tag "portadas/"+@libro.portada, :class=>"img-responsive center-img" %></p>
+          <p class="text-center titprecio text-danger">
+            <% if !@libro.precio.nil? %>
+              <%= number_to_currency(@libro.precio) %>
+            <% end %>
+            <% if @libro.condicion.id != 1 %>
+              - <%= @libro.condicion.nombre %>
+            <% end %>
+          </p>
+          <div class="titnotas text-center">Más costo de entrega o envío</div>
+        </td>
+        <td width="60%" class="titext">
+          <h3><%= @libro.titulo.nombre.mb_chars.upcase %></h3>
+          <h3 class="panel-title"><%= @libro.titulo.balazo %></h3><br>
+          <span class="titext text-info">Autor(es):</span> 
+          <% @libro.titulo.autor.each do |aut| %>
+            <%= link_to aut, home_autor_path(:id => aut.id) %>
+            <% if !(aut == @libro.titulo.autor.last) %>/<% end %>
+          <% end %><br>
+          <span class="titext text-info">Editorial:</span> <%= link_to @libro.editor, home_editor_path(:id => @libro.editor) %><br>
+          <% if !@libro.paginas.nil? %>
+            <span class="text-info">Páginas:</span> <%= @libro.paginas %><br>
+          <% end %>
+          <% if !@libro.edicion.nil? %>
+            <span class="text-info">Edición:</span> <%= @libro.edicion %><br>
+          <% end %>
+          <% if !@libro.fechapub.nil? %>
+            <span class="text-info">Año:</span> <%= @libro.fechapub %><br>
+          <% end %>
+          <% if !@libro.pais.nil? %>
+            <span class="text-info">País:</span> <%= @libro.pais %><br>
+          <% end %>
+          <span class="text-info">Idioma:</span> <%= @libro.idioma %><br>
+          <% if !@libro.isbn10.empty? %>
+            <span class="text-info">ISBN10:</span> <%= @libro.isbn10 %><br>
+          <% end %>
+          <% if !@libro.isbn13.empty? %>
+            <span class="text-info">ISBN:</span> <%= @libro.isbn13 %><br>
+          <% end %>
+          <% if !@libro.ean.empty? %>
+            <span class="titext text-info">EAN:</span> <%= @libro.ean %><br>
+          <% end %>
+          <% if !@libro.peso.nil? %>
+            <span class="text-info">Peso:</span> <%= @libro.peso %> gramos<br>
+          <% end %>
+          <% if !@libro.medidas.empty? %>
+            <span class="text-info">Medidas:</span> <%= @libro.medidas %><br>
+          <% end %>
+          <span class="text-info">Formato:</span> <%= @libro.formato %>
+          <p></p>
+          <span class="titmedia text-info">Reseña del libro</span>
+          <p class="more titext text-justify"><%= @libro.titulo.descripcion %></p>
+        </td>
+      </tr>
     </table>	
   </div>
 </div>
