@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160725171030) do
+ActiveRecord::Schema.define(version: 20160610212433) do
 
   create_table "autores", force: true do |t|
     t.string   "nombre"
@@ -79,10 +79,10 @@ ActiveRecord::Schema.define(version: 20160725171030) do
     t.integer  "peso"
     t.string   "medidas"
     t.string   "portada"
+    t.float    "precio",       limit: 24
     t.boolean  "publico"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.float    "precio",       limit: 24
   end
 
   create_table "paises", force: true do |t|
