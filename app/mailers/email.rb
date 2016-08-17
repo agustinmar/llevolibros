@@ -7,7 +7,7 @@ class Email < ActionMailer::Base
   #   en.email.recepcion.subject
   #
   def micorreo(parametros)
-    enviar_correo(parametros,"agustin_mar@hotmail.com","Sección de Contacto Llevo Libros")
+    enviar_correo(parametros,"info@llevolibros.com","Sección de Contacto Llevo Libros")
   end
 
   def enviar(parametros)
