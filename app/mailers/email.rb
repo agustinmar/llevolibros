@@ -22,7 +22,7 @@ class Email < ActionMailer::Base
       @mensaje = parametros[:mensaje]
 
       mail to: correo, :subject => asunto do |format|
-        format.hmtl
+        format.html
         format.text
       end
     end
