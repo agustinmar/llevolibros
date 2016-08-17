@@ -56,6 +56,10 @@ gem 'rails_admin'
 #rake db:data:load   ->   Cargar los contenidos de db/data.yml en la base de datos
 gem 'yaml_db'
 
+#Figaro permite almacenar información confidencial (cuentas contraseñas)
+#en un archivo YAML en config/application.yml y carga sus valores en ENV.
+gem "figaro"
+
 #gem 'readmorejs-rails', '~> 0.0.12'
 
 group :development, :test do
