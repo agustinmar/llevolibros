@@ -21,6 +21,9 @@ class Email < ActionMailer::Base
       @asunto = parametros[:asunto]
       @mensaje = parametros[:mensaje]
 
-      mail to: correo, :subject => asunto
+      mail to: correo, :subject => asunto do |format|
+        format.hmtl
+        format.text
+      end
     end
 end
