@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'home/libro'
   get 'home/buscar'
   get 'home/contacto'
+  post 'home/contacto'
   get 'home/solicita'
   post 'home/crear'
 

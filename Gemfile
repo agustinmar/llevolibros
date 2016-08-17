@@ -61,6 +61,8 @@ gem 'yaml_db'
 group :development, :test do
 	# Use mysql as the database for Active Record
 	gem 'mysql2'
+	# Para pruebas de envio de correo desde ambiente de pruebas
+	gem 'letter_opener'
 end
 
 group :production do

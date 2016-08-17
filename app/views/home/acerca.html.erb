@@ -1,13 +1,18 @@
-<div class="titext col-md-10">
-	<h2 class="text-danger"><%= @title %></h2>
-	<p class="titext text-justify">El objetivo de Llevo Libros es reducir la distancia entre tú y un libro, con el propósito de fomentar el gusto por la lectura.</p>
-	<p class="titext text-justify">En Llevo Libros creemos plenamente que la lectura incentiva el crecimiento personal y profesional, así como también ayuda a formar mejores seres humanos. Siendo nuestra misión ayudar en este propósito.</p>
-	<p class="titext text-justify">La función principal de Llevo Libros no es la venta de libros, si no la de encontrar en librerías, editoriales o tiendas de segunda mano y coleccionismo, el libro que estas buscando para llevarlo hasta donde te encuentras. Evitando así que inviertas tiempo y esfuerzo en trasladarte a librerías o centros comerciales para adquirirlo.</p>
-	<p class="titext text-justify">Nuestra búsqueda de libros es tanto local, nacional como en el extranjero y los entregamos a nuestros clientes dentro de la Zona Metropolitana de Monterrey, o bien, realizamos envíos a otras partes del país.</p>
-	<p class="titext text-justify">Puedes solicitar el libro que estás buscando llenando el siguiente <%= link_to "formato", home_solicita_path %>. También puedes encontrar en nuestro catálogo títulos de diversas áreas que pueden interesarte.</p>
-	<p class="titext text-justify">Si deseas leer, contáctanos, danos tu confianza y permite que el libro que estás buscando te encuentre.</p>
-</div>
-<div class="col-md-2">
-	<br><br><br>
-	<%= image_tag "logo_libro.png", :alt=>"", :class=>"img-responsive", :align=>"right" %>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="titgde panel-title"><%= @title %></h3>
+  </div>
+  <div class="panel-body">
+	<div class="titext col-md-10">
+		<p class="titext text-justify">El objetivo de Llevo Libros es reducir la distancia entre tú y un libro, con el propósito de fomentar el gusto por la lectura.</p>
+		<p class="titext text-justify">En Llevo Libros creemos plenamente que la lectura incentiva el crecimiento personal y profesional, así como también ayuda a formar mejores seres humanos. Siendo nuestra misión ayudar en este propósito.</p>
+		<p class="titext text-justify">La función principal de Llevo Libros no es la venta de libros, si no la de encontrar en librerías, editoriales o tiendas de segunda mano y coleccionismo, el libro que estas buscando para llevarlo hasta donde te encuentres. Evitando así que inviertas tiempo y esfuerzo en trasladarte a librerías o centros comerciales para adquirirlo.</p>
+		<p class="titext text-justify">Nuestra búsqueda de libros es tanto local, nacional como en el extranjero y los entregamos a nuestros clientes dentro de la Zona Metropolitana de Monterrey, o bien, realizamos envíos a otras partes del país.</p>
+		<p class="titext text-justify">Puedes solicitar el libro que estás buscando llenando el siguiente <%= link_to "formato", home_solicita_path %>. También puedes encontrar en nuestro catálogo títulos de diversas áreas que pueden interesarte.</p>
+		<p class="titext text-justify">Si deseas leer, contáctanos, danos tu confianza y permite que el libro que estás buscando te encuentre.</p>
+	</div>
+	<div class="col-md-2">
+		<%= image_tag "logo_libro.png", :alt=>"", :class=>"img-responsive", :align=>"right" %>
+	</div>
+  </div>
 </div>

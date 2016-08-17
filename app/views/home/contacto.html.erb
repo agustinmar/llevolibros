@@ -1,21 +1,31 @@
-<div class="col-md-5 col-md-offset-3">
+<div class="col-md-5 col-md-offset-2">
 	<div class="panel panel-primary">
     	<div class="panel-heading">
     		<h3 class="titgde panel-title"><%= @title %></h3>
     	</div>
     	<div class="panel-body">
-			<div class="table-responsive">
-				<table class="table table-striped">
-					<tr>
-						<td><%= image_tag "icono_email.png", :alt=>"", :class=>"img-responsive", :align=>"center" %></td>
-						<td><a href="mailto:info@llevolibros.com" target="_blank" class="titmedia">info@llevolibros.com</a></td>
-					</tr>
-					<tr>
-						<td><%= image_tag "icono_whatsapp.png", :alt=>"", :class=>"img-responsive", :align=>"center" %></td>
-						<td class="titmedia">+52 (81) 1586 4242</td>
-					</tr>
-				</table>	
-			</div>
+        <p id="notice"><%= flash[:notice] %></p>
+        <%= form_tag({:controller => "home", :action => "contacto"}, :method=>"post", :class=>"form-inline", :role=>"form") do %>
+           <p><%= text_field_tag "nombre", nil, :size=>30, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Nombre y apellidos" %></p>
+           <p><%= email_field_tag "correo", nil, :size=>30, :required=>"required", :class=>"form-control", :placeholder=>"Correo electrónico" %></p>
+           <p><%= text_field_tag "asunto", nil, :size=>30, :autofocus=>true, :required=>"required", :class=>"form-control", :placeholder=>"Asunto" %></p>
+           <div class="form-group"><%= text_area_tag "mensaje", nil, :cols=>30, :required => "required", :class=>"form-control", :placeholder=>"Mensaje" %></div><br><br>
+           <button type="submit" class="btn btn-primary">Enviar</button>
+        <% end %>
   		</div>
 	</div>
+</div>
+<div class="col-md-4">
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <tr>
+        <td><%= image_tag "icono_email.png", :alt=>"", :class=>"img-responsive", :align=>"center" %></td>
+        <td><a href="mailto:info@llevolibros.com" target="_blank" class="titmedia">info@llevolibros.com</a></td>
+      </tr>
+      <tr>
+        <td><%= image_tag "icono_whatsapp.png", :alt=>"", :class=>"img-responsive", :align=>"center" %></td>
+        <td class="titmedia">+52 (81) 1586 4242</td>
+      </tr>
+    </table>  
+  </div>
 </div>

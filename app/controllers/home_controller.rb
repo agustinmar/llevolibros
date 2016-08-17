@@ -82,6 +82,17 @@ class HomeController < ApplicationController
   def contacto
   	@title = "Contacto"
     @categorias = Categoria.all
+    
+    if request.post?
+      #Enviar el correo electrónico
+      begin
+        if Email.micorreo(params).deliver and Email.enviar(params).deliver
+          flash.now[:notice] = "El mensaje fue enviado exitosamente"
+        end
+      rescue
+        flash.now[:notice] = "El mensaje no pudo ser enviado"
+      end
+    end
   end
 
   def solicita
