@@ -14,6 +14,14 @@ class Email < ActionMailer::Base
     enviar_correo(parametros,parametros[:correo],"Llevo Libros - Gracias por contactarnos")
   end
 
+  def correosolicitud(parametros)
+    enviar_solicitud(parametros,"info@llevolibros.com","Solicitud Llevo Libros")
+  end
+
+  def enviarsolicitud(parametros)
+    enviar_solicitud(parametros,parametros[:correo],"Llevo Libros - Recibimos tu solicitud de libro")
+  end
+
   private
     def enviar_correo(parametros,correo,asunto)
       @nombre = parametros[:nombre]
@@ -22,5 +30,16 @@ class Email < ActionMailer::Base
       @mensaje = parametros[:mensaje]
 
       mail to: correo, :subject => asunto 
+    end
+
+    def enviar_solicitud(parametros,correo,titulo)
+      @titulo = parametros[:titulo]
+      @autor = parametros[:autor]
+      @informacion = parametros[:informacion]
+      @correo = parametros[:correo]
+      @telefono = parametros[:telefono]
+      @nombre = parametros[:nombre]
+
+      mail to: correo, :subject => titulo 
     end
 end
