@@ -105,12 +105,12 @@ class HomeController < ApplicationController
     @categorias = Categoria.all
     @solicitud = Solicitud.new(solicitud_params) 
 
-    Email.correosolicitud(@solicitud).deliver
+    #Email.correosolicitud(@solicitud).deliver
     respond_to do |format|
       if @solicitud.save
         format.html { redirect_to home_solicita_path, notice: 'Gracias, la información fue enviada y pronto recibirás respuesta.' }
         format.json { render action: 'solicita', status: :created, location: @solicitud }
-        Email.enviarsolicitud(@solicitud).deliver
+        #Email.enviarsolicitud(@solicitud).deliver
       else
         format.html { render action: 'solicita' }
         format.json { render json: @solicitud.errors, status: :unprocessable_entity }
