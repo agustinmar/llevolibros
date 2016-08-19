@@ -110,8 +110,6 @@ class HomeController < ApplicationController
       if @solicitud.save
         format.html { redirect_to home_solicita_path, notice: 'Gracias, la información fue enviada y pronto recibirás respuesta.' }
         format.json { render action: 'solicita', status: :created, location: @solicitud }
-        Email.correosolicitud(params).deliver
-        Email.enviarsolicitud(params).deliver
       else
         format.html { render action: 'solicita' }
         format.json { render json: @solicitud.errors, status: :unprocessable_entity }
