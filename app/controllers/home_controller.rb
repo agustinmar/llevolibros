@@ -99,6 +99,12 @@ class HomeController < ApplicationController
     @title = "Solicita un libro"
     @categorias = Categoria.all
     @solicitud = Solicitud.new
+
+    if request.post?
+      #Enviar el correo electrónico
+      Email.correosolicitud(params).deliver
+      Email.enviarsolicitud(params).deliver
+    end
   end
 
   def crear
