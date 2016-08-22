@@ -19,8 +19,7 @@ class Email < ActionMailer::Base
   end
 
   def enviarsolicitud(solicitud)
-    @solicitud = solicitud
-    mail to: @solicitud.correo, subject: "Llevo Libros - Recibimos tu solicitud de libro"
+    mail to: solicitud.correo, subject: "Llevo Libros - Recibimos tu solicitud de libro"
   end
 
   private
