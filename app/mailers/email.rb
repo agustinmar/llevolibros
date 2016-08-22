@@ -18,8 +18,8 @@ class Email < ActionMailer::Base
     mail to: "info@llevolibros.com", :subject => "Solicitud Llevo Libros"
   end
 
-  def enviarsolicitud(solicitud)
-    mail to: solicitud.correo, subject: "Llevo Libros - Recibimos tu solicitud de libro"
+  def enviarsolicitud(parametros)
+    enviar_solicitud(parametros,parametros[:correo],"Llevo Libros - Recibimos tu solicitud de libro")
   end
 
   private
@@ -28,6 +28,18 @@ class Email < ActionMailer::Base
       @correo = parametros[:correo]
       @asunto = parametros[:asunto]
       @mensaje = parametros[:mensaje]
+
+      mail to: correo, :subject => asunto 
+    end
+
+    def enviar_solicitud(parametros,correo,asunto)
+      @titulo = parametros[:titulo]
+      @autor = parametros[:autor]
+      @informacion = parametros[:informacion]
+      
+      @correo = parametros[:correo]
+      @telefono = parametros[:telefono]
+      @nombre = parametros[:nombre]
 
       mail to: correo, :subject => asunto 
     end
