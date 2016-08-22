@@ -107,6 +107,7 @@ class HomeController < ApplicationController
 
     respond_to do |format|
       if @solicitud.save
+        Email.correosolicitud(@solicitud).deliver
         format.html { redirect_to home_solicita_path, notice: 'Gracias, la información fue enviada y pronto recibirás respuesta.' }
         format.json { render action: 'solicita', status: :created, location: @solicitud }
       else

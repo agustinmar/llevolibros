@@ -15,6 +15,7 @@ class Email < ActionMailer::Base
   end
 
   def correosolicitud(solicitud)
+    @solicitud = solicitud
     mail to: "info@llevolibros.com", :subject => "Solicitud Llevo Libros"
   end
 
@@ -36,7 +37,7 @@ class Email < ActionMailer::Base
       @titulo = parametros[:titulo]
       @autor = parametros[:autor]
       @informacion = parametros[:informacion]
-      
+
       @correo = parametros[:correo]
       @telefono = parametros[:telefono]
       @nombre = parametros[:nombre]

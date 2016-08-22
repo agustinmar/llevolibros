@@ -1,4 +1,4 @@
-      <%= form_for @solicitud, :url => {:action => :crear} do |f| %>
+      <%= form_for @solicitud, :url => {:action => :crear}, :html => {:multipart => true} do |f| %>
         <% if @solicitud.errors.any? %>
           <div id="error_explanation">
             <h2><%= pluralize(@solicitud.errors.count, "error") %> prohibited this libro from being saved:</h2>
