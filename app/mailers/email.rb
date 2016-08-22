@@ -1,5 +1,5 @@
 class Email < ActionMailer::Base
-  default from: "Página Web Llevo Libros <info@llevolibros.com>"
+  default from: "Llevo Libros <info@llevolibros.com>"
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
