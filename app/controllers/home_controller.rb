@@ -103,13 +103,14 @@ class HomeController < ApplicationController
 
   def crear
     @categorias = Categoria.all
-    @solicitud = Solicitud.new(solicitud_params) 
+    @solicitud = Solicitud.new(solicitud_params)
+    
+    if @solicitud.valid?
+      Email.enviarsolicitud(solicitud_params).deliver
+    end
 
     respond_to do |format|
       if @solicitud.save
-
-        Email.enviarsolicitud(solicitud_params).deliver
-
         format.html { redirect_to home_solicita_path, notice: 'Gracias, la información fue enviada y pronto recibirás respuesta.' }
         format.json { render action: 'solicita', status: :created, location: @solicitud }
       else
