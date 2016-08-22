@@ -104,10 +104,6 @@ class HomeController < ApplicationController
   def crear
     @categorias = Categoria.all
     @solicitud = Solicitud.new(solicitud_params)
-    
-    if @solicitud.valid?
-      Email.enviarsolicitud(solicitud_params).deliver
-    end
 
     respond_to do |format|
       if @solicitud.save
