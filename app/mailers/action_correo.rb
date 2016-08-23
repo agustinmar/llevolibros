@@ -3,8 +3,7 @@ class ActionCorreo < ActionMailer::Base
 
   def recepcion(solicitud)
     @solicitud = solicitud
-  	#@greeting = "Hola"
-  	mail :to => "agustin.mar@gmail.com", :subject => @solicitud.titulo
+  	mail :to => "agustin.mar@gmail.com", :subject => "Solicitan libro: "+@solicitud.titulo
   end
 
   #def misolicitud(solicitud)
