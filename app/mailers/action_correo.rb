@@ -6,8 +6,7 @@ class ActionCorreo < ActionMailer::Base
   	mail :to => "info@llevolibros.com", :subject => "Solicitan libro: "+@solicitud.titulo
   end
 
-  def notificacion(nombre)
-    @nombre = nombre
-    mail :to => "info@llevolibros.com", :subject => "Llevo Libros - Recibimos tu solicitud de libro"
+  def notificacion(correo,asunto)
+    mail :to => correo, :subject => asunto
   end
 end
