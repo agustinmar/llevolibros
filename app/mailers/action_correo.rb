@@ -3,11 +3,11 @@ class ActionCorreo < ActionMailer::Base
 
   def recepcion(solicitud)
     @solicitud = solicitud
-  	mail :to => "agustin.mar@gmail.com", :subject => "Solicitan libro: "+@solicitud.titulo
+  	mail :to => "info@llevolibros.com", :subject => "Solicitan libro: "+@solicitud.titulo
   end
 
-  def notificacion(solicitud)
-    @solicitud = solicitud
-    mail :to => "agustin.mar@gmail.com", :subject => "Llevo Libros - Recibimos tu solicitud de libro"
+  def notificacion(nombre)
+    @nombre = nombre
+    mail :to => "info@llevolibros.com", :subject => "Llevo Libros - Recibimos tu solicitud de libro"
   end
 end
