@@ -108,7 +108,7 @@ class HomeController < ApplicationController
     respond_to do |format|
       if @solicitud.save
         ActionCorreo.recepcion(@solicitud).deliver
-        ActionCorreo.notificacion(@solicitud.nombre,"Llevo Libros - Recibimos tu solicitud de libro").deliver
+        #ActionCorreo.notificacion(@solicitud.nombre,"Llevo Libros - Recibimos tu solicitud de libro").deliver
         format.html { redirect_to home_solicita_path, notice: 'Gracias por tu confianza, la información fue enviada y pronto recibirás respuesta.' }
         format.json { render action: 'solicita', status: :created, location: @solicitud }
       else
