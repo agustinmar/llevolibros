@@ -18,7 +18,7 @@
  body {
  	/*padding-top: 20px;*/
  	position: relative;
- 	background: url("bg.png");
+ 	background-image: url("bg2.png");
 
 	a:link {
 		text-decoration: none;
@@ -45,11 +45,13 @@
 	.titmedia {
 		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 15px;
+		color: #FFFFFF;
 	}
 
 	.titgde {
 		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 16px;
+		color: #FFFFFF;
 	}
 
 	.titprecio {
@@ -68,12 +70,6 @@
 		font-family: "Tahoma", "Geneva", sans-serif;
 		font-size: 12px;
 		font-style: oblique;
-		line-height: 1;
-	}
-
-	.titlibro {
-		font-family: "Tahoma", "Geneva", sans-serif;
-		text-transform: uppercase;
 		line-height: 1;
 	}
 
@@ -135,4 +131,18 @@
 	  margin-right: auto;
 	}
 
+	/*.navbar-custom {
+    	color: #FFFFFF;
+    	background-color: #CC3333;
+	}*/
+
+	.panel-custom {
+		background-color: #FFFFFF;
+	}
+
+	.panel-heading {
+		/*background-color: #CC3333;*/
+		/*background-color: #B3130A;*/
+		background-color: #E31937;
+	}
  }
