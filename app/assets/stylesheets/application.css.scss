@@ -18,7 +18,10 @@
  body {
  	/*padding-top: 20px;*/
  	position: relative;
- 	background-image: image-url("bg2.png");
+
+ 	.background_image {
+    	background: url("bg2.png");
+	}
 
 	a:link {
 		text-decoration: none;
