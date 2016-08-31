@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   post 'home/contacto'
   get 'home/solicita'
   post 'home/crear'
+  get 'home/aviso'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

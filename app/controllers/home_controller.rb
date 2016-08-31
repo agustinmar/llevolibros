@@ -118,6 +118,11 @@ class HomeController < ApplicationController
     end
   end
 
+  def aviso
+    @title = "Aviso de Privacidad"
+    @categorias = Categoria.all
+  end
+
 private
   def solicitud_params
     params.require(:solicitud).permit(:titulo, :autor, :informacion, :nombre, :correo, :telefono)

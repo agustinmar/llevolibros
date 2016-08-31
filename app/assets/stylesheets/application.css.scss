@@ -18,7 +18,7 @@
  body {
  	/*padding-top: 20px;*/
  	position: relative;
- 	background-image: url("bg2.png");
+ 	background-image: url(asset-path("bg2.png"));
 
 	a:link {
 		text-decoration: none;
@@ -81,7 +81,7 @@
 
 	.titnotas {
 		font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
-		font-size: 11px;
+		font-size: 10px;
 		font-style: oblique;
 	}
 

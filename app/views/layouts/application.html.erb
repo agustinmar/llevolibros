@@ -89,7 +89,7 @@
           </ul>
         <% end %>
       <% end %>
-    </div>
+    </div><br>
     <div class="col-md-10">
       <%= yield %>
     </div>
@@ -98,8 +98,9 @@
     <div class="footer">
       <span class="credit text-left">&nbsp;&nbsp;&nbsp;© Llevo Libros 2016</span>&nbsp;&nbsp;|&nbsp;&nbsp;
       <%= link_to "Acerca de Llevo Libros", home_acerca_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <%= link_to "Contacto", home_contacto_path, :class=>"footer" %>
+      <%= link_to "Contacto", home_contacto_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <%= link_to "Aviso de Privacidad", home_aviso_path, :class=>"footer" %>
     </div>
-  </div>  
+  </div>
 </body>
 </html>
