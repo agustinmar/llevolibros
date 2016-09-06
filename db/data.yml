@@ -1811,6 +1811,28 @@ autores:
     - david_hodge.jpg
     - 2016-08-24 17:20:33.000000000 Z
     - 2016-08-24 17:51:59.000000000 Z
+  - - 120
+    - Michael Curtis Ford
+    - 'Michael Curtis Ford es un novelista histórico estadounidense. Sus obras tratan
+      sobre Roma Antigua y Grecia Antigua. Es conocido por sus historias llenas de
+      emoción y su precisión histórica. Actualmente trabaja como profesor de latín,
+      traductor y escritor. Vive en Oregón con su familia: su mujer y sus tres hijos.
+      También ha escrito gran cantidad de artículos sobre los ejércitos antiguos.'
+    - michael_curtis_ford.jpg
+    - 2016-09-05 18:08:01.000000000 Z
+    - 2016-09-05 18:20:53.000000000 Z
+  - - 121
+    - Jürgen Klaric
+    - "Jürgen Klaric es un docente, escritor, e investigador estadounidense en neuromarketing
+      y neuro-innovación. Es presidente y cofundador del grupo Mindcode International,
+      empresa dedicada al neuromarketing.\r\nEs natural de San Francisco, California,
+      Estados Unidos. Estudió Diseño Industrial en la Pontificia Universidad Católica
+      de Valparaíso en Chile y Arquitectura en la Universidad Autónoma de Guadalajara.\r\nEstá
+      casado con la colombiana Verónica Ospina, conductora de noticiero Panamericana
+      Televisión, Perú.\r\n"
+    - jurgen_klaric.jpg
+    - 2016-09-05 21:19:11.000000000 Z
+    - 2016-09-05 21:19:11.000000000 Z
 
 ---
 autores_titulos:
@@ -1822,6 +1844,8 @@ autores_titulos:
     - 5
   - - 1
     - 1
+  - - 1
+    - 128
   - - 2
     - 2
   - - 3
@@ -1849,9 +1873,9 @@ autores_titulos:
   - - 9
     - 8
   - - 10
-    - 35
-  - - 10
     - 9
+  - - 10
+    - 35
   - - 11
     - 10
   - - 12
@@ -1875,9 +1899,9 @@ autores_titulos:
   - - 20
     - 20
   - - 21
-    - 24
-  - - 21
     - 25
+  - - 21
+    - 24
   - - 22
     - 26
   - - 23
@@ -1905,11 +1929,11 @@ autores_titulos:
   - - 34
     - 35
   - - 35
-    - 92
+    - 36
   - - 35
     - 91
   - - 35
-    - 36
+    - 92
   - - 36
     - 46
   - - 36
@@ -1919,17 +1943,17 @@ autores_titulos:
   - - 36
     - 42
   - - 36
-    - 38
-  - - 36
-    - 37
-  - - 36
-    - 41
-  - - 36
-    - 39
+    - 45
   - - 36
     - 40
   - - 36
-    - 45
+    - 37
+  - - 36
+    - 38
+  - - 36
+    - 39
+  - - 36
+    - 41
   - - 37
     - 47
   - - 38
@@ -1961,9 +1985,9 @@ autores_titulos:
   - - 51
     - 62
   - - 52
-    - 64
-  - - 52
     - 63
+  - - 52
+    - 64
   - - 53
     - 65
   - - 54
@@ -2009,9 +2033,9 @@ autores_titulos:
   - - 74
     - 83
   - - 75
-    - 84
-  - - 75
     - 93
+  - - 75
+    - 84
   - - 76
     - 93
   - - 76
@@ -2104,6 +2128,10 @@ autores_titulos:
     - 126
   - - 119
     - 126
+  - - 120
+    - 127
+  - - 121
+    - 129
 
 ---
 categorias:
@@ -2175,11 +2203,11 @@ categorias:
     - 2015-10-12 18:14:37.000000000 Z
     - 2016-05-23 22:38:32.000000000 Z
   - - 13
-    - Ensayos
-    - Trabajos de intelectuales e investigadores que aportan reflexiones sobre distintas
-      áreas
+    - Estudios y ensayos
+    - Trabajos de intelectuales e investigadores que aportan información o hacen reflexionar
+      sobre distintas áreas
     - 2016-06-13 22:32:52.000000000 Z
-    - 2016-07-28 18:24:20.000000000 Z
+    - 2016-09-05 21:13:33.000000000 Z
   - - 14
     - Misterio y esoterismo
     - Libros de lo inexplicable, parapsicología y esoterismo
@@ -3082,6 +3110,19 @@ editores:
     - susaeta.jpg
     - 2016-08-24 17:22:31.000000000 Z
     - 2016-08-24 17:22:31.000000000 Z
+  - - 76
+    - PLANETA DEAGOSTINI
+    - "Planeta DeAgostini es una editorial española con sede en Barcelona fundada
+      en 1985 que forma parte del Grupo Planeta, y opera también en Argentina, Brasil,
+      Chile, Colombia, Ecuador, México, Portugal y Venezuela.\r\nPlaneta DeAgostini
+      está centrada en la edición de coleccionables para todos los gustos y aficiones
+      (cine, música, obras infantiles, hobbies y coleccionismo vario), historietas
+      (bajo su propio nombre o desde sellos como Comics Forum, World Comic y Planeta
+      DeAgostini Comics)1 y productos interactivos."
+    - http://www.planetadeagostini.es
+    - deagostini.jpg
+    - 2016-09-05 18:13:17.000000000 Z
+    - 2016-09-05 18:13:17.000000000 Z
 
 ---
 formatos:
@@ -4983,24 +5024,24 @@ libros:
     - 2016-07-28 22:31:34.000000000 Z
   - - 91
     - 91
-    - 40
-    - 482
+    - 76
+    - 483
     - '1'
-    - '2014'
+    - '2002'
+    - 2
     - 1
-    - 1
-    - 1
-    - 1
+    - 2
+    - 3
+    - '8439588437'
     - ''
-    - '9786070721151'
-    - '9786070721151'
+    - ''
     - 
     - ''
     - otono_azteca.jpg
-    - 198.0
+    - 250.0
     - true
     - 2016-06-25 16:09:43.000000000 Z
-    - 2016-07-28 22:28:58.000000000 Z
+    - 2016-09-05 18:49:54.000000000 Z
   - - 92
     - 92
     - 40
@@ -5526,7 +5567,7 @@ libros:
     - 3
     - 379
     - '1'
-    - '1985'
+    - '2009'
     - 1
     - 1
     - 1
@@ -5536,11 +5577,11 @@ libros:
     - '9789681315474'
     - 250
     - 15.5 x 21.1 x 2.5 cm
-    - el_amor_en_los_tiempos_del_colera2.jpg
-    - 150.0
+    - el_amor_en_los_tiempos_del_colera.jpg
+    - 280.0
     - true
     - 2016-07-23 16:19:19.000000000 Z
-    - 2016-07-28 17:40:15.000000000 Z
+    - 2016-09-05 18:37:00.000000000 Z
   - - 119
     - 117
     - 70
@@ -5761,6 +5802,66 @@ libros:
     - true
     - 2016-08-24 17:30:56.000000000 Z
     - 2016-08-24 17:30:56.000000000 Z
+  - - 130
+    - 127
+    - 76
+    - 420
+    - '1'
+    - '2003'
+    - 2
+    - 1
+    - 2
+    - 3
+    - '8467404485'
+    - '9788467404487'
+    - '9788467404487'
+    - 
+    - ''
+    - la_odisea_de_los_diez_mil.jpg
+    - 250.0
+    - true
+    - 2016-09-05 18:17:38.000000000 Z
+    - 2016-09-05 18:22:31.000000000 Z
+  - - 131
+    - 128
+    - 3
+    - 201
+    - '1'
+    - '2005'
+    - 1
+    - 1
+    - 2
+    - 1
+    - '9681326415'
+    - ''
+    - ''
+    - 
+    - ''
+    - del_amor_y_otros_demonios.jpg
+    - 250.0
+    - true
+    - 2016-09-05 20:30:09.000000000 Z
+    - 2016-09-05 20:34:55.000000000 Z
+  - - 132
+    - 129
+    - 16
+    - 232
+    - '1'
+    - '2016'
+    - 1
+    - 1
+    - 1
+    - 1
+    - ''
+    - '9786077472476'
+    - '9786077472476'
+    - 
+    - ''
+    - vendele_a_la_mente_no_a_la_gente.jpg
+    - 190.0
+    - true
+    - 2016-09-05 21:29:48.000000000 Z
+    - 2016-09-05 21:36:26.000000000 Z
 
 ---
 paises:
@@ -8188,3 +8289,57 @@ titulos:
     - '2011'
     - 2016-08-24 17:12:07.000000000 Z
     - 2016-08-24 17:12:07.000000000 Z
+  - - 127
+    - La odisea de los diez mil
+    - Novelas de Grecia y Roma
+    - 17
+    - "En el año 400 a.C., tras una larga guerra, Atenas ha sido vencida por Esparta,
+      sus naves destruidas y su ejército desmembrado. Sin embargo, miles de soldados
+      veteranos están dispuestos a seguir luchando, y se forma un ejército de mercenarios
+      que acude a la llamada de Ciro, hermano del rey persa, que pretende hacerse
+      con el trono.\r\nJenofonte, un joven ateniense, discípulo de Sócrates y guerrero,
+      decide unirse al ejército mercenario junto a su fiel esclavo Teo,con el objetivo
+      de alcanzar la gloria y emular las grandes victorias de su padre, uno de los
+      grandes héroes de Atenas.\r\nAsí es como el ejército de los Diez Mil emprende
+      una travesía épica, de Grecia a Persia, durante varios meses, donde conocerán
+      la gloria con algunas victorias, pero también el sabor amargo de la derrota.
+      El destino llevará a Jenofonte a capitanear a estos valientes veteranos en su
+      regreso a Grecia, desafiando al enemigo, a las tribus hostiles, el rigor del
+      invierno, el desierto, las montañas nevadas y el hambre."
+    - '2003'
+    - 2016-09-05 18:11:17.000000000 Z
+    - 2016-09-05 18:46:52.000000000 Z
+  - - 128
+    - Del amor y otros demonios
+    - La inspiracion para escribir este libro le llego a Marquez con una insolita
+      noticia que tuvo que cubrir como periodista.
+    - 18
+    - 'En la tercera hornacina del altar mayor, del lado del Evangelio, alli estaba
+      la noticia. La lapida salto en pedazos al primer golpe de piocha, y una cabellera
+      viva de un color de cobre intenso se derramo fuera de la cripta. El maestro
+      de obra quiso sacarla completa con la ayuda de sus obreros, y cuanto mas tiraban
+      de ella mas larga y abundante parecia, hasta que salieron las ultimas hebras
+      todavia prendidas a un craneo de niña. En la hornacina no quedo nada mas que
+      unos huesecillos menudos y dispersos, y en la lapida de canteria carcomida por
+      el salitre solo era legible un nombre sin apellidos: Sierva Maria de Todos los
+      Angeles. Extendida en el suelo, la cabellera esplendida media veintidos metros
+      con once centimetros.'
+    - '1994'
+    - 2016-09-05 20:28:21.000000000 Z
+    - 2016-09-05 20:28:21.000000000 Z
+  - - 129
+    - Véndele a la mente, no a la gente
+    - 'NEUROVENTAS: Una ciencia nueva para vender más hablando menos'
+    - 13
+    - Es el último libro de Jürgen Klaric enfocado a las ventas de productos y servicios.
+      El método y las técnicas aquí expuestos salieron de diversos estudios realizados
+      en laboratorios científicos. Asimismo, fueron avalados por investigaciones antropológicas
+      y neurocientíficas. El autor prueba en este libro que los procesos de ventas
+      a los que estamos acostumbrados son sumamente desgastantes y poco efectivos,
+      debido a que no sabemos cómo funciona la mente, aunque sí le hagamos caso a
+      la gente. Las ventas de este libro han sido todo un récord en los primeros meses
+      tras su lanzamiento, convirtiéndose en el modelo comercial y de venta de empresas
+      como General Motors, Telefónica Movistar, Claro, SAB-Miller e Ikea.
+    - '2015'
+    - 2016-09-05 21:19:18.000000000 Z
+    - 2016-09-05 21:19:18.000000000 Z
