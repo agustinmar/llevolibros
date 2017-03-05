@@ -45,64 +45,64 @@
 </head>
 <body>
   <div class="background_image">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<%= image_tag "logo_llevolibros.png", :alt=>"Llevo Libros", :class=>"img-responsive" %>     
-			</div>
-			<div class="col-md-8">
-				<div class="nav navbar-nav navbar-right">
-					<!--<a href="#">Enlace #1</a> |
-					<a href="#">Enlace #2</a> |
-					<a href="#">Enlace #3</a>-->
-    		</div>
-			</div>
-		</div>
-		<nav class="navbar navbar-inverse navbar-custom" role="navigation">
-  			<!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
-			<div class="navbar-header">
-    			<button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target=".navbar-ex1-collapse">
-      			<span class="sr-only">Navegación</span>
-      			<span class="icon-bar"></span>
-    			<span class="icon-bar"></span>
-    			<span class="icon-bar"></span>
-    			</button>
-    			<%= link_to "", root_path, :class=>"navbar-brand glyphicon glyphicon-home" %>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-4">
+  				<%= image_tag "logo_llevolibros.png", :alt=>"Llevo Libros", :class=>"img-responsive" %>     
   			</div>
-			<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-        <%= menu_nav("ACERCA DE LLEVO LIBROS"=>"acerca","SOLICITA UN LIBRO"=>"solicita","CONTACTO"=>"contacto") %>
-        <%= form_tag home_buscar_path, :class => "navbar-form navbar-right", :role => "search", method: :get do %>
-          <div class="form-group">
-            <%= text_field_tag :texto, params[:texto], :class => "form-control", :placeholder => "Título o Autor", :size => "60" %>
-            <%= submit_tag "Buscar", name: nil, class: "btn btn-danger btn-md" %>
-          </div>
+  			<div class="col-md-8">
+  				<div class="nav navbar-nav navbar-right">
+  					<!--<a href="#">Enlace #1</a> |
+  					<a href="#">Enlace #2</a> |
+  					<a href="#">Enlace #3</a>-->
+      		</div>
+  			</div>
+  		</div>
+  		<nav class="navbar navbar-inverse navbar-custom" role="navigation">
+    			<!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
+  			<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target=".navbar-ex1-collapse">
+        			<span class="sr-only">Navegación</span>
+        			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			</button>
+      			<%= link_to "", root_path, :class=>"navbar-brand glyphicon glyphicon-home" %>
+    			</div>
+  			<!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
+  			<div class="collapse navbar-collapse navbar-ex1-collapse">
+          <%= menu_nav("ACERCA DE LLEVO LIBROS"=>"acerca","SOLICITA UN LIBRO"=>"solicita","CONTACTO"=>"contacto") %>
+          <%= form_tag home_buscar_path, :class => "navbar-form navbar-right", :role => "search", method: :get do %>
+            <div class="form-group">
+              <%= text_field_tag :texto, params[:texto], :class => "form-control", :placeholder => "Título o Autor", :size => "60" %>
+              <%= submit_tag "Buscar", name: nil, class: "btn btn-danger btn-md" %>
+            </div>
+          <% end %>
+  			</div>
+  		</nav>
+      <div class="col-md-2">
+        <% if @categorias.any? %>
+          <h4 class="titprecio text-info">Categorías</h4>
+          <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
+            <ul class="nav nav-pills nav-stacked">
+              <li><h7><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></h7></li>
+            </ul>
+          <% end %>
         <% end %>
-			</div>
-		</nav>
-    <div class="col-md-2">
-      <% if @categorias.any? %>
-        <h4 class="titprecio text-info">Categorías</h4>
-        <% @categorias.sort_by{|x| x.nombre}.each do |categoria| %>
-          <ul class="nav nav-pills nav-stacked">
-            <li><h7><%= link_to categoria.nombre, home_catalogo_path(:id => categoria.id), :title => categoria.descripcion %></h7></li>
-          </ul>
-        <% end %>
-      <% end %>
-    </div><br>
-    <div class="col-md-10">
-      <%= yield %>
+      </div><br>
+      <div class="col-md-10">
+        <%= yield %>
+      </div>
+  	</div>
+    <div class="container">
+      <div class="footer">
+        <span class="credit text-left">&nbsp;&nbsp;&nbsp;© Llevo Libros 2016</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <%= link_to "Acerca de Llevo Libros", home_acerca_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <%= link_to "Contacto", home_contacto_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <%= link_to "Aviso de Privacidad", home_aviso_path, :class=>"footer" %>
+      </div>
     </div>
-	</div>
-  <div class="container">
-    <div class="footer">
-      <span class="credit text-left">&nbsp;&nbsp;&nbsp;© Llevo Libros 2016</span>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <%= link_to "Acerca de Llevo Libros", home_acerca_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <%= link_to "Contacto", home_contacto_path, :class=>"footer" %>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <%= link_to "Aviso de Privacidad", home_aviso_path, :class=>"footer" %>
-    </div>
-  </div>
   </div>
 </body>
 </html>
